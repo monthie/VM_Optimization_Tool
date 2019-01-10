@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using ToolUpdate;
 
 namespace VM_Optimization_Tool
 {
@@ -19,14 +20,25 @@ namespace VM_Optimization_Tool
     /// </summary>
     public partial class UpdateAvailableForm : Window
     {
-        public UpdateAvailableForm()
+        private ToolUpdateXml updateInfo;
+        public UpdateAvailableForm(ToolUpdateXml updateInfo)
         {
+            this.updateInfo = updateInfo;
             InitializeComponent();
+            textbox.Text = "Version: " +updateInfo.Version +"\n Change Log "+ updateInfo.Description;
+
         }
 
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        private void Update_Click(object sender, RoutedEventArgs e)
         {
+            DownloadForm downloadForm = new DownloadForm(updateInfo.Uri, updateInfo.MD5);
+            downloadForm.Show();
+            Close();
+        }
 
+        private void Abort_Click(object sender, RoutedEventArgs e)
+        {
+            Close();
         }
     }
 }

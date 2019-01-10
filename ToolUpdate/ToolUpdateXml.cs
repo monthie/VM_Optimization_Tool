@@ -106,7 +106,11 @@ namespace ToolUpdate
             try
             {
                 // Load the document
-                ServicePointManager.ServerCertificateValidationCallback = (s, ce, ch, ssl) => true;
+                //ServicePointManager.ServerCertificateValidationCallback = (s, ce, ch, ssl) => true;
+                //ServicePointManager.SecurityProtocol = SecurityProtocolType.Ssl3;
+                ServicePointManager.ServerCertificateValidationCallback += new System.Net.Security.RemoteCertificateValidationCallback((s, ce, ch, ssl) => true);
+
+
                 XmlDocument doc = new XmlDocument();
                 doc.Load(location.AbsoluteUri);
 

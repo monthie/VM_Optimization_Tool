@@ -22,6 +22,7 @@ namespace VM_Optimization_Tool
     /// </summary>
     public partial class MainWindow : Window, IToolUpdatable
     {
+        private string updateServerUrl = "https://raw.githubusercontent.com/monthie/VM_Optimization_Tool/master/UpdateXML/UpdateXML.xml";
         public string ApplicationName
         {
             get { return "VM Optimization Tool"; }
@@ -51,6 +52,13 @@ namespace VM_Optimization_Tool
             InitializeComponent();
             string mainFrameTitle = getOSInfo();
             Title = Title + " " + mainFrameTitle;
+            ToolUpdateXml[] updateInfo = ToolUpdateXml.Parse(new Uri(updateServerUrl));
+            if (updateInfo[0].IsNewerThan(ApplicationAssembly.GetName().Version))
+            {
+                UpdateAvailableForm updateAvailableForm = new UpdateAvailableForm(updateInfo[0]);
+                updateAvailableForm.Show();
+                updateAvailableForm.Topmost = true;
+            }
         }
 
         private void exit_Click(object sender, RoutedEventArgs e)
@@ -59,7 +67,7 @@ namespace VM_Optimization_Tool
         }
         private void update_Click(object sender, RoutedEventArgs e)
         {
-            ToolUpdateXml[] updateInfo = ToolUpdateXml.Parse(new Uri(new System.IO.FileInfo(@"C:\Users\Du\Desktop\test\testxml.xml").FullName));
+            ToolUpdateXml[] updateInfo = ToolUpdateXml.Parse(new Uri(updateServerUrl));
             ToolUpdateInfo toolUpdateInfo = new ToolUpdateInfo(ApplicationAssembly.GetName().Name.ToString(), updateInfo[0].Description, ApplicationAssembly.GetName().Version.ToString());
             toolUpdateInfo.Show();
         }
