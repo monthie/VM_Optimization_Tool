@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VM_Optimization_Tool", "VM_Optimization_Tool\VM_Optimization_Tool.csproj", "{8CBDA531-8B3E-4616-898A-2A0BC1FB7FFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToolUpdate", "ToolUpdate\ToolUpdate.csproj", "{8CF33C57-CF8F-479D-81A7-2C3B3392675E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CBDA531-8B3E-4616-898A-2A0BC1FB7FFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CBDA531-8B3E-4616-898A-2A0BC1FB7FFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CBDA531-8B3E-4616-898A-2A0BC1FB7FFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CBDA531-8B3E-4616-898A-2A0BC1FB7FFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CF33C57-CF8F-479D-81A7-2C3B3392675E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CF33C57-CF8F-479D-81A7-2C3B3392675E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CF33C57-CF8F-479D-81A7-2C3B3392675E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CF33C57-CF8F-479D-81A7-2C3B3392675E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8AE5B59A-15F1-43DD-94B7-975872E1FE7B}
+	EndGlobalSection
+EndGlobal
