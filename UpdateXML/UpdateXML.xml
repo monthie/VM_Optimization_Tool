@@ -1,0 +1,12 @@
+<?xml version="1.0"?> 
+<VM_Optimization_Tool> 
+    <update> 
+        <version>1.0.0.1</version> 
+        <url>https://github.com/monthie/VM_Optimization_Tool/tree/master/VM_Optimization_Tool/bin/DebugTestApp.exe</url> 
+        <filePath>./TestApp.exe</filePath>
+        <md5></md5>
+        <description>Update: 10.01.2019:
+        1. Some updates</description> 
+        <launchArgs></launchArgs> 
+    </update>
+</VM_Optimization_Tool>
