@@ -183,7 +183,7 @@ namespace VM_Optimization_Tool
 
         private void bgWorker_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
         {
-            if (!_completed) {UpdateApplication(); }
+            if (_completed) {UpdateApplication(); }
             Close();
         }
 
