@@ -9,6 +9,7 @@ using System.Drawing;
 using System.IO;
 using System.Net;
 using ToolUpdate;
+using System.Diagnostics;
 
 namespace VM_Optimization_Tool
 {
@@ -39,6 +40,11 @@ namespace VM_Optimization_Tool
         public DownloadForm(Uri location, string md5)
         {
             InitializeComponent();
+
+            MessageBoxResult result = MessageBox.Show("Download failed",
+                                          "Confirmation",
+                                          MessageBoxButton.OK,
+                                          MessageBoxImage.Question);
 
 
             // Set the temp file name and create new 0-byte file
@@ -74,10 +80,26 @@ namespace VM_Optimization_Tool
         {
             if (e.Error != null)
             {
+                MessageBoxResult result = MessageBox.Show("Download failed",
+                                          "Confirmation",
+                                          MessageBoxButton.OK,
+                                          MessageBoxImage.Question);
+                if (result == MessageBoxResult.OK)
+                {
+                    Close();
+                }
                 Close();
             }
             else if (e.Cancelled)
             {
+                MessageBoxResult result = MessageBox.Show("Download failed",
+                                          "Confirmation",
+                                          MessageBoxButton.OK,
+                                          MessageBoxImage.Question);
+                if (result == MessageBoxResult.OK)
+                {
+                    Close();
+                }
                 Close();
             }
             else
@@ -87,7 +109,7 @@ namespace VM_Optimization_Tool
                 progressBar.IsIndeterminate = true;
 
                 // Start the hashing
-                bgWorker.RunWorkerAsync(new string[] { this.TempFilePath, this.md5 });
+                bgWorker.RunWorkerAsync(new string[] { TempFilePath, md5 });
             }
         }
 
@@ -148,14 +170,23 @@ namespace VM_Optimization_Tool
 
             // Hash the file and compare to the hash in the update xml
             if (Hasher.HashFile(file, HashType.MD5).ToUpper() != updateMD5.ToUpper()) ;
-
-            //else
+                MessageBoxResult result = MessageBox.Show("Download failed",
+                                          "Confirmation",
+                                          MessageBoxButton.OK,
+                                          MessageBoxImage.Question);
+                if (result == MessageBoxResult.OK)
+                {
+                    Close();
+                }
+            else
+            {
+                UpdateApplication();
+            }
 
         }
 
         private void bgWorker_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
         {
-
             this.Close();
         }
 
@@ -170,6 +201,30 @@ namespace VM_Optimization_Tool
             {
                 bgWorker.CancelAsync();
             }
+        }
+
+        /// <summary>
+        /// Function to close remove and move application
+        /// </summary>
+        private void UpdateApplication()
+        {
+            string argument_update = "/C choice /C Y /N /D Y /T 4 & Del /F /Q \"{0}\" & choice /C Y /N /D Y /T 2 & Move /Y \"{1}\" \"{2}\"";
+            string argument_update_start = argument_update + " & Start \"\" /D \"{3}\" \"{4}\" {5}";
+            string argument_complete;
+            string currentPath = Path.GetDirectoryName(Process.GetCurrentProcess().MainModule.FileName);
+            string tempFile = Path.GetTempPath();
+
+            argument_complete = string.Format(argument_update_start, currentPath, tempFile, currentPath, Path.GetDirectoryName(currentPath), Path.GetFileName(currentPath), "");
+            Console.WriteLine("Update and run main app: " + argument_complete);
+
+            ProcessStartInfo cmd_main = new ProcessStartInfo
+            {
+                Arguments = argument_complete,
+                WindowStyle = ProcessWindowStyle.Hidden,
+                CreateNoWindow = true,
+                FileName = "cmd.exe"
+            };
+            Process.Start(cmd_main);
         }
     }
 }
