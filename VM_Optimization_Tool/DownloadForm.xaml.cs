@@ -80,14 +80,6 @@ namespace VM_Optimization_Tool
         {
             if (e.Error != null)
             {
-                MessageBoxResult result = MessageBox.Show("Download failed",
-                                          "Confirmation",
-                                          MessageBoxButton.OK,
-                                          MessageBoxImage.Question);
-                if (result == MessageBoxResult.OK)
-                {
-                    Close();
-                }
                 Close();
             }
             else if (e.Cancelled)
