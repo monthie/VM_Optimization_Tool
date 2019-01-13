@@ -33,6 +33,10 @@ namespace VM_Optimization_Tool
         /// </summary>
         private string md5;
 
+        private volatile bool _completed;
+
+        
+
         /// <summary>
         /// Gets the temp file path for the downloaded file
         /// </summary>
@@ -41,16 +45,12 @@ namespace VM_Optimization_Tool
         {
             InitializeComponent();
 
-            MessageBoxResult result = MessageBox.Show("Download failed",
-                                          "Confirmation",
-                                          MessageBoxButton.OK,
-                                          MessageBoxImage.Question);
-
-
+            
             // Set the temp file name and create new 0-byte file
             TempFilePath = Path.GetTempFileName();
 
             this.md5 = md5;
+            _completed = false;
 
             // Set up WebClient to download file
             webClient = new WebClient();
@@ -66,6 +66,8 @@ namespace VM_Optimization_Tool
             try { webClient.DownloadFileAsync(location, TempFilePath); }
             catch { Close(); }
         }
+
+        public bool DownloadCompleted { get { return _completed; } }
         /// <summary>
         /// Downloads file from server
         /// </summary>
@@ -80,7 +82,14 @@ namespace VM_Optimization_Tool
         {
             if (e.Error != null)
             {
-                Close();
+                MessageBoxResult result = MessageBox.Show("Download failed",
+                                          "Confirmation",
+                                          MessageBoxButton.OK,
+                                          MessageBoxImage.Question);
+                if (result == MessageBoxResult.OK)
+                {
+                    Close();
+                }
             }
             else if (e.Cancelled)
             {
@@ -92,7 +101,6 @@ namespace VM_Optimization_Tool
                 {
                     Close();
                 }
-                Close();
             }
             else
             {
@@ -168,18 +176,18 @@ namespace VM_Optimization_Tool
                                           MessageBoxImage.Question);
                 if (result == MessageBoxResult.OK)
                 {
-                    UpdateApplication();
+                    Close();
                 }
             else
             {
-                UpdateApplication();
+                _completed = true;
             }
-
         }
 
         private void bgWorker_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
         {
-            this.Close();
+            if (!_completed) {UpdateApplication(); }
+            Close();
         }
 
         private void DownloadForm_Closed(object sender, CancelEventHandler e)
@@ -200,11 +208,14 @@ namespace VM_Optimization_Tool
         /// </summary>
         private void UpdateApplication()
         {
-            string argument_update = "/C choice /C Y /N /D Y /T 4 & Del /F /Q \"{0}\" & choice /C Y /N /D Y /T 2 & Move /Y \"{1}\" \"{2}\"";
-            string argument_update_start = argument_update + " & Start \"\" /D \"{3}\" \"{4}\" {5}";
+            string argument_update = "/C choice /C Y /N /D Y /T 2 & Del /F /Q \"{0}\" & choice /C Y /N /D Y /T 1 & Move /Y \"{1}\" \"{2}\"";
+            string argument_update_start = argument_update + "& choice /C Y /N /D Y /T 1 & Start \"\" /D \"{3}\" \"{4}\" {5}";
             string argument_complete;
-            string currentPath = Path.GetDirectoryName(Process.GetCurrentProcess().MainModule.FileName);
+            string currentPath = Path.GetFullPath(Process.GetCurrentProcess().MainModule.FileName);
+                //Path.GetDirectoryName(Process.GetCurrentProcess().MainModule.FileName);
+            
             string tempFile = Path.GetTempFileName();
+            //string newPath = Path.GetFullPath(applicationInfo.ApplicationPath);
 
             argument_complete = string.Format(argument_update_start, currentPath, tempFile, currentPath, Path.GetDirectoryName(currentPath), Path.GetFileName(currentPath), "");
             Console.WriteLine("Update and run main app: " + argument_complete);
@@ -217,6 +228,7 @@ namespace VM_Optimization_Tool
                 FileName = "cmd.exe"
             };
             Process.Start(cmd_main);
+            Environment.Exit(0);
         }
     }
 }
