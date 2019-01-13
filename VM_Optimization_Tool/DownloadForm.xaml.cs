@@ -169,15 +169,12 @@ namespace VM_Optimization_Tool
             string updateMD5 = ((string[])e.Argument)[1];
 
             // Hash the file and compare to the hash in the update xml
-            if (Hasher.HashFile(file, HashType.MD5).ToUpper() != updateMD5.ToUpper()) ;
+            if (Hasher.HashFile(file, HashType.MD5).ToUpper() != updateMD5.ToUpper()) {
                 MessageBoxResult result = MessageBox.Show("Download failed",
-                                          "Confirmation",
-                                          MessageBoxButton.OK,
-                                          MessageBoxImage.Question);
-                if (result == MessageBoxResult.OK)
-                {
-                    Close();
-                }
+                                      "Confirmation",
+                                      MessageBoxButton.OK,
+                                      MessageBoxImage.Question);
+            }
             else
             {
                 _completed = true;
@@ -208,13 +205,13 @@ namespace VM_Optimization_Tool
         /// </summary>
         private void UpdateApplication()
         {
-            string argument_update = "/C choice /C Y /N /D Y /T 2 & Del /F /Q \"{0}\" & choice /C Y /N /D Y /T 1 & Move /Y \"{1}\" \"{2}\"";
-            string argument_update_start = argument_update + "& choice /C Y /N /D Y /T 1 & Start \"\" /D \"{3}\" \"{4}\" {5}";
+            string argument_update = "/C choice /C Y /N /D Y /T 1 & Del /F /Q \"{0}\" & choice /C Y /N /D Y /T 2 & copy /Y \"{1}\" \"{2}\"";
+            string argument_update_start = argument_update + "& Start /f \"\" /D \"{3}\" \"{4}\" {5}";
             string argument_complete;
             string currentPath = Path.GetFullPath(Process.GetCurrentProcess().MainModule.FileName);
-                //Path.GetDirectoryName(Process.GetCurrentProcess().MainModule.FileName);
-            
-            string tempFile = Path.GetTempFileName();
+            //Path.GetDirectoryName(Process.GetCurrentProcess().MainModule.FileName);
+
+            string tempFile = TempFilePath;
             //string newPath = Path.GetFullPath(applicationInfo.ApplicationPath);
 
             argument_complete = string.Format(argument_update_start, currentPath, tempFile, currentPath, Path.GetDirectoryName(currentPath), Path.GetFileName(currentPath), "");

@@ -1,6 +1,5 @@
 c:\users\du\source\repos\VM_Optimization_Tool\ToolUpdate\bin\Debug\ToolUpdate.dll
 c:\users\du\source\repos\VM_Optimization_Tool\ToolUpdate\bin\Debug\ToolUpdate.pdb
-c:\users\du\source\repos\VM_Optimization_Tool\ToolUpdate\obj\Debug\ToolUpdate.csprojAssemblyReference.cache
 c:\users\du\source\repos\VM_Optimization_Tool\ToolUpdate\obj\Debug\ToolUpdate.csproj.CoreCompileInputs.cache
 c:\users\du\source\repos\VM_Optimization_Tool\ToolUpdate\obj\Debug\ToolUpdate.dll
 c:\users\du\source\repos\VM_Optimization_Tool\ToolUpdate\obj\Debug\ToolUpdate.pdb
