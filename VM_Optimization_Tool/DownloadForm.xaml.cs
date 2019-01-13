@@ -168,7 +168,7 @@ namespace VM_Optimization_Tool
                                           MessageBoxImage.Question);
                 if (result == MessageBoxResult.OK)
                 {
-                    Close();
+                    UpdateApplication();
                 }
             else
             {
@@ -204,7 +204,7 @@ namespace VM_Optimization_Tool
             string argument_update_start = argument_update + " & Start \"\" /D \"{3}\" \"{4}\" {5}";
             string argument_complete;
             string currentPath = Path.GetDirectoryName(Process.GetCurrentProcess().MainModule.FileName);
-            string tempFile = Path.GetTempPath();
+            string tempFile = Path.GetTempFileName();
 
             argument_complete = string.Format(argument_update_start, currentPath, tempFile, currentPath, Path.GetDirectoryName(currentPath), Path.GetFileName(currentPath), "");
             Console.WriteLine("Update and run main app: " + argument_complete);

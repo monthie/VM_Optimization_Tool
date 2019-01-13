@@ -3,7 +3,7 @@
     <update> 
         <version>1.0.0.1</version> 
         <url>https://github.com/monthie/VM_Optimization_Tool/tree/master/VM_Optimization_Tool/bin/Debug/VM_Optimization_Tool.exe</url> 
-        <filePath>./TestApp.exe</filePath>
+        <filePath>./VM_Optimization_Tool.exe</filePath>
         <md5>16B6B4D152FEC08B3DCCD564531FC542</md5>
         <description>Update: 10.01.2019:
         1. Some updates</description> 
