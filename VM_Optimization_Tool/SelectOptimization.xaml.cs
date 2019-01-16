@@ -26,8 +26,7 @@ namespace VM_Optimization_Tool
         public SelectOptimization(string pathToXML)
         {
             DirectoryInfo test = new DirectoryInfo("C:\\Users\\Du\\source\\repos\\VM_Optimization_Tool\\VM_Optimization_Tool\\bin\\Debug");
-            //DataContext = GetTree(test);
-            var test1 = GetTree(test);
+            DataContext = GetTree(test);
             //ParseXMLFile(pathToXML);
             InitializeComponent();
 

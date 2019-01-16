@@ -8,7 +8,7 @@
         mc:Ignorable="d"
         Title="SelectOptimization" Height="450" Width="800">
     <Grid>
-        <TreeView Name="treeView" ItemsSource="{Binding Path=test1}">
+        <TreeView Name="treeView">
             <TreeView.Resources>
                 <HierarchicalDataTemplate DataType="{x:Type local:Node}" ItemsSource="{Binding Children, 
             diag:PresentationTraceSources.TraceLevel=High}">
