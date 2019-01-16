@@ -10,17 +10,18 @@
     <DockPanel Grid.ColumnSpan="3">
         <Menu DockPanel.Dock="Top">
             <MenuItem Header="_File">
-                <MenuItem Header="_Exit" x:Name="_Exit" Click="exit_Click"/>
+                <MenuItem Header="_Exit" x:Name="_Exit" Click="Exit_Click"/>
             </MenuItem>
             <MenuItem Header="_Tools">
-                <MenuItem Header="_Update" x:Name="_Update" Click="update_Click"/>
+                <MenuItem Header="_Update" x:Name="_Update" Click="Update_Click"/>
+                <MenuItem Header="_Optimization Helper" x:Name="_OptimizationHelper" Click="Optimization_Click"/>
             </MenuItem>
             <MenuItem Header="_Info">
-                <MenuItem Header="_Info" x:Name="_Info" Click="info_Click"/>
+                <MenuItem Header="_Info" x:Name="_Info" Click="Info_Click"/>
             </MenuItem>
         </Menu>
         <Grid Height="251" VerticalAlignment="Top" Width="391">
-            <Button Content="Install Updates" HorizontalAlignment="Left" Margin="22,153,0,0" VerticalAlignment="Top" Width="99" Click="winUpdate_Click"/>
+            <Button x:Name="Updates" Content="Install Updates" HorizontalAlignment="Left" Margin="22,153,0,0" VerticalAlignment="Top" Width="99" Click="WinUpdate_Click"/>
             <Button Content="Button" HorizontalAlignment="Left" Margin="22,189,0,0" VerticalAlignment="Top" Width="99"/>
             <Image HorizontalAlignment="Left" Height="80" Margin="301,10,0,0" VerticalAlignment="Top" Width="80" Source="C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\logo.png"/>
         </Grid>

@@ -1,17 +1,16 @@
 ﻿using System;
+using System.Reflection;
+using System.Windows;
 using System.Collections.Generic;
 using System.Linq;
-using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 using ToolUpdate;
 
@@ -56,23 +55,34 @@ namespace VM_Optimization_Tool
             if (updateInfo[0].IsNewerThan(ApplicationAssembly.GetName().Version))
             {
                 UpdateAvailableForm updateAvailableForm = new UpdateAvailableForm(updateInfo[0]);
-                updateAvailableForm.Show();
                 updateAvailableForm.Topmost = true;
+                updateAvailableForm.Show();
             }
         }
 
-        private void exit_Click(object sender, RoutedEventArgs e)
+        private void Exit_Click(object sender, RoutedEventArgs e)
         {
-            System.Windows.Application.Current.Shutdown();
+            Environment.Exit(0);
         }
-        private void update_Click(object sender, RoutedEventArgs e)
+        private void Update_Click(object sender, RoutedEventArgs e)
         {
             ToolUpdateXml[] updateInfo = ToolUpdateXml.Parse(new Uri(updateServerUrl));
-            ToolUpdateInfo toolUpdateInfo = new ToolUpdateInfo(ApplicationAssembly.GetName().Name.ToString(), updateInfo[0].Description, ApplicationAssembly.GetName().Version.ToString());
-            toolUpdateInfo.Show();
+            if (updateInfo[0].IsNewerThan(ApplicationAssembly.GetName().Version))
+            {
+                UpdateAvailableForm updateAvailableForm = new UpdateAvailableForm(updateInfo[0]);
+                updateAvailableForm.Topmost = true;
+                updateAvailableForm.Show();
+            }
+            else
+            {
+                UpdateAvailableForm updateAvailableForm = new UpdateAvailableForm(updateInfo[0]);
+                updateAvailableForm.updateButton.IsEnabled = false;
+                updateAvailableForm.abortButton.IsEnabled = false;
+                updateAvailableForm.label.Content = "Software is up to date!";
+                updateAvailableForm.Topmost = true;
+                updateAvailableForm.Show();
+            }
         }
-     
-
 
         string getOSInfo()
         {
@@ -158,15 +168,36 @@ namespace VM_Optimization_Tool
             return operatingSystem;
         }
 
-        private void winUpdate_Click(object sender, RoutedEventArgs e)
+        private void WinUpdate_Click(object sender, RoutedEventArgs e)
         {
-            
+            if (SetWinServices.DisableWinUpdates())
+            {
+                Updates.Content = "Enable Windows Updates";
+            }
         }
 
-        private void info_Click(object sender, RoutedEventArgs e)
+        private void Info_Click(object sender, RoutedEventArgs e)
         {
             VersionInfo versionInfo = new VersionInfo(ApplicationAssembly.GetName().Version.ToString());
             versionInfo.Show();
+        }
+
+        private void Optimization_Click(object sender, RoutedEventArgs e)
+        {
+            Microsoft.Win32.OpenFileDialog dlg = new Microsoft.Win32.OpenFileDialog();
+            dlg.DefaultExt = ".xml";
+            dlg.Filter = "XML Files (*.xml)|*.xml";
+
+
+            // Display OpenFileDialog by calling ShowDialog method 
+            bool? result = dlg.ShowDialog();
+            if (result == true)
+            {
+                // Open document 
+                string filename = dlg.FileName;
+                SelectOptimization selOpti = new SelectOptimization(filename);
+                selOpti.Show();
+            }
         }
     }
 }

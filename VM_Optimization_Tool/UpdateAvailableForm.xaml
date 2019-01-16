@@ -7,10 +7,10 @@
         mc:Ignorable="d"
         Title="UpdateAvailableForm" Height="300" Width="283">
     <Grid>
-        <Label Content="An update is available!" HorizontalAlignment="Left" Margin="19,31,0,0" VerticalAlignment="Top" Width="236" FontSize="22"/>
+        <Label x:Name="label" Content="An update is available!" HorizontalAlignment="Left" Margin="19,31,0,0" VerticalAlignment="Top" Width="236" FontSize="22"/>
         <TextBox x:Name="textbox" HorizontalAlignment="Left" Height="89" Margin="10,115,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="245" IsReadOnly="True"/>
-        <Button Content="Update" HorizontalAlignment="Left" Margin="19,220,0,0" VerticalAlignment="Top" Width="75" Click="Update_Click"/>
-        <Button Content="Abort" HorizontalAlignment="Left" Margin="180,220,0,0" VerticalAlignment="Top" Width="75" Click="Abort_Click"/>
+        <Button x:Name="updateButton" Content="Update" HorizontalAlignment="Left" Margin="19,220,0,0" VerticalAlignment="Top" Width="75" Click="Update_Click"/>
+        <Button x:Name="abortButton" Content="Abort" HorizontalAlignment="Left" Margin="180,220,0,0" VerticalAlignment="Top" Width="75" Click="Abort_Click"/>
 
     </Grid>
 </Window>
