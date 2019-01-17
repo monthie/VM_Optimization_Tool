@@ -61,6 +61,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="TrueFalseToBooleanConverter.cs" />
     <Compile Include="Node.cs" />
     <Compile Include="SelectOptimization.xaml.cs">
       <DependentUpon>SelectOptimization.xaml</DependentUpon>

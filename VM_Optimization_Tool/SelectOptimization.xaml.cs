@@ -28,6 +28,8 @@ namespace VM_Optimization_Tool
         public SelectOptimization()
         {
             InitializeComponent();
+            
+            
         }
 
         private void ParseXMLFile(string pathToXML)
@@ -68,33 +70,14 @@ namespace VM_Optimization_Tool
         {
 
         }
-    }
-    public class YesNoToBooleanConverter : IValueConverter
-    {
-        public object Convert(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
+        private void CheckBoxChanged(object sender, RoutedEventArgs e)
         {
-            switch (value.ToString().ToLower())
-            {
-                case "true":
-                case "oui":
-                    return true;
-                case "false":
-                case "non":
-                    return false;
-            }
-            return false;
-        }
+            ((CheckBox)sender).GetBindingExpression(CheckBox.IsCheckedProperty).UpdateTarget();
 
-        public object ConvertBack(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
-        {
-            if (value is bool)
-            {
-                if ((bool)value == true)
-                    return "yes";
-                else
-                    return "no";
-            }
-            return "no";
+            XmlDataProvider test = new XmlDataProvider();
+            test = TryFindResource("xmlData") as XmlDataProvider;
+            test.Document.Save(test.Source.AbsolutePath);
+            // MessageBox.Show(e.OriginalSource.ToString());
         }
     }
 }

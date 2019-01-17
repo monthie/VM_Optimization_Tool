@@ -5,15 +5,16 @@
         Title="Optimization Options"
         Height="300" Width="300">
         <Window.Resources>
-        <local:YesNoToBooleanConverter x:Key="YesNoToBooleanConverter" />
-        <XmlDataProvider x:Key="xmlData" Source="bwlp_Windows_10.xml" XPath="/sequence/group/group" />
+        <local:TrueFalseToBooleanConverter x:Key="TrueFalseToBooleanConverter" />
+        <XmlDataProvider x:Key="xmlData" Source="C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\bwlp_Windows_10.xml" XPath="/sequence/group/group" />
 
             <HierarchicalDataTemplate x:Key="NodeTemplate"
                 ItemsSource="{Binding XPath=.//step}">
-                <StackPanel Orientation="Horizontal">
-                <CheckBox x:Name="nodecheck" IsChecked="{Binding XPath=@defaultSelected, Converter={StaticResource YesNoToBooleanConverter}}"/>
-                <TextBlock x:Name="nodetext" Margin="5,0"/>
-                </StackPanel>
+                <StackPanel Name="stackpanel" Orientation="Horizontal">
+                <CheckBox x:Name="nodecheck" Checked="CheckBoxChanged"  Unchecked="CheckBoxChanged" IsChecked="{Binding XPath=@defaultSelected, Mode=TwoWay, Converter={StaticResource TrueFalseToBooleanConverter}}">
+                    <TextBlock x:Name="nodetext" Margin="5,0"/>
+                </CheckBox>
+            </StackPanel>
                 <HierarchicalDataTemplate.Triggers>
                     <DataTrigger Binding="{Binding Path=NodeType}" Value="Element">
                     <Setter TargetName="nodetext" Property="Text"

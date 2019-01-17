@@ -1,11 +1,11 @@
-﻿<sequence name="bwlp_Windows 10" description="Optimization template for bwLehrpool&#xD;&#xA;- Windows 10" author="" authorEmail="" website="" version="1.0" runOnOs="16" uid="376710">
+<sequence name="bwlp_Windows 10" description="Optimization template for bwLehrpool&#xD;&#xA;- Windows 10" author="" authorEmail="" website="" version="1.0" runOnOs="16" uid="376710">
   <globalVarList>
     <autoLogin>
       <alUserName>Admin</alUserName>
       <alPassword>
       </alPassword>
-    </autoLogin>    
-     <osCollection>
+    </autoLogin>
+    <osCollection>
       <osEntry osId="1" name="Windows 7">
         <Version>6.1.*</Version>
         <ProductType>1</ProductType>
