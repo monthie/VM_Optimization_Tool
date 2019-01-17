@@ -184,20 +184,22 @@ namespace VM_Optimization_Tool
 
         private void Optimization_Click(object sender, RoutedEventArgs e)
         {
-            Microsoft.Win32.OpenFileDialog dlg = new Microsoft.Win32.OpenFileDialog();
-            dlg.DefaultExt = ".xml";
-            dlg.Filter = "XML Files (*.xml)|*.xml";
+            /* Microsoft.Win32.OpenFileDialog dlg = new Microsoft.Win32.OpenFileDialog();
+             dlg.DefaultExt = ".xml";
+             dlg.Filter = "XML Files (*.xml)|*.xml";
 
 
-            // Display OpenFileDialog by calling ShowDialog method 
-            bool? result = dlg.ShowDialog();
-            if (result == true)
-            {
-                // Open document 
-                string filename = dlg.FileName;
-                SelectOptimization selOpti = new SelectOptimization(filename);
-                selOpti.Show();
-            }
+             // Display OpenFileDialog by calling ShowDialog method 
+             bool? result = dlg.ShowDialog();
+             if (result == true)
+             {
+                 // Open document 
+                 string filename = dlg.FileName;
+                 SelectOptimization selOpti = new SelectOptimization(filename);
+                 selOpti.Show();
+             }*/
+            SelectOptimization selOpti = new SelectOptimization();
+            selOpti.Show();
         }
     }
 }

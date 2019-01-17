@@ -14,54 +14,20 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using System.IO;
 using System.Collections.ObjectModel;
+using System.Diagnostics;
+using System.Xml.Linq;
 
 namespace VM_Optimization_Tool
-{ 
+{
 
     /// <summary>
     /// Interaktionslogik für SelectOptimization.xaml
     /// </summary>
     public partial class SelectOptimization : Window
     {
-        public SelectOptimization(string pathToXML)
+        public SelectOptimization()
         {
-            DirectoryInfo test = new DirectoryInfo("C:\\Users\\Du\\source\\repos\\VM_Optimization_Tool\\VM_Optimization_Tool\\bin\\Debug");
-            DataContext = GetTree(test);
-            //ParseXMLFile(pathToXML);
             InitializeComponent();
-
-        }
-
-        public Node GetTree(DirectoryInfo di)
-        {
-            Node item = new Node();
-            item.Name = di.Name;
-            foreach (DirectoryInfo s in di.GetDirectories())
-            {
-                item.Children.Add(GetTree(s));
-            }
-            foreach (FileInfo fi in di.GetFiles())
-            {
-                item.Children.Add(new Node { Name = fi.Name });
-            }
-            return item;
-        }
-
-        private List<string> GetSelectedNames()
-        {
-            List<string> selectedNames = new List<string>();
-            foreach (var item in treeView.Items.OfType<Node>())
-                GetSelected(item, ref selectedNames);
-            return selectedNames;
-        }
-
-        public void GetSelected(Node node, ref List<string> s)
-        {
-            if (node.IsChecked)
-                s.Add(node.Name);
-
-            foreach (Node child in node.Children)
-                GetSelected(child, ref s);
         }
 
         private void ParseXMLFile(string pathToXML)
@@ -73,7 +39,8 @@ namespace VM_Optimization_Tool
             foreach (XmlNode node in nodes)
             {
                 // If the node doesn't exist, there is no win 10 xml file
-                if (node == null) { 
+                if (node == null)
+                {
                     MessageBoxResult result = MessageBox.Show("Wrong file",
                                           "Confirmation",
                                           MessageBoxButton.OK,
@@ -88,8 +55,46 @@ namespace VM_Optimization_Tool
                 string runOnOs = node.InnerText;
                 Console.WriteLine(runOnOs);
 
-                
+
             }
+        }
+
+        private void loadXML_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void abort_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+    }
+    public class YesNoToBooleanConverter : IValueConverter
+    {
+        public object Convert(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
+        {
+            switch (value.ToString().ToLower())
+            {
+                case "true":
+                case "oui":
+                    return true;
+                case "false":
+                case "non":
+                    return false;
+            }
+            return false;
+        }
+
+        public object ConvertBack(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
+        {
+            if (value is bool)
+            {
+                if ((bool)value == true)
+                    return "yes";
+                else
+                    return "no";
+            }
+            return "no";
         }
     }
 }
