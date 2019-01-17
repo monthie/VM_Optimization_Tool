@@ -39,7 +39,10 @@ namespace VM_Optimization_Tool
                 xmlData.Source = new Uri(pathToXML); 
             }  
         }
-
+        /// <summary>
+        /// function to return selected filepath
+        /// </summary>
+        /// <returns>filepath</returns>
         private string SelectFile()
         {
             // Create OpenFileDialog 
@@ -49,17 +52,13 @@ namespace VM_Optimization_Tool
             dlg.DefaultExt = ".xml";
             dlg.Filter = "XML Files (*.xml)|*.xml";
 
-
             // Display OpenFileDialog by calling ShowDialog method 
             Nullable<bool> result = dlg.ShowDialog();
 
-
-            // Get the selected file name and display in a TextBox 
+            // Get the selected file name
             if (result == true)
             {
-                // Open document 
                 return dlg.FileName;
-
             }
             else
             {
@@ -95,24 +94,33 @@ namespace VM_Optimization_Tool
 
             }
         }
-
+        /// <summary>
+        /// function to start optimization
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void loadXML_Click(object sender, RoutedEventArgs e)
         {
-
+            xmlData.Document.Save(xmlData.Source.AbsolutePath);
         }
-
+        /// <summary>
+        /// Abort function
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void abort_Click(object sender, RoutedEventArgs e)
         {
-
+            Close();
         }
+        /// <summary>
+        /// function to save checkbox changes in xml file
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void CheckBoxChanged(object sender, RoutedEventArgs e)
         {
             ((CheckBox)sender).GetBindingExpression(CheckBox.IsCheckedProperty).UpdateTarget();
-
-            XmlDataProvider test = new XmlDataProvider();
-            test = TryFindResource("xmlData") as XmlDataProvider;
-            test.Document.Save(test.Source.AbsolutePath);
-            // MessageBox.Show(e.OriginalSource.ToString());
+            xmlData.Document.Save(xmlData.Source.AbsolutePath);
         }
     }
 }

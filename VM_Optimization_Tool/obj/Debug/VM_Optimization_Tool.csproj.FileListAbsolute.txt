@@ -1,9 +1,9 @@
-C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Debug\VM_Optimization_Tool.csprojAssemblyReference.cache
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\bin\Debug\VM_Optimization_Tool.exe.config
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\bin\Debug\VM_Optimization_Tool.exe
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\bin\Debug\VM_Optimization_Tool.pdb
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\bin\Debug\ToolUpdate.dll
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\bin\Debug\ToolUpdate.pdb
+C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Debug\VM_Optimization_Tool.csprojAssemblyReference.cache
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Debug\DownloadForm.g.cs
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Debug\MainWindow.g.cs
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Debug\SelectOptimization.g.cs
@@ -11,6 +11,7 @@ C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Debug\Too
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Debug\UpdateAvailableForm.g.cs
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Debug\VersionInfoForm.g.cs
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Debug\App.g.cs
+C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Debug\GeneratedInternalTypeHelper.g.cs
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Debug\VM_Optimization_Tool_MarkupCompile.cache
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Debug\VM_Optimization_Tool_MarkupCompile.lref
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Debug\App.baml
@@ -27,4 +28,3 @@ C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Debug\VM_
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Debug\VM_Optimization_Tool.csproj.CopyComplete
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Debug\VM_Optimization_Tool.exe
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Debug\VM_Optimization_Tool.pdb
-C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Debug\GeneratedInternalTypeHelper.g.cs
