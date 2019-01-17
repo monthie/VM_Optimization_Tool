@@ -25,11 +25,46 @@ namespace VM_Optimization_Tool
     /// </summary>
     public partial class SelectOptimization : Window
     {
+        private XmlDataProvider xmlData;
+        private string pathToXML;
         public SelectOptimization()
         {
             InitializeComponent();
-            
-            
+            xmlData = new XmlDataProvider();
+            xmlData = TryFindResource("xmlData") as XmlDataProvider;
+            try
+            {
+                pathToXML = SelectFile();
+            }
+            catch { MessageBox.Show("Ups"); };
+            xmlData.Source = new Uri(pathToXML);
+        }
+
+        private string SelectFile()
+        {
+            // Create OpenFileDialog 
+            Microsoft.Win32.OpenFileDialog dlg = new Microsoft.Win32.OpenFileDialog();
+
+            // Set filter for file extension and default file extension 
+            dlg.DefaultExt = ".xml";
+            dlg.Filter = "XML Files (*.xml)|*.xml";
+
+
+            // Display OpenFileDialog by calling ShowDialog method 
+            Nullable<bool> result = dlg.ShowDialog();
+
+
+            // Get the selected file name and display in a TextBox 
+            if (result == true)
+            {
+                // Open document 
+                return dlg.FileName;
+
+            }
+            else
+            {
+                return null;
+            }
         }
 
         private void ParseXMLFile(string pathToXML)

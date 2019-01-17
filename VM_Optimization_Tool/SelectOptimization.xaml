@@ -6,7 +6,7 @@
         Height="300" Width="300">
         <Window.Resources>
         <local:TrueFalseToBooleanConverter x:Key="TrueFalseToBooleanConverter" />
-        <XmlDataProvider x:Key="xmlData" Source="C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\bwlp_Windows_10.xml" XPath="/sequence/group/group" />
+        <XmlDataProvider x:Key="xmlData" Source="" XPath="/sequence/group/group" />
 
             <HierarchicalDataTemplate x:Key="NodeTemplate"
                 ItemsSource="{Binding XPath=.//step}">
