@@ -32,12 +32,12 @@ namespace VM_Optimization_Tool
             InitializeComponent();
             xmlData = new XmlDataProvider();
             xmlData = TryFindResource("xmlData") as XmlDataProvider;
-            try
-            {
-                pathToXML = SelectFile();
-            }
-            catch { MessageBox.Show("Ups"); };
-            xmlData.Source = new Uri(pathToXML);
+            pathToXML = SelectFile();
+            if (pathToXML == null) {
+                
+            } else {
+                xmlData.Source = new Uri(pathToXML); 
+            }  
         }
 
         private string SelectFile()
