@@ -1,0 +1,9 @@
+﻿18.01.2019 21:44: Der Vorgang wurde erfolgreich beendet.: /C reg LOAD "hku\temp" "%USERPROFILE%\..\Default User\NTUSER.DAT"
+18.01.2019 21:44: : /C reg LOAD "hku\temp" "%USERPROFILE%\..\Default User\NTUSER.DAT"
+18.01.2019 21:44: : /C reg LOAD "hku\temp" "%USERPROFILE%\..\Default User\NTUSER.DAT"
+18.01.2019 21:44: Der Vorgang wurde erfolgreich beendet.: /C reg ADD "hku\temp\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v "LaunchTo" /t "REG_DWORD" /d 1 /f
+18.01.2019 21:44: : /C reg ADD "hku\temp\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v "LaunchTo" /t "REG_DWORD" /d 1 /f
+18.01.2019 21:44: : /C reg ADD "hku\temp\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v "LaunchTo" /t "REG_DWORD" /d 1 /f
+18.01.2019 21:44: Der Vorgang wurde erfolgreich beendet.: /C reg ADD "hku\temp\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v "NoRecentDocsNetHood" /t "REG_DWORD" /d 1 /f
+18.01.2019 21:44: : /C reg ADD "hku\temp\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v "NoRecentDocsNetHood" /t "REG_DWORD" /d 1 /f
+18.01.2019 21:44: : /C reg ADD "hku\temp\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v "NoRecentDocsNetHood" /t "REG_DWORD" /d 1 /f

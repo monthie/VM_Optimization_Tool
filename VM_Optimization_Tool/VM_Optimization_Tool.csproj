@@ -61,6 +61,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ApplyChanges.cs" />
+    <Compile Include="LogWriter.cs" />
     <Compile Include="TrueFalseToBooleanConverter.cs" />
     <Compile Include="Node.cs" />
     <Compile Include="SelectOptimization.xaml.cs">
@@ -79,6 +81,7 @@
     <Compile Include="VersionInfoForm.xaml.cs">
       <DependentUpon>VersionInfoForm.xaml</DependentUpon>
     </Compile>
+    <Compile Include="XmlParser.cs" />
     <Page Include="DownloadForm.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

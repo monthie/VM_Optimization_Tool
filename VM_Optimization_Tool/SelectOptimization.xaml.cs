@@ -102,6 +102,8 @@ namespace VM_Optimization_Tool
         private void loadXML_Click(object sender, RoutedEventArgs e)
         {
             xmlData.Document.Save(xmlData.Source.AbsolutePath);
+            XmlParser[] xmlParsers = XmlParser.Parser(xmlData.Source);
+            ApplyChanges.Changes(xmlParsers);
         }
         /// <summary>
         /// Abort function
