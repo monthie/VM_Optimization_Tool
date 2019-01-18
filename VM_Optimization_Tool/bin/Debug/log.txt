@@ -7,3 +7,1480 @@
 18.01.2019 21:44: Der Vorgang wurde erfolgreich beendet.: /C reg ADD "hku\temp\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v "NoRecentDocsNetHood" /t "REG_DWORD" /d 1 /f
 18.01.2019 21:44: : /C reg ADD "hku\temp\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v "NoRecentDocsNetHood" /t "REG_DWORD" /d 1 /f
 18.01.2019 21:44: : /C reg ADD "hku\temp\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v "NoRecentDocsNetHood" /t "REG_DWORD" /d 1 /f
+18.01.2019 21:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 21:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 21:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 21:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 21:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 21:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 21:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 21:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 21:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 21:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 21:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 21:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 21:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 21:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 21:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 21:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 21:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 21:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 21:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 21:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 21:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 21:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 21:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 21:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 21:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 21:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 21:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 21:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 21:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 21:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 21:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 21:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 21:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 21:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 21:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 21:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 21:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 21:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 21:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 21:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 21:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 21:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 21:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 21:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 21:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 21:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 21:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 21:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 21:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 21:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 21:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 21:47: DisableLastAccess = 1  (Benutzerverwaltet, aktiviert)
+18.01.2019 21:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 21:47: Tool zur Imageverwaltung fr die Bereitstellung
+18.01.2019 21:47: Version: 10.0.17134.1
+18.01.2019 21:47: Abbildversion: 10.0.17134.523
+18.01.2019 21:47: Fehler: 0x800f080c
+18.01.2019 21:47: Der Featurename "Xps-Foundation-Xps-Viewer" ist unbekannt.
+18.01.2019 21:47: Ein Windows-Funktionsname wurde nicht erkannt.
+18.01.2019 21:47: Verwenden Sie die Option "/Get-Features", um den Namen der Funktion im Abbild zu suchen und den Befehl erneut auszufhren.
+18.01.2019 21:47: Die DISM-Protokolldatei befindet sich unter "C:\Windows\Logs\DISM\dism.log".
+18.01.2019 21:47: FEHLER: Der angegebene Aufgabenname "Microsoft\Windows\AppID\SmartScreenSpecific" ist auf dem
+18.01.2019 21:47: System nicht vorhanden.
+18.01.2019 21:47: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Application Experience\Microsoft Compatibility Appraiser" wurde bereits deaktiviert.
+18.01.2019 21:47: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Application Experience\Microsoft Compatibility Appraiser" wurden ge„ndert.
+18.01.2019 21:47: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Application Experience\ProgramDataUpdater" wurden ge„ndert.
+18.01.2019 21:47: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Application Experience\StartupAppTask" wurden ge„ndert.
+18.01.2019 21:47: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Autochk\Proxy" wurden ge„ndert.
+18.01.2019 21:47: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Chkdsk\ProactiveScan" wurden ge„ndert.
+18.01.2019 21:47: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Customer Experience Improvement Program\Consolidator" wurden ge„ndert.
+18.01.2019 21:47: FEHLER: Der angegebene Aufgabenname "Microsoft\Windows\Customer Experience Improvement Program\KernelCeipTask" ist auf dem
+18.01.2019 21:47: System nicht vorhanden.
+18.01.2019 21:47: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Customer Experience Improvement Program\UsbCeip" wurden ge„ndert.
+18.01.2019 21:47: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Defrag\ScheduledDefrag" wurden ge„ndert.
+18.01.2019 21:47: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Diagnosis\Scheduled" wurden ge„ndert.
+18.01.2019 21:47: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\DiskCleanup\SilentCleanup" wurden ge„ndert.
+18.01.2019 21:47: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticDataCollector" wurden ge„ndert.
+18.01.2019 21:47: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticResolver" wurde bereits deaktiviert.
+18.01.2019 21:47: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticResolver" wurden ge„ndert.
+18.01.2019 21:47: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Feedback\Siuf\DmClient" wurden ge„ndert.
+18.01.2019 21:47: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\FileHistory\File History (maintenance mode)" wurden ge„ndert.
+18.01.2019 21:47: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Location\Notifications" wurden ge„ndert.
+18.01.2019 21:47: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Location\WindowsActionDialog" wurden ge„ndert.
+18.01.2019 21:47: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Maintenance\WinSAT" wurden ge„ndert.
+18.01.2019 21:47: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Maps\MapsToastTask" wurden ge„ndert.
+18.01.2019 21:47: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Maps\MapsUpdateTask" wurden ge„ndert.
+18.01.2019 21:47: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\MemoryDiagnostic\ProcessMemoryDiagnosticEvents" wurden ge„ndert.
+18.01.2019 21:47: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\MemoryDiagnostic\RunFullMemoryDiagnostic" wurden ge„ndert.
+18.01.2019 21:47: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Mobile Broadband Accounts\MNO Metadata Parser" wurden ge„ndert.
+18.01.2019 21:47: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Power Efficiency Diagnostics\AnalyzeSystem" wurden ge„ndert.
+18.01.2019 21:47: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Ras\MobilityManager" wurden ge„ndert.
+18.01.2019 21:47: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\RecoveryEnvironment\VerifyWinRE" wurde bereits deaktiviert.
+18.01.2019 21:47: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\RecoveryEnvironment\VerifyWinRE" wurden ge„ndert.
+18.01.2019 21:47: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Registry\RegIdleBackup" wurden ge„ndert.
+18.01.2019 21:47: FEHLER: Der angegebene Aufgabenname "Microsoft\Windows\RetailDemo\CleanupOfflineContent" ist auf dem
+18.01.2019 21:47: System nicht vorhanden.
+18.01.2019 21:47: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Servicing\StartComponentCleanup" wurden ge„ndert.
+18.01.2019 21:47: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Shell\FamilySafetyMonitor" wurden ge„ndert.
+18.01.2019 21:47: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Shell\FamilySafetyRefreshTask" wurden ge„ndert.
+18.01.2019 21:47: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Shell\IndexerAutomaticMaintenance" wurden ge„ndert.
+18.01.2019 21:47: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\SystemRestore\SR" wurden ge„ndert.
+18.01.2019 21:47: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\TPM\Tpm-Maintenance" wurden ge„ndert.
+18.01.2019 21:47: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\UPnP\UPnPHostConfig" wurden ge„ndert.
+18.01.2019 21:47: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\WDI\ResolutionHost" wurden ge„ndert.
+18.01.2019 21:47: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Windows Defender\Windows Defender Cache Maintenance" wurden ge„ndert.
+18.01.2019 21:47: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Windows Defender\Windows Defender Cleanup" wurden ge„ndert.
+18.01.2019 21:47: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Windows Defender\Windows Defender Scheduled Scan" wurden ge„ndert.
+18.01.2019 21:47: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Windows Defender\Windows Defender Verification" wurden ge„ndert.
+18.01.2019 21:47: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Windows Error Reporting\QueueReporting" wurden ge„ndert.
+18.01.2019 21:47: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Windows Filtering Platform\BfeonServiceStartTypeChange" wurden ge„ndert.
+18.01.2019 21:47: FEHLER: Der angegebene Aufgabenname "Microsoft\Windows\Windows Media Sharing\UpdateLibrary" ist auf dem
+18.01.2019 21:47: System nicht vorhanden.
+18.01.2019 21:47: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\WOF\WIM-Hash-Management" wurden ge„ndert.
+18.01.2019 21:47: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\WOF\WIM-Hash-Validation" wurden ge„ndert.
+18.01.2019 21:47: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\rempl\shell" wurden ge„ndert.
+18.01.2019 21:47: FEHLER: Der angegebene Aufgabenname "Microsoft\Windows\rempl\shell-unlock" ist auf dem
+18.01.2019 21:47: System nicht vorhanden.
+18.01.2019 21:47: Set-Service : Der Dienst BthHFSrv wurde nicht auf dem Computer . gefunden.
+18.01.2019 21:47: In Zeile:1 Zeichen:1
+18.01.2019 21:47: + Set-Service 'BthHFSrv' -startuptype DISABLED
+18.01.2019 21:47: + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+18.01.2019 21:47:     + CategoryInfo          : ObjectNotFound: (.:String) [Set-Service], InvalidOperationException
+18.01.2019 21:47:     + FullyQualifiedErrorId : InvalidOperationException,Microsoft.PowerShell.Commands.SetServiceCommand
+18.01.2019 21:47:  
+18.01.2019 22:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:20: DisableLastAccess = 1  (Benutzerverwaltet, aktiviert)
+18.01.2019 22:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:20: Tool zur Imageverwaltung fr die Bereitstellung
+18.01.2019 22:20: Version: 10.0.17134.1
+18.01.2019 22:20: Abbildversion: 10.0.17134.523
+18.01.2019 22:20: Fehler: 0x800f080c
+18.01.2019 22:20: Der Featurename "Xps-Foundation-Xps-Viewer" ist unbekannt.
+18.01.2019 22:20: Ein Windows-Funktionsname wurde nicht erkannt.
+18.01.2019 22:20: Verwenden Sie die Option "/Get-Features", um den Namen der Funktion im Abbild zu suchen und den Befehl erneut auszufhren.
+18.01.2019 22:20: Die DISM-Protokolldatei befindet sich unter "C:\Windows\Logs\DISM\dism.log".
+18.01.2019 22:20: FEHLER: Der angegebene Aufgabenname "Microsoft\Windows\AppID\SmartScreenSpecific" ist auf dem
+18.01.2019 22:20: System nicht vorhanden.
+18.01.2019 22:20: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Application Experience\Microsoft Compatibility Appraiser" wurde bereits deaktiviert.
+18.01.2019 22:20: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Application Experience\Microsoft Compatibility Appraiser" wurden ge„ndert.
+18.01.2019 22:20: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Application Experience\ProgramDataUpdater" wurde bereits deaktiviert.
+18.01.2019 22:20: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Application Experience\ProgramDataUpdater" wurden ge„ndert.
+18.01.2019 22:20: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Application Experience\StartupAppTask" wurde bereits deaktiviert.
+18.01.2019 22:20: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Application Experience\StartupAppTask" wurden ge„ndert.
+18.01.2019 22:20: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Autochk\Proxy" wurde bereits deaktiviert.
+18.01.2019 22:20: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Autochk\Proxy" wurden ge„ndert.
+18.01.2019 22:20: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Chkdsk\ProactiveScan" wurde bereits deaktiviert.
+18.01.2019 22:20: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Chkdsk\ProactiveScan" wurden ge„ndert.
+18.01.2019 22:20: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Customer Experience Improvement Program\Consolidator" wurde bereits deaktiviert.
+18.01.2019 22:20: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Customer Experience Improvement Program\Consolidator" wurden ge„ndert.
+18.01.2019 22:20: FEHLER: Der angegebene Aufgabenname "Microsoft\Windows\Customer Experience Improvement Program\KernelCeipTask" ist auf dem
+18.01.2019 22:20: System nicht vorhanden.
+18.01.2019 22:20: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Customer Experience Improvement Program\UsbCeip" wurde bereits deaktiviert.
+18.01.2019 22:20: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Customer Experience Improvement Program\UsbCeip" wurden ge„ndert.
+18.01.2019 22:20: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Defrag\ScheduledDefrag" wurde bereits deaktiviert.
+18.01.2019 22:20: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Defrag\ScheduledDefrag" wurden ge„ndert.
+18.01.2019 22:20: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Diagnosis\Scheduled" wurde bereits deaktiviert.
+18.01.2019 22:20: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Diagnosis\Scheduled" wurden ge„ndert.
+18.01.2019 22:20: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\DiskCleanup\SilentCleanup" wurde bereits deaktiviert.
+18.01.2019 22:20: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\DiskCleanup\SilentCleanup" wurden ge„ndert.
+18.01.2019 22:20: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticDataCollector" wurde bereits deaktiviert.
+18.01.2019 22:20: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticDataCollector" wurden ge„ndert.
+18.01.2019 22:20: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticResolver" wurde bereits deaktiviert.
+18.01.2019 22:20: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticResolver" wurden ge„ndert.
+18.01.2019 22:20: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Feedback\Siuf\DmClient" wurde bereits deaktiviert.
+18.01.2019 22:20: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Feedback\Siuf\DmClient" wurden ge„ndert.
+18.01.2019 22:20: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\FileHistory\File History (maintenance mode)" wurde bereits deaktiviert.
+18.01.2019 22:20: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\FileHistory\File History (maintenance mode)" wurden ge„ndert.
+18.01.2019 22:20: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Location\Notifications" wurde bereits deaktiviert.
+18.01.2019 22:20: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Location\Notifications" wurden ge„ndert.
+18.01.2019 22:20: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Location\WindowsActionDialog" wurde bereits deaktiviert.
+18.01.2019 22:20: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Location\WindowsActionDialog" wurden ge„ndert.
+18.01.2019 22:20: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Maintenance\WinSAT" wurde bereits deaktiviert.
+18.01.2019 22:20: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Maintenance\WinSAT" wurden ge„ndert.
+18.01.2019 22:20: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Maps\MapsToastTask" wurde bereits deaktiviert.
+18.01.2019 22:20: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Maps\MapsToastTask" wurden ge„ndert.
+18.01.2019 22:20: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Maps\MapsUpdateTask" wurde bereits deaktiviert.
+18.01.2019 22:20: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Maps\MapsUpdateTask" wurden ge„ndert.
+18.01.2019 22:20: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\MemoryDiagnostic\ProcessMemoryDiagnosticEvents" wurde bereits deaktiviert.
+18.01.2019 22:20: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\MemoryDiagnostic\ProcessMemoryDiagnosticEvents" wurden ge„ndert.
+18.01.2019 22:20: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\MemoryDiagnostic\RunFullMemoryDiagnostic" wurde bereits deaktiviert.
+18.01.2019 22:20: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\MemoryDiagnostic\RunFullMemoryDiagnostic" wurden ge„ndert.
+18.01.2019 22:20: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Mobile Broadband Accounts\MNO Metadata Parser" wurde bereits deaktiviert.
+18.01.2019 22:20: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Mobile Broadband Accounts\MNO Metadata Parser" wurden ge„ndert.
+18.01.2019 22:20: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Power Efficiency Diagnostics\AnalyzeSystem" wurde bereits deaktiviert.
+18.01.2019 22:20: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Power Efficiency Diagnostics\AnalyzeSystem" wurden ge„ndert.
+18.01.2019 22:20: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Ras\MobilityManager" wurde bereits deaktiviert.
+18.01.2019 22:20: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Ras\MobilityManager" wurden ge„ndert.
+18.01.2019 22:20: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\RecoveryEnvironment\VerifyWinRE" wurde bereits deaktiviert.
+18.01.2019 22:20: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\RecoveryEnvironment\VerifyWinRE" wurden ge„ndert.
+18.01.2019 22:20: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Registry\RegIdleBackup" wurde bereits deaktiviert.
+18.01.2019 22:20: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Registry\RegIdleBackup" wurden ge„ndert.
+18.01.2019 22:20: FEHLER: Der angegebene Aufgabenname "Microsoft\Windows\RetailDemo\CleanupOfflineContent" ist auf dem
+18.01.2019 22:20: System nicht vorhanden.
+18.01.2019 22:20: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Servicing\StartComponentCleanup" wurde bereits deaktiviert.
+18.01.2019 22:20: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Servicing\StartComponentCleanup" wurden ge„ndert.
+18.01.2019 22:20: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Shell\FamilySafetyMonitor" wurde bereits deaktiviert.
+18.01.2019 22:20: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Shell\FamilySafetyMonitor" wurden ge„ndert.
+18.01.2019 22:20: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Shell\FamilySafetyRefreshTask" wurde bereits deaktiviert.
+18.01.2019 22:20: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Shell\FamilySafetyRefreshTask" wurden ge„ndert.
+18.01.2019 22:20: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Shell\IndexerAutomaticMaintenance" wurde bereits deaktiviert.
+18.01.2019 22:20: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Shell\IndexerAutomaticMaintenance" wurden ge„ndert.
+18.01.2019 22:20: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\SystemRestore\SR" wurde bereits deaktiviert.
+18.01.2019 22:20: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\SystemRestore\SR" wurden ge„ndert.
+18.01.2019 22:20: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\TPM\Tpm-Maintenance" wurde bereits deaktiviert.
+18.01.2019 22:20: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\TPM\Tpm-Maintenance" wurden ge„ndert.
+18.01.2019 22:20: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\UPnP\UPnPHostConfig" wurde bereits deaktiviert.
+18.01.2019 22:20: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\UPnP\UPnPHostConfig" wurden ge„ndert.
+18.01.2019 22:20: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\WDI\ResolutionHost" wurde bereits deaktiviert.
+18.01.2019 22:20: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\WDI\ResolutionHost" wurden ge„ndert.
+18.01.2019 22:20: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Windows Defender\Windows Defender Cache Maintenance" wurde bereits deaktiviert.
+18.01.2019 22:20: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Windows Defender\Windows Defender Cache Maintenance" wurden ge„ndert.
+18.01.2019 22:20: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Windows Defender\Windows Defender Cleanup" wurde bereits deaktiviert.
+18.01.2019 22:20: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Windows Defender\Windows Defender Cleanup" wurden ge„ndert.
+18.01.2019 22:20: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Windows Defender\Windows Defender Scheduled Scan" wurde bereits deaktiviert.
+18.01.2019 22:21: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Windows Defender\Windows Defender Scheduled Scan" wurden ge„ndert.
+18.01.2019 22:21: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Windows Defender\Windows Defender Verification" wurde bereits deaktiviert.
+18.01.2019 22:21: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Windows Defender\Windows Defender Verification" wurden ge„ndert.
+18.01.2019 22:21: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Windows Error Reporting\QueueReporting" wurde bereits deaktiviert.
+18.01.2019 22:21: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Windows Error Reporting\QueueReporting" wurden ge„ndert.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:22: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: DisableLastAccess = 1  (Benutzerverwaltet, aktiviert)
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Tool zur Imageverwaltung fr die Bereitstellung
+18.01.2019 22:23: Version: 10.0.17134.1
+18.01.2019 22:23: Abbildversion: 10.0.17134.523
+18.01.2019 22:23: Fehler: 0x800f080c
+18.01.2019 22:23: Der Featurename "Xps-Foundation-Xps-Viewer" ist unbekannt.
+18.01.2019 22:23: Ein Windows-Funktionsname wurde nicht erkannt.
+18.01.2019 22:23: Verwenden Sie die Option "/Get-Features", um den Namen der Funktion im Abbild zu suchen und den Befehl erneut auszufhren.
+18.01.2019 22:23: Die DISM-Protokolldatei befindet sich unter "C:\Windows\Logs\DISM\dism.log".
+18.01.2019 22:23: FEHLER: Der angegebene Aufgabenname "Microsoft\Windows\AppID\SmartScreenSpecific" ist auf dem
+18.01.2019 22:23: System nicht vorhanden.
+18.01.2019 22:23: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Application Experience\Microsoft Compatibility Appraiser" wurde bereits deaktiviert.
+18.01.2019 22:23: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Application Experience\Microsoft Compatibility Appraiser" wurden ge„ndert.
+18.01.2019 22:23: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Application Experience\ProgramDataUpdater" wurde bereits deaktiviert.
+18.01.2019 22:23: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Application Experience\ProgramDataUpdater" wurden ge„ndert.
+18.01.2019 22:23: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Application Experience\StartupAppTask" wurde bereits deaktiviert.
+18.01.2019 22:23: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Application Experience\StartupAppTask" wurden ge„ndert.
+18.01.2019 22:23: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Autochk\Proxy" wurde bereits deaktiviert.
+18.01.2019 22:23: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Autochk\Proxy" wurden ge„ndert.
+18.01.2019 22:23: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Chkdsk\ProactiveScan" wurde bereits deaktiviert.
+18.01.2019 22:23: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Chkdsk\ProactiveScan" wurden ge„ndert.
+18.01.2019 22:23: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Customer Experience Improvement Program\Consolidator" wurde bereits deaktiviert.
+18.01.2019 22:23: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Customer Experience Improvement Program\Consolidator" wurden ge„ndert.
+18.01.2019 22:23: FEHLER: Der angegebene Aufgabenname "Microsoft\Windows\Customer Experience Improvement Program\KernelCeipTask" ist auf dem
+18.01.2019 22:23: System nicht vorhanden.
+18.01.2019 22:23: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Customer Experience Improvement Program\UsbCeip" wurde bereits deaktiviert.
+18.01.2019 22:23: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Customer Experience Improvement Program\UsbCeip" wurden ge„ndert.
+18.01.2019 22:23: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Defrag\ScheduledDefrag" wurde bereits deaktiviert.
+18.01.2019 22:23: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Defrag\ScheduledDefrag" wurden ge„ndert.
+18.01.2019 22:23: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Diagnosis\Scheduled" wurde bereits deaktiviert.
+18.01.2019 22:23: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Diagnosis\Scheduled" wurden ge„ndert.
+18.01.2019 22:23: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\DiskCleanup\SilentCleanup" wurde bereits deaktiviert.
+18.01.2019 22:23: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\DiskCleanup\SilentCleanup" wurden ge„ndert.
+18.01.2019 22:23: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticDataCollector" wurde bereits deaktiviert.
+18.01.2019 22:23: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticDataCollector" wurden ge„ndert.
+18.01.2019 22:23: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticResolver" wurde bereits deaktiviert.
+18.01.2019 22:23: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticResolver" wurden ge„ndert.
+18.01.2019 22:23: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Feedback\Siuf\DmClient" wurde bereits deaktiviert.
+18.01.2019 22:23: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Feedback\Siuf\DmClient" wurden ge„ndert.
+18.01.2019 22:23: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\FileHistory\File History (maintenance mode)" wurde bereits deaktiviert.
+18.01.2019 22:23: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\FileHistory\File History (maintenance mode)" wurden ge„ndert.
+18.01.2019 22:23: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Location\Notifications" wurde bereits deaktiviert.
+18.01.2019 22:23: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Location\Notifications" wurden ge„ndert.
+18.01.2019 22:23: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Location\WindowsActionDialog" wurde bereits deaktiviert.
+18.01.2019 22:23: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Location\WindowsActionDialog" wurden ge„ndert.
+18.01.2019 22:23: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Maintenance\WinSAT" wurde bereits deaktiviert.
+18.01.2019 22:23: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Maintenance\WinSAT" wurden ge„ndert.
+18.01.2019 22:23: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Maps\MapsToastTask" wurde bereits deaktiviert.
+18.01.2019 22:23: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Maps\MapsToastTask" wurden ge„ndert.
+18.01.2019 22:23: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Maps\MapsUpdateTask" wurde bereits deaktiviert.
+18.01.2019 22:23: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Maps\MapsUpdateTask" wurden ge„ndert.
+18.01.2019 22:23: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\MemoryDiagnostic\ProcessMemoryDiagnosticEvents" wurde bereits deaktiviert.
+18.01.2019 22:23: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\MemoryDiagnostic\ProcessMemoryDiagnosticEvents" wurden ge„ndert.
+18.01.2019 22:23: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\MemoryDiagnostic\RunFullMemoryDiagnostic" wurde bereits deaktiviert.
+18.01.2019 22:23: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\MemoryDiagnostic\RunFullMemoryDiagnostic" wurden ge„ndert.
+18.01.2019 22:23: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Mobile Broadband Accounts\MNO Metadata Parser" wurde bereits deaktiviert.
+18.01.2019 22:23: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Mobile Broadband Accounts\MNO Metadata Parser" wurden ge„ndert.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 22:23: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:02: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:02: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:02: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:02: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:02: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:02: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:02: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:02: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:02: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:02: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:02: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:02: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:02: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:02: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:02: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:02: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:02: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:02: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:02: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:02: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:02: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:02: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:02: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:02: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:02: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:02: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:02: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:02: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:02: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:02: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:02: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:02: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:02: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:02: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:02: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:02: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:02: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:02: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:02: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:02: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:02: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:02: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:02: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:02: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:02: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:02: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:02: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:02: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:02: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:02: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:02: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:02: DisableLastAccess = 1  (Benutzerverwaltet, aktiviert)
+18.01.2019 23:02: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:02: Tool zur Imageverwaltung fr die Bereitstellung
+18.01.2019 23:02: Version: 10.0.17134.1
+18.01.2019 23:02: Abbildversion: 10.0.17134.523
+18.01.2019 23:02: Fehler: 0x800f080c
+18.01.2019 23:02: Der Featurename "Xps-Foundation-Xps-Viewer" ist unbekannt.
+18.01.2019 23:02: Ein Windows-Funktionsname wurde nicht erkannt.
+18.01.2019 23:02: Verwenden Sie die Option "/Get-Features", um den Namen der Funktion im Abbild zu suchen und den Befehl erneut auszufhren.
+18.01.2019 23:02: Die DISM-Protokolldatei befindet sich unter "C:\Windows\Logs\DISM\dism.log".
+18.01.2019 23:02: FEHLER: Der angegebene Aufgabenname "Microsoft\Windows\AppID\SmartScreenSpecific" ist auf dem
+18.01.2019 23:02: System nicht vorhanden.
+18.01.2019 23:02: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Application Experience\Microsoft Compatibility Appraiser" wurde bereits deaktiviert.
+18.01.2019 23:02: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Application Experience\Microsoft Compatibility Appraiser" wurden ge„ndert.
+18.01.2019 23:02: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Application Experience\ProgramDataUpdater" wurde bereits deaktiviert.
+18.01.2019 23:02: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Application Experience\ProgramDataUpdater" wurden ge„ndert.
+18.01.2019 23:02: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Application Experience\StartupAppTask" wurde bereits deaktiviert.
+18.01.2019 23:02: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Application Experience\StartupAppTask" wurden ge„ndert.
+18.01.2019 23:02: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Autochk\Proxy" wurde bereits deaktiviert.
+18.01.2019 23:02: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Autochk\Proxy" wurden ge„ndert.
+18.01.2019 23:02: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Chkdsk\ProactiveScan" wurde bereits deaktiviert.
+18.01.2019 23:02: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Chkdsk\ProactiveScan" wurden ge„ndert.
+18.01.2019 23:02: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Customer Experience Improvement Program\Consolidator" wurde bereits deaktiviert.
+18.01.2019 23:02: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Customer Experience Improvement Program\Consolidator" wurden ge„ndert.
+18.01.2019 23:02: FEHLER: Der angegebene Aufgabenname "Microsoft\Windows\Customer Experience Improvement Program\KernelCeipTask" ist auf dem
+18.01.2019 23:02: System nicht vorhanden.
+18.01.2019 23:02: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Customer Experience Improvement Program\UsbCeip" wurde bereits deaktiviert.
+18.01.2019 23:02: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Customer Experience Improvement Program\UsbCeip" wurden ge„ndert.
+18.01.2019 23:02: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Defrag\ScheduledDefrag" wurde bereits deaktiviert.
+18.01.2019 23:02: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Defrag\ScheduledDefrag" wurden ge„ndert.
+18.01.2019 23:02: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Diagnosis\Scheduled" wurde bereits deaktiviert.
+18.01.2019 23:02: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Diagnosis\Scheduled" wurden ge„ndert.
+18.01.2019 23:02: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\DiskCleanup\SilentCleanup" wurde bereits deaktiviert.
+18.01.2019 23:02: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\DiskCleanup\SilentCleanup" wurden ge„ndert.
+18.01.2019 23:02: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticDataCollector" wurde bereits deaktiviert.
+18.01.2019 23:02: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticDataCollector" wurden ge„ndert.
+18.01.2019 23:02: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticResolver" wurde bereits deaktiviert.
+18.01.2019 23:02: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticResolver" wurden ge„ndert.
+18.01.2019 23:02: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Feedback\Siuf\DmClient" wurde bereits deaktiviert.
+18.01.2019 23:02: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Feedback\Siuf\DmClient" wurden ge„ndert.
+18.01.2019 23:02: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\FileHistory\File History (maintenance mode)" wurde bereits deaktiviert.
+18.01.2019 23:02: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\FileHistory\File History (maintenance mode)" wurden ge„ndert.
+18.01.2019 23:02: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Location\Notifications" wurde bereits deaktiviert.
+18.01.2019 23:02: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Location\Notifications" wurden ge„ndert.
+18.01.2019 23:02: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Location\WindowsActionDialog" wurde bereits deaktiviert.
+18.01.2019 23:02: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Location\WindowsActionDialog" wurden ge„ndert.
+18.01.2019 23:02: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Maintenance\WinSAT" wurde bereits deaktiviert.
+18.01.2019 23:02: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Maintenance\WinSAT" wurden ge„ndert.
+18.01.2019 23:02: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Maps\MapsToastTask" wurde bereits deaktiviert.
+18.01.2019 23:02: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Maps\MapsToastTask" wurden ge„ndert.
+18.01.2019 23:02: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Maps\MapsUpdateTask" wurde bereits deaktiviert.
+18.01.2019 23:02: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Maps\MapsUpdateTask" wurden ge„ndert.
+18.01.2019 23:02: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\MemoryDiagnostic\ProcessMemoryDiagnosticEvents" wurde bereits deaktiviert.
+18.01.2019 23:02: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\MemoryDiagnostic\ProcessMemoryDiagnosticEvents" wurden ge„ndert.
+18.01.2019 23:02: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\MemoryDiagnostic\RunFullMemoryDiagnostic" wurde bereits deaktiviert.
+18.01.2019 23:02: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\MemoryDiagnostic\RunFullMemoryDiagnostic" wurden ge„ndert.
+18.01.2019 23:03: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:03: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:03: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:03: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:03: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:03: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:03: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:03: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:03: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:03: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:03: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:03: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:03: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:03: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:03: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:03: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:03: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:03: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:03: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:03: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:03: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:03: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:03: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:03: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:03: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:03: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:03: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:03: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:03: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:03: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:03: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:03: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:03: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:03: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:03: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:03: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:03: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:03: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:03: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:03: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:03: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:03: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:03: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:03: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:03: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:03: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:03: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:03: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:03: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:03: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:03: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:03: DisableLastAccess = 1  (Benutzerverwaltet, aktiviert)
+18.01.2019 23:03: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:03: Tool zur Imageverwaltung fr die Bereitstellung
+18.01.2019 23:03: Version: 10.0.17134.1
+18.01.2019 23:03: Abbildversion: 10.0.17134.523
+18.01.2019 23:03: Fehler: 0x800f080c
+18.01.2019 23:03: Der Featurename "Xps-Foundation-Xps-Viewer" ist unbekannt.
+18.01.2019 23:03: Ein Windows-Funktionsname wurde nicht erkannt.
+18.01.2019 23:03: Verwenden Sie die Option "/Get-Features", um den Namen der Funktion im Abbild zu suchen und den Befehl erneut auszufhren.
+18.01.2019 23:03: Die DISM-Protokolldatei befindet sich unter "C:\Windows\Logs\DISM\dism.log".
+18.01.2019 23:03: FEHLER: Der angegebene Aufgabenname "Microsoft\Windows\AppID\SmartScreenSpecific" ist auf dem
+18.01.2019 23:03: System nicht vorhanden.
+18.01.2019 23:03: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Application Experience\Microsoft Compatibility Appraiser" wurde bereits deaktiviert.
+18.01.2019 23:03: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Application Experience\Microsoft Compatibility Appraiser" wurden ge„ndert.
+18.01.2019 23:03: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Application Experience\ProgramDataUpdater" wurde bereits deaktiviert.
+18.01.2019 23:03: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Application Experience\ProgramDataUpdater" wurden ge„ndert.
+18.01.2019 23:03: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Application Experience\StartupAppTask" wurde bereits deaktiviert.
+18.01.2019 23:03: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Application Experience\StartupAppTask" wurden ge„ndert.
+18.01.2019 23:03: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Autochk\Proxy" wurde bereits deaktiviert.
+18.01.2019 23:03: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Autochk\Proxy" wurden ge„ndert.
+18.01.2019 23:03: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Chkdsk\ProactiveScan" wurde bereits deaktiviert.
+18.01.2019 23:03: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Chkdsk\ProactiveScan" wurden ge„ndert.
+18.01.2019 23:03: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Customer Experience Improvement Program\Consolidator" wurde bereits deaktiviert.
+18.01.2019 23:03: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Customer Experience Improvement Program\Consolidator" wurden ge„ndert.
+18.01.2019 23:03: FEHLER: Der angegebene Aufgabenname "Microsoft\Windows\Customer Experience Improvement Program\KernelCeipTask" ist auf dem
+18.01.2019 23:03: System nicht vorhanden.
+18.01.2019 23:03: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Customer Experience Improvement Program\UsbCeip" wurde bereits deaktiviert.
+18.01.2019 23:03: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Customer Experience Improvement Program\UsbCeip" wurden ge„ndert.
+18.01.2019 23:03: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Defrag\ScheduledDefrag" wurde bereits deaktiviert.
+18.01.2019 23:03: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Defrag\ScheduledDefrag" wurden ge„ndert.
+18.01.2019 23:03: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Diagnosis\Scheduled" wurde bereits deaktiviert.
+18.01.2019 23:03: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Diagnosis\Scheduled" wurden ge„ndert.
+18.01.2019 23:03: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\DiskCleanup\SilentCleanup" wurde bereits deaktiviert.
+18.01.2019 23:03: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\DiskCleanup\SilentCleanup" wurden ge„ndert.
+18.01.2019 23:03: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticDataCollector" wurde bereits deaktiviert.
+18.01.2019 23:03: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticDataCollector" wurden ge„ndert.
+18.01.2019 23:03: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticResolver" wurde bereits deaktiviert.
+18.01.2019 23:03: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticResolver" wurden ge„ndert.
+18.01.2019 23:03: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Feedback\Siuf\DmClient" wurde bereits deaktiviert.
+18.01.2019 23:03: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Feedback\Siuf\DmClient" wurden ge„ndert.
+18.01.2019 23:03: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\FileHistory\File History (maintenance mode)" wurde bereits deaktiviert.
+18.01.2019 23:03: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\FileHistory\File History (maintenance mode)" wurden ge„ndert.
+18.01.2019 23:03: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Location\Notifications" wurde bereits deaktiviert.
+18.01.2019 23:03: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Location\Notifications" wurden ge„ndert.
+18.01.2019 23:03: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Location\WindowsActionDialog" wurde bereits deaktiviert.
+18.01.2019 23:03: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Location\WindowsActionDialog" wurden ge„ndert.
+18.01.2019 23:03: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Maintenance\WinSAT" wurde bereits deaktiviert.
+18.01.2019 23:03: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Maintenance\WinSAT" wurden ge„ndert.
+18.01.2019 23:03: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Maps\MapsToastTask" wurde bereits deaktiviert.
+18.01.2019 23:03: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Maps\MapsToastTask" wurden ge„ndert.
+18.01.2019 23:03: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Maps\MapsUpdateTask" wurde bereits deaktiviert.
+18.01.2019 23:03: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Maps\MapsUpdateTask" wurden ge„ndert.
+18.01.2019 23:03: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\MemoryDiagnostic\ProcessMemoryDiagnosticEvents" wurde bereits deaktiviert.
+18.01.2019 23:03: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\MemoryDiagnostic\ProcessMemoryDiagnosticEvents" wurden ge„ndert.
+18.01.2019 23:03: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\MemoryDiagnostic\RunFullMemoryDiagnostic" wurde bereits deaktiviert.
+18.01.2019 23:03: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\MemoryDiagnostic\RunFullMemoryDiagnostic" wurden ge„ndert.
+18.01.2019 23:03: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Mobile Broadband Accounts\MNO Metadata Parser" wurde bereits deaktiviert.
+18.01.2019 23:03: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Mobile Broadband Accounts\MNO Metadata Parser" wurden ge„ndert.
+18.01.2019 23:03: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Power Efficiency Diagnostics\AnalyzeSystem" wurde bereits deaktiviert.
+18.01.2019 23:03: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Power Efficiency Diagnostics\AnalyzeSystem" wurden ge„ndert.
+18.01.2019 23:03: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Ras\MobilityManager" wurde bereits deaktiviert.
+18.01.2019 23:03: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Ras\MobilityManager" wurden ge„ndert.
+18.01.2019 23:03: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\RecoveryEnvironment\VerifyWinRE" wurde bereits deaktiviert.
+18.01.2019 23:03: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\RecoveryEnvironment\VerifyWinRE" wurden ge„ndert.
+18.01.2019 23:03: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Registry\RegIdleBackup" wurde bereits deaktiviert.
+18.01.2019 23:03: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Registry\RegIdleBackup" wurden ge„ndert.
+18.01.2019 23:03: FEHLER: Der angegebene Aufgabenname "Microsoft\Windows\RetailDemo\CleanupOfflineContent" ist auf dem
+18.01.2019 23:03: System nicht vorhanden.
+18.01.2019 23:03: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Servicing\StartComponentCleanup" wurde bereits deaktiviert.
+18.01.2019 23:03: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Servicing\StartComponentCleanup" wurden ge„ndert.
+18.01.2019 23:03: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Shell\FamilySafetyMonitor" wurde bereits deaktiviert.
+18.01.2019 23:03: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Shell\FamilySafetyMonitor" wurden ge„ndert.
+18.01.2019 23:03: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Shell\FamilySafetyRefreshTask" wurde bereits deaktiviert.
+18.01.2019 23:03: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Shell\FamilySafetyRefreshTask" wurden ge„ndert.
+18.01.2019 23:03: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Shell\IndexerAutomaticMaintenance" wurde bereits deaktiviert.
+18.01.2019 23:03: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Shell\IndexerAutomaticMaintenance" wurden ge„ndert.
+18.01.2019 23:03: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\SystemRestore\SR" wurde bereits deaktiviert.
+18.01.2019 23:03: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\SystemRestore\SR" wurden ge„ndert.
+18.01.2019 23:03: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\TPM\Tpm-Maintenance" wurde bereits deaktiviert.
+18.01.2019 23:03: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\TPM\Tpm-Maintenance" wurden ge„ndert.
+18.01.2019 23:03: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\UPnP\UPnPHostConfig" wurde bereits deaktiviert.
+18.01.2019 23:03: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\UPnP\UPnPHostConfig" wurden ge„ndert.
+18.01.2019 23:03: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\WDI\ResolutionHost" wurde bereits deaktiviert.
+18.01.2019 23:03: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\WDI\ResolutionHost" wurden ge„ndert.
+18.01.2019 23:03: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Windows Defender\Windows Defender Cache Maintenance" wurde bereits deaktiviert.
+18.01.2019 23:03: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Windows Defender\Windows Defender Cache Maintenance" wurden ge„ndert.
+18.01.2019 23:03: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Windows Defender\Windows Defender Cleanup" wurde bereits deaktiviert.
+18.01.2019 23:03: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Windows Defender\Windows Defender Cleanup" wurden ge„ndert.
+18.01.2019 23:03: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Windows Defender\Windows Defender Scheduled Scan" wurde bereits deaktiviert.
+18.01.2019 23:03: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Windows Defender\Windows Defender Scheduled Scan" wurden ge„ndert.
+18.01.2019 23:03: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Windows Defender\Windows Defender Verification" wurde bereits deaktiviert.
+18.01.2019 23:03: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Windows Defender\Windows Defender Verification" wurden ge„ndert.
+18.01.2019 23:03: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Windows Error Reporting\QueueReporting" wurde bereits deaktiviert.
+18.01.2019 23:03: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Windows Error Reporting\QueueReporting" wurden ge„ndert.
+18.01.2019 23:03: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Windows Filtering Platform\BfeonServiceStartTypeChange" wurde bereits deaktiviert.
+18.01.2019 23:03: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Windows Filtering Platform\BfeonServiceStartTypeChange" wurden ge„ndert.
+18.01.2019 23:03: FEHLER: Der angegebene Aufgabenname "Microsoft\Windows\Windows Media Sharing\UpdateLibrary" ist auf dem
+18.01.2019 23:03: System nicht vorhanden.
+18.01.2019 23:03: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\WOF\WIM-Hash-Management" wurde bereits deaktiviert.
+18.01.2019 23:03: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\WOF\WIM-Hash-Management" wurden ge„ndert.
+18.01.2019 23:03: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\WOF\WIM-Hash-Validation" wurde bereits deaktiviert.
+18.01.2019 23:03: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\WOF\WIM-Hash-Validation" wurden ge„ndert.
+18.01.2019 23:03: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\rempl\shell" wurde bereits deaktiviert.
+18.01.2019 23:03: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\rempl\shell" wurden ge„ndert.
+18.01.2019 23:03: FEHLER: Der angegebene Aufgabenname "Microsoft\Windows\rempl\shell-unlock" ist auf dem
+18.01.2019 23:03: System nicht vorhanden.
+18.01.2019 23:03: Set-Service : Der Dienst BthHFSrv wurde nicht auf dem Computer . gefunden.
+18.01.2019 23:03: In Zeile:1 Zeichen:1
+18.01.2019 23:03: + Set-Service 'BthHFSrv' -startuptype DISABLED
+18.01.2019 23:03: + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+18.01.2019 23:03:     + CategoryInfo          : ObjectNotFound: (.:String) [Set-Service], InvalidOperationException
+18.01.2019 23:03:     + FullyQualifiedErrorId : InvalidOperationException,Microsoft.PowerShell.Commands.SetServiceCommand
+18.01.2019 23:03:  
+18.01.2019 23:11: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:11: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:11: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:11: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:11: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:11: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:11: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:11: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:11: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:11: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:11: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:11: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:11: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:11: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:11: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:11: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:11: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:11: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:11: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:11: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:11: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:11: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:11: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:11: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:11: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:11: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:11: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:11: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:11: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:11: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:11: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:11: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:11: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:11: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:11: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:11: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:11: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:11: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:11: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:11: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:11: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:11: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:11: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:11: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:11: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:11: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:11: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:11: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:11: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:11: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:11: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:11: DisableLastAccess = 1  (Benutzerverwaltet, aktiviert)
+18.01.2019 23:11: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:11: Tool zur Imageverwaltung fr die Bereitstellung
+18.01.2019 23:11: Version: 10.0.17134.1
+18.01.2019 23:11: Abbildversion: 10.0.17134.523
+18.01.2019 23:11: Fehler: 0x800f080c
+18.01.2019 23:11: Der Featurename "Xps-Foundation-Xps-Viewer" ist unbekannt.
+18.01.2019 23:11: Ein Windows-Funktionsname wurde nicht erkannt.
+18.01.2019 23:11: Verwenden Sie die Option "/Get-Features", um den Namen der Funktion im Abbild zu suchen und den Befehl erneut auszufhren.
+18.01.2019 23:11: Die DISM-Protokolldatei befindet sich unter "C:\Windows\Logs\DISM\dism.log".
+18.01.2019 23:11: FEHLER: Der angegebene Aufgabenname "Microsoft\Windows\AppID\SmartScreenSpecific" ist auf dem
+18.01.2019 23:11: System nicht vorhanden.
+18.01.2019 23:11: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Application Experience\Microsoft Compatibility Appraiser" wurde bereits deaktiviert.
+18.01.2019 23:11: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Application Experience\Microsoft Compatibility Appraiser" wurden ge„ndert.
+18.01.2019 23:11: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Application Experience\ProgramDataUpdater" wurde bereits deaktiviert.
+18.01.2019 23:11: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Application Experience\ProgramDataUpdater" wurden ge„ndert.
+18.01.2019 23:11: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Application Experience\StartupAppTask" wurde bereits deaktiviert.
+18.01.2019 23:11: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Application Experience\StartupAppTask" wurden ge„ndert.
+18.01.2019 23:11: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Autochk\Proxy" wurde bereits deaktiviert.
+18.01.2019 23:11: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Autochk\Proxy" wurden ge„ndert.
+18.01.2019 23:11: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Chkdsk\ProactiveScan" wurde bereits deaktiviert.
+18.01.2019 23:11: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Chkdsk\ProactiveScan" wurden ge„ndert.
+18.01.2019 23:11: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Customer Experience Improvement Program\Consolidator" wurde bereits deaktiviert.
+18.01.2019 23:11: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Customer Experience Improvement Program\Consolidator" wurden ge„ndert.
+18.01.2019 23:11: FEHLER: Der angegebene Aufgabenname "Microsoft\Windows\Customer Experience Improvement Program\KernelCeipTask" ist auf dem
+18.01.2019 23:11: System nicht vorhanden.
+18.01.2019 23:11: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Customer Experience Improvement Program\UsbCeip" wurde bereits deaktiviert.
+18.01.2019 23:11: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Customer Experience Improvement Program\UsbCeip" wurden ge„ndert.
+18.01.2019 23:11: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Defrag\ScheduledDefrag" wurde bereits deaktiviert.
+18.01.2019 23:11: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Defrag\ScheduledDefrag" wurden ge„ndert.
+18.01.2019 23:11: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Diagnosis\Scheduled" wurde bereits deaktiviert.
+18.01.2019 23:11: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Diagnosis\Scheduled" wurden ge„ndert.
+18.01.2019 23:11: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\DiskCleanup\SilentCleanup" wurde bereits deaktiviert.
+18.01.2019 23:11: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\DiskCleanup\SilentCleanup" wurden ge„ndert.
+18.01.2019 23:11: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticDataCollector" wurde bereits deaktiviert.
+18.01.2019 23:11: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticDataCollector" wurden ge„ndert.
+18.01.2019 23:11: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticResolver" wurde bereits deaktiviert.
+18.01.2019 23:11: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticResolver" wurden ge„ndert.
+18.01.2019 23:11: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Feedback\Siuf\DmClient" wurde bereits deaktiviert.
+18.01.2019 23:11: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Feedback\Siuf\DmClient" wurden ge„ndert.
+18.01.2019 23:11: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\FileHistory\File History (maintenance mode)" wurde bereits deaktiviert.
+18.01.2019 23:11: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\FileHistory\File History (maintenance mode)" wurden ge„ndert.
+18.01.2019 23:11: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Location\Notifications" wurde bereits deaktiviert.
+18.01.2019 23:11: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Location\Notifications" wurden ge„ndert.
+18.01.2019 23:11: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Location\WindowsActionDialog" wurde bereits deaktiviert.
+18.01.2019 23:11: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Location\WindowsActionDialog" wurden ge„ndert.
+18.01.2019 23:11: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Maintenance\WinSAT" wurde bereits deaktiviert.
+18.01.2019 23:11: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Maintenance\WinSAT" wurden ge„ndert.
+18.01.2019 23:11: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Maps\MapsToastTask" wurde bereits deaktiviert.
+18.01.2019 23:11: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Maps\MapsToastTask" wurden ge„ndert.
+18.01.2019 23:11: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Maps\MapsUpdateTask" wurde bereits deaktiviert.
+18.01.2019 23:11: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Maps\MapsUpdateTask" wurden ge„ndert.
+18.01.2019 23:11: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\MemoryDiagnostic\ProcessMemoryDiagnosticEvents" wurde bereits deaktiviert.
+18.01.2019 23:11: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\MemoryDiagnostic\ProcessMemoryDiagnosticEvents" wurden ge„ndert.
+18.01.2019 23:11: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\MemoryDiagnostic\RunFullMemoryDiagnostic" wurde bereits deaktiviert.
+18.01.2019 23:11: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\MemoryDiagnostic\RunFullMemoryDiagnostic" wurden ge„ndert.
+18.01.2019 23:11: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Mobile Broadband Accounts\MNO Metadata Parser" wurde bereits deaktiviert.
+18.01.2019 23:11: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Mobile Broadband Accounts\MNO Metadata Parser" wurden ge„ndert.
+18.01.2019 23:11: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Power Efficiency Diagnostics\AnalyzeSystem" wurde bereits deaktiviert.
+18.01.2019 23:11: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Power Efficiency Diagnostics\AnalyzeSystem" wurden ge„ndert.
+18.01.2019 23:11: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Ras\MobilityManager" wurde bereits deaktiviert.
+18.01.2019 23:11: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Ras\MobilityManager" wurden ge„ndert.
+18.01.2019 23:11: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\RecoveryEnvironment\VerifyWinRE" wurde bereits deaktiviert.
+18.01.2019 23:11: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\RecoveryEnvironment\VerifyWinRE" wurden ge„ndert.
+18.01.2019 23:11: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Registry\RegIdleBackup" wurde bereits deaktiviert.
+18.01.2019 23:11: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Registry\RegIdleBackup" wurden ge„ndert.
+18.01.2019 23:11: FEHLER: Der angegebene Aufgabenname "Microsoft\Windows\RetailDemo\CleanupOfflineContent" ist auf dem
+18.01.2019 23:11: System nicht vorhanden.
+18.01.2019 23:11: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Servicing\StartComponentCleanup" wurde bereits deaktiviert.
+18.01.2019 23:11: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Servicing\StartComponentCleanup" wurden ge„ndert.
+18.01.2019 23:11: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Shell\FamilySafetyMonitor" wurde bereits deaktiviert.
+18.01.2019 23:11: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Shell\FamilySafetyMonitor" wurden ge„ndert.
+18.01.2019 23:11: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Shell\FamilySafetyRefreshTask" wurde bereits deaktiviert.
+18.01.2019 23:11: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Shell\FamilySafetyRefreshTask" wurden ge„ndert.
+18.01.2019 23:11: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Shell\IndexerAutomaticMaintenance" wurde bereits deaktiviert.
+18.01.2019 23:11: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Shell\IndexerAutomaticMaintenance" wurden ge„ndert.
+18.01.2019 23:11: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\SystemRestore\SR" wurde bereits deaktiviert.
+18.01.2019 23:11: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\SystemRestore\SR" wurden ge„ndert.
+18.01.2019 23:11: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\TPM\Tpm-Maintenance" wurde bereits deaktiviert.
+18.01.2019 23:11: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\TPM\Tpm-Maintenance" wurden ge„ndert.
+18.01.2019 23:11: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\UPnP\UPnPHostConfig" wurde bereits deaktiviert.
+18.01.2019 23:11: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\UPnP\UPnPHostConfig" wurden ge„ndert.
+18.01.2019 23:11: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\WDI\ResolutionHost" wurde bereits deaktiviert.
+18.01.2019 23:11: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\WDI\ResolutionHost" wurden ge„ndert.
+18.01.2019 23:11: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Windows Defender\Windows Defender Cache Maintenance" wurde bereits deaktiviert.
+18.01.2019 23:11: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Windows Defender\Windows Defender Cache Maintenance" wurden ge„ndert.
+18.01.2019 23:11: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Windows Defender\Windows Defender Cleanup" wurde bereits deaktiviert.
+18.01.2019 23:11: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Windows Defender\Windows Defender Cleanup" wurden ge„ndert.
+18.01.2019 23:11: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Windows Defender\Windows Defender Scheduled Scan" wurde bereits deaktiviert.
+18.01.2019 23:11: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Windows Defender\Windows Defender Scheduled Scan" wurden ge„ndert.
+18.01.2019 23:11: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Windows Defender\Windows Defender Verification" wurde bereits deaktiviert.
+18.01.2019 23:11: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Windows Defender\Windows Defender Verification" wurden ge„ndert.
+18.01.2019 23:11: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Windows Error Reporting\QueueReporting" wurde bereits deaktiviert.
+18.01.2019 23:11: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Windows Error Reporting\QueueReporting" wurden ge„ndert.
+18.01.2019 23:11: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Windows Filtering Platform\BfeonServiceStartTypeChange" wurde bereits deaktiviert.
+18.01.2019 23:11: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Windows Filtering Platform\BfeonServiceStartTypeChange" wurden ge„ndert.
+18.01.2019 23:11: FEHLER: Der angegebene Aufgabenname "Microsoft\Windows\Windows Media Sharing\UpdateLibrary" ist auf dem
+18.01.2019 23:11: System nicht vorhanden.
+18.01.2019 23:11: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\WOF\WIM-Hash-Management" wurde bereits deaktiviert.
+18.01.2019 23:11: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\WOF\WIM-Hash-Management" wurden ge„ndert.
+18.01.2019 23:11: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\WOF\WIM-Hash-Validation" wurde bereits deaktiviert.
+18.01.2019 23:11: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\WOF\WIM-Hash-Validation" wurden ge„ndert.
+18.01.2019 23:11: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\rempl\shell" wurde bereits deaktiviert.
+18.01.2019 23:11: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\rempl\shell" wurden ge„ndert.
+18.01.2019 23:11: FEHLER: Der angegebene Aufgabenname "Microsoft\Windows\rempl\shell-unlock" ist auf dem
+18.01.2019 23:11: System nicht vorhanden.
+18.01.2019 23:11: Set-Service : Der Dienst BthHFSrv wurde nicht auf dem Computer . gefunden.
+18.01.2019 23:11: In Zeile:1 Zeichen:1
+18.01.2019 23:11: + Set-Service 'BthHFSrv' -startuptype DISABLED
+18.01.2019 23:11: + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+18.01.2019 23:11:     + CategoryInfo          : ObjectNotFound: (.:String) [Set-Service], InvalidOperationException
+18.01.2019 23:11:     + FullyQualifiedErrorId : InvalidOperationException,Microsoft.PowerShell.Commands.SetServiceCommand
+18.01.2019 23:11:  
+18.01.2019 23:18: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:18: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:18: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:18: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:18: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:18: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:18: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:18: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:18: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:18: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:18: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:18: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:18: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:18: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:18: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:18: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:18: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:18: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:18: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:18: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:18: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:18: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:18: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:18: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:18: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:18: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:18: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:18: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:18: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:18: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:18: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:18: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:18: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:18: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:18: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:18: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:18: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:18: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:18: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:20: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:26: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:26: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:26: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:26: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:26: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:26: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:26: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:26: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:26: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:26: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:26: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:26: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:26: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:26: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:26: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:26: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:26: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:26: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:26: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:26: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:26: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:26: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:26: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:26: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:26: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:26: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:26: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:26: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:26: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:26: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:26: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:26: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:26: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:26: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:26: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:26: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:26: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:26: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:26: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:26: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:26: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:26: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:26: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:26: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:26: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:26: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:26: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:26: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:26: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:26: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:26: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:26: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:26: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:26: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:31: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:47: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:49: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:49: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:49: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:49: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:49: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:49: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:49: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:49: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:49: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:49: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:49: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:49: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:49: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:49: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:49: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:49: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:49: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:49: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:49: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:49: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:49: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:49: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:49: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:49: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:49: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:49: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:49: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:49: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:49: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:49: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:49: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:49: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:49: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:49: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:49: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:49: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:49: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:49: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:49: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:49: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:49: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:49: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:49: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:49: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:49: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:49: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:49: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:49: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:49: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:49: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:49: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:49: DisableLastAccess = 1  (Benutzerverwaltet, aktiviert)
+18.01.2019 23:49: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:52: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:52: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:54: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:54: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:55: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:55: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:55: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:55: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:55: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:55: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:55: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:55: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:55: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:55: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:55: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:55: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:55: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:55: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:55: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:55: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:55: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:55: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:55: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:55: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:55: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:55: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:55: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:55: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:55: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:55: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:55: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:55: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:55: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:55: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:55: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:55: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:55: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:55: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:55: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:55: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:55: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:55: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:55: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:55: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:55: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:55: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:55: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:55: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:55: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:55: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:55: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:55: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:55: DisableLastAccess = 1  (Benutzerverwaltet, aktiviert)
+18.01.2019 23:55: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:55: Tool zur Imageverwaltung fr die Bereitstellung
+18.01.2019 23:55: Version: 10.0.17134.1
+18.01.2019 23:55: Abbildversion: 10.0.17134.523
+18.01.2019 23:55: Fehler: 0x800f080c
+18.01.2019 23:55: Der Featurename "Xps-Foundation-Xps-Viewer" ist unbekannt.
+18.01.2019 23:55: Ein Windows-Funktionsname wurde nicht erkannt.
+18.01.2019 23:55: Verwenden Sie die Option "/Get-Features", um den Namen der Funktion im Abbild zu suchen und den Befehl erneut auszufhren.
+18.01.2019 23:55: Die DISM-Protokolldatei befindet sich unter "C:\Windows\Logs\DISM\dism.log".
+18.01.2019 23:55: FEHLER: Der angegebene Aufgabenname "Microsoft\Windows\AppID\SmartScreenSpecific" ist auf dem
+18.01.2019 23:55: System nicht vorhanden.
+18.01.2019 23:55: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Application Experience\Microsoft Compatibility Appraiser" wurde bereits deaktiviert.
+18.01.2019 23:55: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Application Experience\Microsoft Compatibility Appraiser" wurden ge„ndert.
+18.01.2019 23:56: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:56: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:56: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:56: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:56: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:56: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:56: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:56: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:56: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:56: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:56: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:56: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:56: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:56: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:56: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:56: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:56: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:56: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:56: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:56: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:56: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:56: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:56: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:56: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:56: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:56: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:56: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:56: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:56: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:58: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:58: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:58: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:58: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:58: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:58: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:58: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:58: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:58: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:58: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:58: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:58: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:58: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:58: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:58: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:59: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:59: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:59: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:59: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:59: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:59: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:59: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:59: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:59: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:59: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:59: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:59: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:59: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:59: Der Vorgang wurde erfolgreich beendet.
+18.01.2019 23:59: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:04: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:04: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:04: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:04: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:04: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:04: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:04: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:04: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:04: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:04: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:04: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:04: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:04: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:04: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:04: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:04: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:04: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:04: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:04: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:05: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:05: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:05: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:05: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:05: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:05: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:05: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:05: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:05: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:05: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:05: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:05: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:05: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:05: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:05: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:06: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:06: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:06: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:06: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:06: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:06: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:06: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:06: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:06: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:06: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:06: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:06: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:06: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:06: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:06: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:06: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:06: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:06: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:06: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:06: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:06: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:06: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:06: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:06: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:06: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:06: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:06: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:10: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:10: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:10: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:10: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:10: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:10: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:10: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:10: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:10: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:10: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:10: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:10: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:10: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:10: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:10: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:10: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:10: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:10: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:10: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:10: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:10: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:10: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:10: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:10: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:10: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:10: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:11: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:11: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:11: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:11: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:11: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:11: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.

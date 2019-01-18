@@ -4,33 +4,34 @@
         xmlns:local="clr-namespace:VM_Optimization_Tool"
         Title="Optimization Options"
         Height="300" Width="300">
-        <Window.Resources>
+    <Window.Resources>
         <local:TrueFalseToBooleanConverter x:Key="TrueFalseToBooleanConverter" />
         <XmlDataProvider x:Key="xmlData" Source="" XPath="/sequence/group/group" />
 
-            <HierarchicalDataTemplate x:Key="NodeTemplate"
+        <HierarchicalDataTemplate x:Key="NodeTemplate"
                 ItemsSource="{Binding XPath=.//step}">
-                <StackPanel Name="stackpanel" Orientation="Horizontal">
+            <StackPanel Name="stackpanel" Orientation="Horizontal">
                 <CheckBox x:Name="nodecheck" Checked="CheckBoxChanged"  Unchecked="CheckBoxChanged" IsChecked="{Binding XPath=@defaultSelected, Mode=TwoWay, Converter={StaticResource TrueFalseToBooleanConverter}}">
                     <TextBlock x:Name="nodetext" Margin="5,0"/>
                 </CheckBox>
             </StackPanel>
-                <HierarchicalDataTemplate.Triggers>
-                    <DataTrigger Binding="{Binding Path=NodeType}" Value="Element">
+            <HierarchicalDataTemplate.Triggers>
+                <DataTrigger Binding="{Binding Path=NodeType}" Value="Element">
                     <Setter TargetName="nodetext" Property="Text"
                             Value="{Binding Path=Attributes[1].Value}" />
                 </DataTrigger>
-                  <!--   <DataTrigger Binding="{Binding }"-->
-               </HierarchicalDataTemplate.Triggers>
-            </HierarchicalDataTemplate>
-        </Window.Resources>
-        <Grid DataContext="{StaticResource xmlData}" Margin="4">
-            <Grid.RowDefinitions>
-                <RowDefinition />
-                <RowDefinition Height="Auto" />
-            </Grid.RowDefinitions>
+                <!--   <DataTrigger Binding="{Binding }"-->
+            </HierarchicalDataTemplate.Triggers>
+        </HierarchicalDataTemplate>
+    </Window.Resources>
+    <Grid DataContext="{StaticResource xmlData}" Margin="4">
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
 
-            <TreeView Name="trvItems" Grid.Row="0"
+        <TreeView Name="trvItems" Grid.Row="0"
                     ItemTemplate="{StaticResource NodeTemplate}"
                     HorizontalAlignment="Stretch"
                     VerticalAlignment="Stretch"
@@ -38,14 +39,18 @@
                     VirtualizingStackPanel.IsVirtualizing="False"
                     VirtualizingStackPanel.VirtualizationMode="Standard" />
 
-        <StackPanel Orientation="Horizontal" Grid.Row="1"
+        <StackPanel Orientation="Horizontal" Grid.Row="2"
                     HorizontalAlignment="Center">
-            <Button Name="btnLoadFlowers" Grid.Row="1" Margin="4"
+            <Button Name="btnLoad" Grid.Row="1" Margin="4"
                         Content="Start" Width="100"
                         Click="loadXML_Click" />
-            <Button Name="btnLoadCars" Grid.Row="1" Margin="4"
+            <Button Name="btnAbort" Grid.Row="1" Margin="4"
                         Content="Abort" Width="100"
                         Click="abort_Click" />
         </StackPanel>
+
+        <ProgressBar x:Name="progressBar" Grid.Row="1" HorizontalAlignment="Center" Height="20" Margin="0,4,0,0" VerticalAlignment="Bottom" Width="208" Minimum="0" Maximum="100"/>
+
+
     </Grid>
 </Window>

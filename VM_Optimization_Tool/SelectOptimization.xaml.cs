@@ -1,21 +1,9 @@
 ﻿using System;
 using System.Windows;
 using System.Xml;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Controls;
 using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
-using System.IO;
-using System.Collections.ObjectModel;
-using System.Diagnostics;
-using System.Xml.Linq;
+using System.ComponentModel;
 
 namespace VM_Optimization_Tool
 {
@@ -27,9 +15,20 @@ namespace VM_Optimization_Tool
     {
         private XmlDataProvider xmlData;
         private string pathToXML;
+        private BackgroundWorker bgWorker;
+
         public SelectOptimization()
         {
             InitializeComponent();
+
+            //bgWorker process for slow cmd processes
+            bgWorker = new BackgroundWorker();
+            bgWorker.DoWork += new DoWorkEventHandler(bgWorker_DoWork);
+            bgWorker.RunWorkerCompleted += new RunWorkerCompletedEventHandler(bgWorker_RunWorkerCompleted);
+            bgWorker.ProgressChanged += new ProgressChangedEventHandler(bgWorker_ProgressChanged);
+            bgWorker.WorkerSupportsCancellation = true;
+            bgWorker.WorkerReportsProgress = true;
+
             xmlData = new XmlDataProvider();
             xmlData = TryFindResource("xmlData") as XmlDataProvider;
             pathToXML = SelectFile();
@@ -101,9 +100,8 @@ namespace VM_Optimization_Tool
         /// <param name="e"></param>
         private void loadXML_Click(object sender, RoutedEventArgs e)
         {
-            xmlData.Document.Save(xmlData.Source.AbsolutePath);
-            XmlParser[] xmlParsers = XmlParser.Parser(xmlData.Source);
-            ApplyChanges.Changes(xmlParsers);
+            btnLoad.IsEnabled = false;
+            bgWorker.RunWorkerAsync();
         }
         /// <summary>
         /// Abort function
@@ -112,7 +110,13 @@ namespace VM_Optimization_Tool
         /// <param name="e"></param>
         private void abort_Click(object sender, RoutedEventArgs e)
         {
-            Close();
+            if (bgWorker.WorkerSupportsCancellation == true)
+            {
+                // Cancel the asynchronous operation.
+                bgWorker.CancelAsync();
+            }
+            btnLoad.IsEnabled = true;
+            //Close();
         }
         /// <summary>
         /// function to save checkbox changes in xml file
@@ -123,6 +127,37 @@ namespace VM_Optimization_Tool
         {
             ((CheckBox)sender).GetBindingExpression(CheckBox.IsCheckedProperty).UpdateTarget();
             xmlData.Document.Save(xmlData.Source.AbsolutePath);
+        }
+        private void bgWorker_DoWork(object sender, DoWorkEventArgs e)
+        {
+            xmlData.Document.Save(xmlData.Source.AbsolutePath);
+            XmlParser[] xmlParsers = XmlParser.Parser(xmlData.Source);
+            ApplyChanges.Changes(xmlParsers, bgWorker);
+            if (bgWorker.CancellationPending == true)
+            {
+                e.Cancel = true;
+                return;
+            }
+        }
+
+        private void bgWorker_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
+        {
+            if (e.Error != null)
+            {
+                MessageBox.Show(e.Error.Message);
+            }
+            else if (e.Cancelled)
+            {
+                MessageBox.Show("Cancelled");
+            }
+            else
+            {
+                MessageBox.Show("Succeded");
+            }        
+        }
+        private void bgWorker_ProgressChanged(object sender, ProgressChangedEventArgs e)
+        {
+            progressBar.Value = e.ProgressPercentage;
         }
     }
 }

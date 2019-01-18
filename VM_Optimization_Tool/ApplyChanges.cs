@@ -1,12 +1,15 @@
-﻿using System.Diagnostics;
+﻿using System.ComponentModel;
+using System.Diagnostics;
 
 namespace VM_Optimization_Tool
 {
     static class ApplyChanges
     {      
-        public static void Changes(XmlParser[] xmlParsers)
+        public static void Changes(XmlParser[] xmlParsers, BackgroundWorker bgWorker)
         {
-            foreach(XmlParser task in xmlParsers)
+            int count = 0;
+            int highestPercentageReached = 0;
+            foreach (XmlParser task in xmlParsers)
             {
                 string command = "";
 
@@ -59,6 +62,16 @@ namespace VM_Optimization_Tool
                     proc.BeginOutputReadLine();
                     proc.BeginErrorReadLine();
                     proc.WaitForExit();
+                    count += 1;
+                    int percentComplete = (int)((float)count / (float)xmlParsers.Length * 100);
+                    // Report progress as a percentage of the total task.
+                    
+                    if (percentComplete > highestPercentageReached)
+                    {
+                        highestPercentageReached = percentComplete;
+                        bgWorker.ReportProgress(percentComplete);
+                    }
+                    if (bgWorker.CancellationPending) break;
                 }  
             }
         }
