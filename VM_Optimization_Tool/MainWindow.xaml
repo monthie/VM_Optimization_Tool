@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:VM_Optimization_Tool"
         mc:Ignorable="d"
-        Title="VM Optimization Tool" Height="300" Width="400">
+        Title="VM Optimization Tool" Height="300" Width="400" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
     <!--<Label Content="Non-compliant functions are grayed out" HorizontalAlignment="Left" Margin="10,36,0,0" VerticalAlignment="Top" Height="43" Width="464" FontSize="24"/>-->
     <DockPanel Grid.ColumnSpan="3">
         <Menu DockPanel.Dock="Top">
@@ -21,8 +21,9 @@
             </MenuItem>
         </Menu>
         <Grid Height="251" VerticalAlignment="Top" Width="391">
-            <Button x:Name="Updates" Content="Install Updates" HorizontalAlignment="Left" Margin="22,153,0,0" VerticalAlignment="Top" Width="99" Click="WinUpdate_Click"/>
-            <Button Content="Button" HorizontalAlignment="Left" Margin="22,189,0,0" VerticalAlignment="Top" Width="99"/>
+            <Button x:Name="windowsUpdatesButton" Content="Install Windows Updates" HorizontalAlignment="Center"  VerticalAlignment="Center" Width="250" Click="windowsUpdatesButton_Click"/>
+            <Button x:Name="optimizationButton" Content="Optimize Windows" HorizontalAlignment="Center" Margin="0,50,0,0" VerticalAlignment="Center" Width="250" Click="OptimizationButton_Click"/>
+            <Button x:Name="exitButton" Content="Exit" HorizontalAlignment="Center" Margin="0,100,0,0" VerticalAlignment="Center" Width="250" Click="ExitButton_Click" />
             <Image HorizontalAlignment="Left" Height="80" Margin="301,10,0,0" VerticalAlignment="Top" Width="80" Source="C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\logo.png"/>
         </Grid>
     </DockPanel>

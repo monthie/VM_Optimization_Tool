@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:VM_Optimization_Tool"
         mc:Ignorable="d"
-        Title="ToolUpdateInfo" ResizeMode="NoResize" Height="290" Width="283">
+        Title="ToolUpdateInfo" ResizeMode="NoResize" Height="290" Width="283" WindowStartupLocation="CenterScreen">
     <Grid>
         <RichTextBox x:Name="textBox" IsReadOnly="True" HorizontalAlignment="Left" Height="100" Margin="10,114,0,0" VerticalAlignment="Top" Width="247">
             <FlowDocument>

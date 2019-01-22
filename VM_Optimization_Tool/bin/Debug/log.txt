@@ -1699,3 +1699,7 @@
 20.01.2019 15:36: Der Objektverweis wurde nicht auf eine Objektinstanz festgelegt.
 20.01.2019 16:26: Der Remotename konnte nicht aufgelöst werden: 'raw.githubusercontent.com'
 20.01.2019 16:26: Der Objektverweis wurde nicht auf eine Objektinstanz festgelegt.
+22.01.2019 13:33: Die Verbindung mit dem Remoteserver kann nicht hergestellt werden.
+22.01.2019 13:37: Der Remotename konnte nicht aufgelöst werden: 'raw.githubusercontent.com'
+22.01.2019 13:37: Der Objektverweis wurde nicht auf eine Objektinstanz festgelegt.
+22.01.2019 13:37: Der Remotename konnte nicht aufgelöst werden: 'raw.githubusercontent.com'

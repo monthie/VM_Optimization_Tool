@@ -25,3 +25,9 @@ C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Debug\VM_
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Debug\VM_Optimization_Tool.csproj.CoreCompileInputs.cache
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Debug\VM_Optimization_Tool.exe
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Debug\VM_Optimization_Tool.pdb
+C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Debug\Interop.WUApiLib.dll
+C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Debug\VM_Optimization_Tool.csproj.ResolveComReference.cache
+C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Debug\WindowsUpdateFrame.g.cs
+C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Debug\WindowsUpdateFrame.baml
+C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Debug\ProgressWindow.g.cs
+C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Debug\ProgressWindow.baml

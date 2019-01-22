@@ -55,8 +55,10 @@ namespace VM_Optimization_Tool
             ToolUpdateXml[] updateInfo = ToolUpdateXml.Parse(new Uri(updateServerUrl));
                 if (updateInfo[0].IsNewerThan(ApplicationAssembly.GetName().Version))
                 {
-                    UpdateAvailableForm updateAvailableForm = new UpdateAvailableForm(updateInfo[0]);
+                    UpdateAvailableForm updateAvailableForm = new UpdateAvailableForm();
                     updateAvailableForm.Topmost = true;
+                    updateAvailableForm.Version = updateInfo[0].Version;
+                    updateAvailableForm.Description = updateInfo[0].Description;
                     updateAvailableForm.Show();
                 }
             }
@@ -71,31 +73,29 @@ namespace VM_Optimization_Tool
         }
         private void Update_Click(object sender, RoutedEventArgs e)
         {
+            //Create new Update Window
+            UpdateAvailableForm updateAvailableForm = new UpdateAvailableForm();
+
+            //Check for Update XML on Server
             if (ToolUpdateXml.ExistsOnServer(new Uri(updateServerUrl))) {
                 ToolUpdateXml[] updateInfo = ToolUpdateXml.Parse(new Uri(updateServerUrl));
-                if (updateInfo[0].IsNewerThan(ApplicationAssembly.GetName().Version))
+                updateAvailableForm.Version = updateInfo[0].Version;
+                updateAvailableForm.Description = updateInfo[0].Description;
+
+                if (!updateInfo[0].IsNewerThan(ApplicationAssembly.GetName().Version))
                 {
-                    UpdateAvailableForm updateAvailableForm = new UpdateAvailableForm(updateInfo[0]);
-                    updateAvailableForm.Topmost = true;
-                    updateAvailableForm.Show();
-                } else
-                {
-                    UpdateAvailableForm updateAvailableForm = new UpdateAvailableForm(updateInfo[0]);
                     updateAvailableForm.updateButton.IsEnabled = false;
                     updateAvailableForm.label.Content = "Software is up to date!";
                     updateAvailableForm.Topmost = true;
-                    updateAvailableForm.Show();
                 }
             }
             else
             {
-                ToolUpdateXml noInternet = new ToolUpdateXml(ApplicationAssembly.GetName().Version, null, "", "", "", "");
-                UpdateAvailableForm updateAvailableForm = new UpdateAvailableForm(noInternet);
                 updateAvailableForm.updateButton.IsEnabled = false;
                 updateAvailableForm.label.Content = "No internet connection!";
-                updateAvailableForm.Topmost = true;
-                updateAvailableForm.Show();
             }
+            updateAvailableForm.UpdateDescription();
+            updateAvailableForm.Show();
         }
 
         string getOSInfo()
@@ -182,12 +182,14 @@ namespace VM_Optimization_Tool
             return operatingSystem;
         }
 
-        private void WinUpdate_Click(object sender, RoutedEventArgs e)
+        private void windowsUpdatesButton_Click(object sender, RoutedEventArgs e)
         {
-            if (SetWinServices.DisableWinUpdates())
+            WindowsUpdateFrame test = new WindowsUpdateFrame();
+            test.Show();
+           /* if (SetWinServices.DisableWinUpdates())
             {
-                Updates.Content = "Enable Windows Updates";
-            }
+                windowsUpdatesButton.Content = "Enable Windows Updates";
+            }*/
         }
 
         private void Info_Click(object sender, RoutedEventArgs e)
@@ -198,22 +200,18 @@ namespace VM_Optimization_Tool
 
         private void Optimization_Click(object sender, RoutedEventArgs e)
         {
-            /* Microsoft.Win32.OpenFileDialog dlg = new Microsoft.Win32.OpenFileDialog();
-             dlg.DefaultExt = ".xml";
-             dlg.Filter = "XML Files (*.xml)|*.xml";
-
-
-             // Display OpenFileDialog by calling ShowDialog method 
-             bool? result = dlg.ShowDialog();
-             if (result == true)
-             {
-                 // Open document 
-                 string filename = dlg.FileName;
-                 SelectOptimization selOpti = new SelectOptimization(filename);
-                 selOpti.Show();
-             }*/
             SelectOptimization selOpti = new SelectOptimization();
             selOpti.Show();
+        }
+
+        private void ExitButton_Click(object sender, RoutedEventArgs e)
+        {
+            Environment.Exit(0);
+        }
+
+        private void OptimizationButton_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

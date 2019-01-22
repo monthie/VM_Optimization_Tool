@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:VM_Optimization_Tool"
         mc:Ignorable="d"
-        Title="DownloadForm" Height="290" Width="283">
+        Title="DownloadForm" Height="290" Width="283" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
     <Grid>
         <ProgressBar x:Name="progressBar" HorizontalAlignment="Left" Height="50" Margin="23,162,0,0" VerticalAlignment="Top" Width="226" Minimum="0" Maximum="100"/>
         <Label Content="" x:Name="lblProgress" HorizontalAlignment="Left" Margin="23,217,0,0" VerticalAlignment="Top" Width="126"/>

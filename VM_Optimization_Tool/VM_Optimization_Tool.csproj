@@ -65,6 +65,9 @@
     <Compile Include="Hasher.cs" />
     <Compile Include="IToolUpdateable.cs" />
     <Compile Include="LogWriter.cs" />
+    <Compile Include="ProgressWindow.xaml.cs">
+      <DependentUpon>ProgressWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ToolUpdateXml.cs" />
     <Compile Include="TrueFalseToBooleanConverter.cs" />
     <Compile Include="Node.cs" />
@@ -84,6 +87,9 @@
     <Compile Include="VersionInfoForm.xaml.cs">
       <DependentUpon>VersionInfoForm.xaml</DependentUpon>
     </Compile>
+    <Compile Include="WindowsUpdateFrame.xaml.cs">
+      <DependentUpon>WindowsUpdateFrame.xaml</DependentUpon>
+    </Compile>
     <Compile Include="XmlParser.cs" />
     <Page Include="DownloadForm.xaml">
       <SubType>Designer</SubType>
@@ -101,6 +107,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="ProgressWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="SelectOptimization.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -114,6 +124,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="VersionInfoForm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WindowsUpdateFrame.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -149,6 +163,17 @@
     <Resource Include="bwlp_Windows_10.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="WUApiLib">
+      <Guid>{B596CC9F-56E5-419E-A622-E01BB457431E}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

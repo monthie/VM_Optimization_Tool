@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:VM_Optimization_Tool"
         mc:Ignorable="d"
-        Title="VersionInfo" Height="200" Width="200">
+        Title="VersionInfo" Height="200" Width="200" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
     <Grid>
         <Label x:Name="versionLabel" HorizontalAlignment="Left" Margin="43,23,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.209,-0.398" Width="102"/>
     </Grid>
