@@ -67,13 +67,13 @@ namespace VM_Optimization_Tool.Properties {
         ///      &lt;alUserName&gt;Admin&lt;/alUserName&gt;
         ///      &lt;alPassword&gt;
         ///      &lt;/alPassword&gt;
-        ///    &lt;/autoLogin&gt;    
-        ///     &lt;osCollection&gt;
+        ///    &lt;/autoLogin&gt;
+        ///    &lt;osCollection&gt;
         ///      &lt;osEntry osId=&quot;1&quot; name=&quot;Windows 7&quot;&gt;
         ///        &lt;Version&gt;6.1.*&lt;/Version&gt;
         ///        &lt;ProductType&gt;1&lt;/ProductType&gt;
         ///        &lt;osEntry osId=&quot;2&quot; name=&quot;Windows 7 32-bit&quot;&gt;
-        ///    [Rest der Zeichenfolge wurde abgeschnitten]&quot;; ähnelt.
+        ///         [Rest der Zeichenfolge wurde abgeschnitten]&quot;; ähnelt.
         /// </summary>
         internal static string bwlp_Windows_10 {
             get {

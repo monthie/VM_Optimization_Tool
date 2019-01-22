@@ -23,6 +23,7 @@ namespace VM_Optimization_Tool
         public WindowsUpdateFrame()
         {
             InitializeComponent();
+
             CheckForUpdates();
         }
 
