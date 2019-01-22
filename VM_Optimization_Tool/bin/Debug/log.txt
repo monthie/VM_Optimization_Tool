@@ -1484,3 +1484,218 @@
 19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
 19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
 19.01.2019 00:12: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:15: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:15: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:15: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:15: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:15: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:15: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:15: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:15: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:15: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:15: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:15: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:15: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:15: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:15: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:15: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:15: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:15: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:15: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:15: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:15: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:15: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:15: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:15: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:15: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:15: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:15: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:15: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:15: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:15: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:15: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:15: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:15: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:15: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:15: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:15: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:15: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:15: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:15: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:15: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:15: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:15: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:15: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:15: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:15: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:15: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:15: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:15: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:15: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:15: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:15: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:15: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:15: DisableLastAccess = 1  (Benutzerverwaltet, aktiviert)
+19.01.2019 00:15: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:15: Tool zur Imageverwaltung fr die Bereitstellung
+19.01.2019 00:15: Version: 10.0.17134.1
+19.01.2019 00:15: Abbildversion: 10.0.17134.523
+19.01.2019 00:15: Fehler: 0x800f080c
+19.01.2019 00:15: Der Featurename "Xps-Foundation-Xps-Viewer" ist unbekannt.
+19.01.2019 00:15: Ein Windows-Funktionsname wurde nicht erkannt.
+19.01.2019 00:15: Verwenden Sie die Option "/Get-Features", um den Namen der Funktion im Abbild zu suchen und den Befehl erneut auszufhren.
+19.01.2019 00:15: Die DISM-Protokolldatei befindet sich unter "C:\Windows\Logs\DISM\dism.log".
+19.01.2019 00:15: FEHLER: Der angegebene Aufgabenname "Microsoft\Windows\AppID\SmartScreenSpecific" ist auf dem
+19.01.2019 00:15: System nicht vorhanden.
+19.01.2019 00:15: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Application Experience\Microsoft Compatibility Appraiser" wurde bereits deaktiviert.
+19.01.2019 00:15: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Application Experience\Microsoft Compatibility Appraiser" wurden ge„ndert.
+19.01.2019 00:15: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Application Experience\ProgramDataUpdater" wurde bereits deaktiviert.
+19.01.2019 00:15: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Application Experience\ProgramDataUpdater" wurden ge„ndert.
+19.01.2019 00:15: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Application Experience\StartupAppTask" wurde bereits deaktiviert.
+19.01.2019 00:15: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Application Experience\StartupAppTask" wurden ge„ndert.
+19.01.2019 00:15: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Autochk\Proxy" wurde bereits deaktiviert.
+19.01.2019 00:15: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Autochk\Proxy" wurden ge„ndert.
+19.01.2019 00:15: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Chkdsk\ProactiveScan" wurde bereits deaktiviert.
+19.01.2019 00:15: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Chkdsk\ProactiveScan" wurden ge„ndert.
+19.01.2019 00:15: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Customer Experience Improvement Program\Consolidator" wurde bereits deaktiviert.
+19.01.2019 00:15: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Customer Experience Improvement Program\Consolidator" wurden ge„ndert.
+19.01.2019 00:15: FEHLER: Der angegebene Aufgabenname "Microsoft\Windows\Customer Experience Improvement Program\KernelCeipTask" ist auf dem
+19.01.2019 00:15: System nicht vorhanden.
+19.01.2019 00:15: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Customer Experience Improvement Program\UsbCeip" wurde bereits deaktiviert.
+19.01.2019 00:15: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Customer Experience Improvement Program\UsbCeip" wurden ge„ndert.
+19.01.2019 00:15: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Defrag\ScheduledDefrag" wurde bereits deaktiviert.
+19.01.2019 00:15: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Defrag\ScheduledDefrag" wurden ge„ndert.
+19.01.2019 00:15: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Diagnosis\Scheduled" wurde bereits deaktiviert.
+19.01.2019 00:15: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Diagnosis\Scheduled" wurden ge„ndert.
+19.01.2019 00:15: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\DiskCleanup\SilentCleanup" wurde bereits deaktiviert.
+19.01.2019 00:15: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\DiskCleanup\SilentCleanup" wurden ge„ndert.
+19.01.2019 00:15: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticDataCollector" wurde bereits deaktiviert.
+19.01.2019 00:15: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticDataCollector" wurden ge„ndert.
+19.01.2019 00:15: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticResolver" wurde bereits deaktiviert.
+19.01.2019 00:15: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticResolver" wurden ge„ndert.
+19.01.2019 00:15: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Feedback\Siuf\DmClient" wurde bereits deaktiviert.
+19.01.2019 00:15: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Feedback\Siuf\DmClient" wurden ge„ndert.
+19.01.2019 00:15: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\FileHistory\File History (maintenance mode)" wurde bereits deaktiviert.
+19.01.2019 00:15: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\FileHistory\File History (maintenance mode)" wurden ge„ndert.
+19.01.2019 00:15: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Location\Notifications" wurde bereits deaktiviert.
+19.01.2019 00:15: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Location\Notifications" wurden ge„ndert.
+19.01.2019 00:15: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Location\WindowsActionDialog" wurde bereits deaktiviert.
+19.01.2019 00:15: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Location\WindowsActionDialog" wurden ge„ndert.
+19.01.2019 00:15: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Maintenance\WinSAT" wurde bereits deaktiviert.
+19.01.2019 00:15: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Maintenance\WinSAT" wurden ge„ndert.
+19.01.2019 00:15: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Maps\MapsToastTask" wurde bereits deaktiviert.
+19.01.2019 00:15: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Maps\MapsToastTask" wurden ge„ndert.
+19.01.2019 00:15: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Maps\MapsUpdateTask" wurde bereits deaktiviert.
+19.01.2019 00:15: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Maps\MapsUpdateTask" wurden ge„ndert.
+19.01.2019 00:15: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\MemoryDiagnostic\ProcessMemoryDiagnosticEvents" wurde bereits deaktiviert.
+19.01.2019 00:15: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\MemoryDiagnostic\ProcessMemoryDiagnosticEvents" wurden ge„ndert.
+19.01.2019 00:15: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\MemoryDiagnostic\RunFullMemoryDiagnostic" wurde bereits deaktiviert.
+19.01.2019 00:15: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\MemoryDiagnostic\RunFullMemoryDiagnostic" wurden ge„ndert.
+19.01.2019 00:15: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Mobile Broadband Accounts\MNO Metadata Parser" wurde bereits deaktiviert.
+19.01.2019 00:15: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Mobile Broadband Accounts\MNO Metadata Parser" wurden ge„ndert.
+19.01.2019 00:15: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Power Efficiency Diagnostics\AnalyzeSystem" wurde bereits deaktiviert.
+19.01.2019 00:15: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Power Efficiency Diagnostics\AnalyzeSystem" wurden ge„ndert.
+19.01.2019 00:15: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Ras\MobilityManager" wurde bereits deaktiviert.
+19.01.2019 00:15: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Ras\MobilityManager" wurden ge„ndert.
+19.01.2019 00:15: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\RecoveryEnvironment\VerifyWinRE" wurde bereits deaktiviert.
+19.01.2019 00:15: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\RecoveryEnvironment\VerifyWinRE" wurden ge„ndert.
+19.01.2019 00:15: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Registry\RegIdleBackup" wurde bereits deaktiviert.
+19.01.2019 00:15: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Registry\RegIdleBackup" wurden ge„ndert.
+19.01.2019 00:15: FEHLER: Der angegebene Aufgabenname "Microsoft\Windows\RetailDemo\CleanupOfflineContent" ist auf dem
+19.01.2019 00:15: System nicht vorhanden.
+19.01.2019 00:15: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Servicing\StartComponentCleanup" wurde bereits deaktiviert.
+19.01.2019 00:15: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Servicing\StartComponentCleanup" wurden ge„ndert.
+19.01.2019 00:15: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Shell\FamilySafetyMonitor" wurde bereits deaktiviert.
+19.01.2019 00:15: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Shell\FamilySafetyMonitor" wurden ge„ndert.
+19.01.2019 00:15: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Shell\FamilySafetyRefreshTask" wurde bereits deaktiviert.
+19.01.2019 00:15: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Shell\FamilySafetyRefreshTask" wurden ge„ndert.
+19.01.2019 00:15: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Shell\IndexerAutomaticMaintenance" wurde bereits deaktiviert.
+19.01.2019 00:15: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Shell\IndexerAutomaticMaintenance" wurden ge„ndert.
+19.01.2019 00:15: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\SystemRestore\SR" wurde bereits deaktiviert.
+19.01.2019 00:15: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\SystemRestore\SR" wurden ge„ndert.
+19.01.2019 00:15: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\TPM\Tpm-Maintenance" wurde bereits deaktiviert.
+19.01.2019 00:15: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\TPM\Tpm-Maintenance" wurden ge„ndert.
+19.01.2019 00:15: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\UPnP\UPnPHostConfig" wurde bereits deaktiviert.
+19.01.2019 00:15: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\UPnP\UPnPHostConfig" wurden ge„ndert.
+19.01.2019 00:15: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\WDI\ResolutionHost" wurde bereits deaktiviert.
+19.01.2019 00:15: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\WDI\ResolutionHost" wurden ge„ndert.
+19.01.2019 00:15: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Windows Defender\Windows Defender Cache Maintenance" wurde bereits deaktiviert.
+19.01.2019 00:15: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Windows Defender\Windows Defender Cache Maintenance" wurden ge„ndert.
+19.01.2019 00:15: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Windows Defender\Windows Defender Cleanup" wurde bereits deaktiviert.
+19.01.2019 00:15: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Windows Defender\Windows Defender Cleanup" wurden ge„ndert.
+19.01.2019 00:15: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Windows Defender\Windows Defender Scheduled Scan" wurde bereits deaktiviert.
+19.01.2019 00:15: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Windows Defender\Windows Defender Scheduled Scan" wurden ge„ndert.
+19.01.2019 00:15: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Windows Defender\Windows Defender Verification" wurde bereits deaktiviert.
+19.01.2019 00:15: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Windows Defender\Windows Defender Verification" wurden ge„ndert.
+19.01.2019 00:15: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Windows Error Reporting\QueueReporting" wurde bereits deaktiviert.
+19.01.2019 00:15: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Windows Error Reporting\QueueReporting" wurden ge„ndert.
+19.01.2019 00:15: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\Windows Filtering Platform\BfeonServiceStartTypeChange" wurde bereits deaktiviert.
+19.01.2019 00:15: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\Windows Filtering Platform\BfeonServiceStartTypeChange" wurden ge„ndert.
+19.01.2019 00:15: FEHLER: Der angegebene Aufgabenname "Microsoft\Windows\Windows Media Sharing\UpdateLibrary" ist auf dem
+19.01.2019 00:15: System nicht vorhanden.
+19.01.2019 00:15: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\WOF\WIM-Hash-Management" wurde bereits deaktiviert.
+19.01.2019 00:15: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\WOF\WIM-Hash-Management" wurden ge„ndert.
+19.01.2019 00:15: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\WOF\WIM-Hash-Validation" wurde bereits deaktiviert.
+19.01.2019 00:15: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\WOF\WIM-Hash-Validation" wurden ge„ndert.
+19.01.2019 00:15: INFORMATION: Die geplante Aufgabe "Microsoft\Windows\rempl\shell" wurde bereits deaktiviert.
+19.01.2019 00:15: ERFOLGREICH: Die Parameter der geplanten Aufgabe "Microsoft\Windows\rempl\shell" wurden ge„ndert.
+19.01.2019 00:15: FEHLER: Der angegebene Aufgabenname "Microsoft\Windows\rempl\shell-unlock" ist auf dem
+19.01.2019 00:15: System nicht vorhanden.
+19.01.2019 00:15: Set-Service : Der Dienst BthHFSrv wurde nicht auf dem Computer . gefunden.
+19.01.2019 00:15: In Zeile:1 Zeichen:1
+19.01.2019 00:15: + Set-Service 'BthHFSrv' -startuptype DISABLED
+19.01.2019 00:15: + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+19.01.2019 00:15:     + CategoryInfo          : ObjectNotFound: (.:String) [Set-Service], InvalidOperationException
+19.01.2019 00:15:     + FullyQualifiedErrorId : InvalidOperationException,Microsoft.PowerShell.Commands.SetServiceCommand
+19.01.2019 00:15:  
+19.01.2019 00:15: Set-Service : Der Dienst HomeGroupListener wurde nicht auf dem Computer . gefunden.
+19.01.2019 00:15: In Zeile:1 Zeichen:1
+19.01.2019 00:15: + Set-Service 'HomeGroupListener' -startuptype DISABLED
+19.01.2019 00:15: + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+19.01.2019 00:15:     + CategoryInfo          : ObjectNotFound: (.:String) [Set-Service], InvalidOperationException
+19.01.2019 00:15:     + FullyQualifiedErrorId : InvalidOperationException,Microsoft.PowerShell.Commands.SetServiceCommand
+19.01.2019 00:15:  
+19.01.2019 00:15: Set-Service : Der Dienst HomeGroupProvider wurde nicht auf dem Computer . gefunden.
+19.01.2019 00:15: In Zeile:1 Zeichen:1
+19.01.2019 00:15: + Set-Service 'HomeGroupProvider' -startuptype DISABLED
+19.01.2019 00:15: + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+19.01.2019 00:15:     + CategoryInfo          : ObjectNotFound: (.:String) [Set-Service], InvalidOperationException
+19.01.2019 00:15:     + FullyQualifiedErrorId : InvalidOperationException,Microsoft.PowerShell.Commands.SetServiceCommand
+19.01.2019 00:15:  
+19.01.2019 00:16: Set-Service : Der Dienst "dmwappushsvc (dmwappushservice)" kann aufgrund des folgenden Fehlers nicht konfiguriert 
+19.01.2019 00:16: werden: Der angegebene Dienst ist kein installierter Dienst
+19.01.2019 00:16: In Zeile:1 Zeichen:1
+19.01.2019 00:16: + Set-Service 'dmwappushsvc' -startuptype DISABLED
+19.01.2019 00:16: + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+19.01.2019 00:16:     + CategoryInfo          : PermissionDenied: (System.ServiceProcess.ServiceController:ServiceController) [Set-Servi 
+19.01.2019 00:16:    ce], ServiceCommandException
+19.01.2019 00:16:     + FullyQualifiedErrorId : CouldNotSetService,Microsoft.PowerShell.Commands.SetServiceCommand
+19.01.2019 00:16:  
+19.01.2019 00:16: Set-Service : Der Dienst WMPNetworkSvc wurde nicht auf dem Computer . gefunden.
+19.01.2019 00:16: In Zeile:1 Zeichen:1
+19.01.2019 00:16: + Set-Service 'WMPNetworkSvc' -startuptype DISABLED
+19.01.2019 00:16: + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+19.01.2019 00:16:     + CategoryInfo          : ObjectNotFound: (.:String) [Set-Service], InvalidOperationException
+19.01.2019 00:16:     + FullyQualifiedErrorId : InvalidOperationException,Microsoft.PowerShell.Commands.SetServiceCommand
+19.01.2019 00:16:  
+19.01.2019 00:16: Der Vorgang wurde erfolgreich beendet.
+19.01.2019 00:27: Der Objektverweis wurde nicht auf eine Objektinstanz festgelegt.
+19.01.2019 00:39: Der Remotename konnte nicht aufgelöst werden: 'raw.githubusercontent.com'
+19.01.2019 00:39: Der Objektverweis wurde nicht auf eine Objektinstanz festgelegt.
+19.01.2019 00:39: Der Remotename konnte nicht aufgelöst werden: 'raw.githubusercontent.com'
+19.01.2019 01:05: Der Remotename konnte nicht aufgelöst werden: 'raw.githubusercontent.com'
+19.01.2019 01:05: Der Objektverweis wurde nicht auf eine Objektinstanz festgelegt.
+19.01.2019 01:06: Der Remotename konnte nicht aufgelöst werden: 'raw.githubusercontent.com'
+19.01.2019 01:07: Der Remotename konnte nicht aufgelöst werden: 'raw.githubusercontent.com'
+19.01.2019 01:07: Der Objektverweis wurde nicht auf eine Objektinstanz festgelegt.
+19.01.2019 01:07: Der Remotename konnte nicht aufgelöst werden: 'raw.githubusercontent.com'
+19.01.2019 01:08: Der Remotename konnte nicht aufgelöst werden: 'raw.githubusercontent.com'
+19.01.2019 01:08: Der Objektverweis wurde nicht auf eine Objektinstanz festgelegt.
+19.01.2019 01:08: Der Remotename konnte nicht aufgelöst werden: 'raw.githubusercontent.com'
+20.01.2019 00:26: Der Remotename konnte nicht aufgelöst werden: 'raw.githubusercontent.com'
+20.01.2019 00:26: Der Objektverweis wurde nicht auf eine Objektinstanz festgelegt.
+20.01.2019 00:30: Der Remotename konnte nicht aufgelöst werden: 'raw.githubusercontent.com'
+20.01.2019 15:36: Der Remotename konnte nicht aufgelöst werden: 'raw.githubusercontent.com'
+20.01.2019 15:36: Der Objektverweis wurde nicht auf eine Objektinstanz festgelegt.
+20.01.2019 16:26: Der Remotename konnte nicht aufgelöst werden: 'raw.githubusercontent.com'
+20.01.2019 16:26: Der Objektverweis wurde nicht auf eine Objektinstanz festgelegt.

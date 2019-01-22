@@ -1,8 +1,6 @@
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\bin\Debug\VM_Optimization_Tool.exe.config
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\bin\Debug\VM_Optimization_Tool.exe
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\bin\Debug\VM_Optimization_Tool.pdb
-C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\bin\Debug\ToolUpdate.dll
-C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\bin\Debug\ToolUpdate.pdb
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Debug\VM_Optimization_Tool.csprojAssemblyReference.cache
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Debug\DownloadForm.g.cs
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Debug\MainWindow.g.cs
@@ -25,6 +23,5 @@ C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Debug\VM_
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Debug\VM_Optimization_Tool.Properties.Resources.resources
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Debug\VM_Optimization_Tool.csproj.GenerateResource.cache
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Debug\VM_Optimization_Tool.csproj.CoreCompileInputs.cache
-C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Debug\VM_Optimization_Tool.csproj.CopyComplete
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Debug\VM_Optimization_Tool.exe
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Debug\VM_Optimization_Tool.pdb

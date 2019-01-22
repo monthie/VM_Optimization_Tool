@@ -62,7 +62,10 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="ApplyChanges.cs" />
+    <Compile Include="Hasher.cs" />
+    <Compile Include="IToolUpdateable.cs" />
     <Compile Include="LogWriter.cs" />
+    <Compile Include="ToolUpdateXml.cs" />
     <Compile Include="TrueFalseToBooleanConverter.cs" />
     <Compile Include="Node.cs" />
     <Compile Include="SelectOptimization.xaml.cs">
@@ -141,12 +144,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\ToolUpdate\ToolUpdate.csproj">
-      <Project>{8cf33c57-cf8f-479d-81a7-2c3b3392675e}</Project>
-      <Name>ToolUpdate</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Resource Include="bwlp_Windows_10.xml">

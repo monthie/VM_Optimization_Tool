@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Net;
 using System.Xml;
 
-namespace ToolUpdate
+namespace VM_Optimization_Tool
 {
     /// <summary>
     /// Contains update information
@@ -88,7 +88,7 @@ namespace ToolUpdate
 
                     return resp.StatusCode == HttpStatusCode.OK;
                 }
-                catch { return false; }
+                catch (Exception e) { LogWriter.LogWrite(e.Message); return false; }
             }
         }
 
@@ -136,7 +136,7 @@ namespace ToolUpdate
                 }
                 return result.ToArray();
             }
-            catch(Exception e) { Console.Write(e.Message); return null;  }
+            catch(Exception e) { LogWriter.LogWrite(e.Message); return null;  }
         }
     }
 }

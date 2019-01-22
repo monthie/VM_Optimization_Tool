@@ -12,14 +12,13 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-using ToolUpdate;
 
 namespace VM_Optimization_Tool
 {
     /// <summary>
     /// Interaktionslogik für MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window, IToolUpdatable
+    public partial class MainWindow : Window
     {
         private string updateServerUrl = "https://raw.githubusercontent.com/monthie/VM_Optimization_Tool/master/UpdateXML/UpdateXML.xml";
         public string ApplicationName
@@ -51,12 +50,18 @@ namespace VM_Optimization_Tool
             InitializeComponent();
             string mainFrameTitle = getOSInfo();
             Title = Title + " " + mainFrameTitle;
-            ToolUpdateXml[] updateInfo = ToolUpdateXml.Parse(new Uri(updateServerUrl));
-            if (updateInfo[0].IsNewerThan(ApplicationAssembly.GetName().Version))
+            try
             {
-                UpdateAvailableForm updateAvailableForm = new UpdateAvailableForm(updateInfo[0]);
-                updateAvailableForm.Topmost = true;
-                updateAvailableForm.Show();
+            ToolUpdateXml[] updateInfo = ToolUpdateXml.Parse(new Uri(updateServerUrl));
+                if (updateInfo[0].IsNewerThan(ApplicationAssembly.GetName().Version))
+                {
+                    UpdateAvailableForm updateAvailableForm = new UpdateAvailableForm(updateInfo[0]);
+                    updateAvailableForm.Topmost = true;
+                    updateAvailableForm.Show();
+                }
+            }
+            catch(Exception e) {
+                LogWriter.LogWrite(e.Message);
             }
         }
 
@@ -66,19 +71,28 @@ namespace VM_Optimization_Tool
         }
         private void Update_Click(object sender, RoutedEventArgs e)
         {
-            ToolUpdateXml[] updateInfo = ToolUpdateXml.Parse(new Uri(updateServerUrl));
-            if (updateInfo[0].IsNewerThan(ApplicationAssembly.GetName().Version))
-            {
-                UpdateAvailableForm updateAvailableForm = new UpdateAvailableForm(updateInfo[0]);
-                updateAvailableForm.Topmost = true;
-                updateAvailableForm.Show();
+            if (ToolUpdateXml.ExistsOnServer(new Uri(updateServerUrl))) {
+                ToolUpdateXml[] updateInfo = ToolUpdateXml.Parse(new Uri(updateServerUrl));
+                if (updateInfo[0].IsNewerThan(ApplicationAssembly.GetName().Version))
+                {
+                    UpdateAvailableForm updateAvailableForm = new UpdateAvailableForm(updateInfo[0]);
+                    updateAvailableForm.Topmost = true;
+                    updateAvailableForm.Show();
+                } else
+                {
+                    UpdateAvailableForm updateAvailableForm = new UpdateAvailableForm(updateInfo[0]);
+                    updateAvailableForm.updateButton.IsEnabled = false;
+                    updateAvailableForm.label.Content = "Software is up to date!";
+                    updateAvailableForm.Topmost = true;
+                    updateAvailableForm.Show();
+                }
             }
             else
             {
-                UpdateAvailableForm updateAvailableForm = new UpdateAvailableForm(updateInfo[0]);
+                ToolUpdateXml noInternet = new ToolUpdateXml(ApplicationAssembly.GetName().Version, null, "", "", "", "");
+                UpdateAvailableForm updateAvailableForm = new UpdateAvailableForm(noInternet);
                 updateAvailableForm.updateButton.IsEnabled = false;
-                updateAvailableForm.abortButton.IsEnabled = false;
-                updateAvailableForm.label.Content = "Software is up to date!";
+                updateAvailableForm.label.Content = "No internet connection!";
                 updateAvailableForm.Topmost = true;
                 updateAvailableForm.Show();
             }

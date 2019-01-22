@@ -8,7 +8,6 @@ using System.ComponentModel;
 using System.Drawing;
 using System.IO;
 using System.Net;
-using ToolUpdate;
 using System.Diagnostics;
 
 namespace VM_Optimization_Tool
