@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="ProgressWindow" Height="100" Width="450" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
     <Grid>
-        <ProgressBar HorizontalAlignment="Center" Height="30" Margin="0,0,0,0" VerticalAlignment="Center" Width="400"/>
-        <TextBlock HorizontalAlignment="Center" Margin="0,0,0,0" TextWrapping="Wrap" Text="100%" VerticalAlignment="Center" Height="30" Width="74" FontSize="24" TextAlignment="Center"/>
+        <ProgressBar x:Name="progressBar1" HorizontalAlignment="Center" Height="30" Margin="0,0,0,0" VerticalAlignment="Center" Width="400" Minimum="0" Maximum="100"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Center" Margin="0,0,0,0" TextWrapping="Wrap" Text="100%" VerticalAlignment="Center" Height="30" Width="74" FontSize="24" TextAlignment="Center"/>
 
 
     </Grid>
