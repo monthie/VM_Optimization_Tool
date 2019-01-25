@@ -184,12 +184,8 @@ namespace VM_Optimization_Tool
 
         private void windowsUpdatesButton_Click(object sender, RoutedEventArgs e)
         {
-            WindowsUpdateFrame test = new WindowsUpdateFrame();
-            test.Show();
-           /* if (SetWinServices.DisableWinUpdates())
-            {
-                windowsUpdatesButton.Content = "Enable Windows Updates";
-            }*/
+            WindowsUpdateFrame windowsUpdateFrame = new WindowsUpdateFrame();
+            windowsUpdateFrame.Show();
         }
 
         private void Info_Click(object sender, RoutedEventArgs e)

@@ -5,10 +5,10 @@ namespace VM_Optimization_Tool
 {
     static class SetWinServices
     {
-        public static bool DisableWinUpdates()
+        public static bool DisableWinService(string service)
         {
-            ServiceController sc = new ServiceController("wuauserv");
-            
+            ServiceController sc = new ServiceController(service);
+
             try
             {
                 if (sc != null && sc.Status == ServiceControllerStatus.Running)
@@ -25,17 +25,17 @@ namespace VM_Optimization_Tool
                 return false;
             }
         }
-        public static bool DisableDefrag()
+        public static bool EnableWinService(string service)
         {
-            ServiceController sc = new ServiceController("defragsvc");
+            ServiceController sc = new ServiceController(service);
 
             try
             {
-                if (sc != null && sc.Status == ServiceControllerStatus.Running)
+                if (sc != null && sc.Status == ServiceControllerStatus.Stopped)
                 {
-                    sc.Stop();
+                    sc.Start();
                 }
-                sc.WaitForStatus(ServiceControllerStatus.Stopped);
+                sc.WaitForStatus(ServiceControllerStatus.Running);
                 sc.Close();
                 return true;
             }

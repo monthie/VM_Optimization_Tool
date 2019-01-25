@@ -117,7 +117,6 @@
     </ApplicationDefinition>
     <Compile Include="ApplyChanges.cs" />
     <Compile Include="Hasher.cs" />
-    <Compile Include="IToolUpdateable.cs" />
     <Compile Include="LogWriter.cs" />
     <Compile Include="ProgressWindow.xaml.cs">
       <DependentUpon>ProgressWindow.xaml</DependentUpon>
