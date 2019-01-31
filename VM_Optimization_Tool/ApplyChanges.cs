@@ -56,6 +56,7 @@ namespace VM_Optimization_Tool
                             FileName = "cmd.exe"
                         }
                     };
+                    LogWriter.LogWrite(command);
                     proc.OutputDataReceived += (s, e) => LogWriter.LogWrite(e.Data);
                     proc.ErrorDataReceived += (s, e) => LogWriter.LogWrite(e.Data);
                     proc.Start();

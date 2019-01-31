@@ -11,14 +11,17 @@
         <HierarchicalDataTemplate x:Key="NodeTemplate"
                 ItemsSource="{Binding XPath=.//step}">
             <StackPanel Name="stackpanel" Orientation="Horizontal">
+
                 <CheckBox x:Name="nodecheck" Checked="CheckBoxChanged"  Unchecked="CheckBoxChanged" IsChecked="{Binding XPath=@defaultSelected, Mode=TwoWay, Converter={StaticResource TrueFalseToBooleanConverter}}">
                     <TextBlock x:Name="nodetext" Margin="5,0"/>
                 </CheckBox>
+                
             </StackPanel>
             <HierarchicalDataTemplate.Triggers>
                 <DataTrigger Binding="{Binding Path=NodeType}" Value="Element">
                     <Setter TargetName="nodetext" Property="Text"
                             Value="{Binding Path=Attributes[1].Value}" />
+                    
                 </DataTrigger>
                 <!--   <DataTrigger Binding="{Binding }"-->
             </HierarchicalDataTemplate.Triggers>
@@ -37,9 +40,16 @@
                     VerticalAlignment="Stretch"
                     ItemsSource="{Binding}"
                     VirtualizingStackPanel.IsVirtualizing="False"
-                    VirtualizingStackPanel.VirtualizationMode="Standard" />
+                    VirtualizingStackPanel.VirtualizationMode="Standard">
+            <TreeView.ItemContainerStyle>
+                <Style TargetType="{x:Type TreeViewItem}">
+                    <Setter Property="IsExpanded" Value="True">
+                    </Setter>
+                </Style>
+            </TreeView.ItemContainerStyle>
+            </TreeView>
 
-        <StackPanel Orientation="Horizontal" Grid.Row="2"
+            <StackPanel Orientation="Horizontal" Grid.Row="2"
                     HorizontalAlignment="Center">
             <Button Name="btnLoad" Grid.Row="1" Margin="4"
                         Content="Start" Width="100"
