@@ -70,6 +70,7 @@ namespace VM_Optimization_Tool
                 proc.Refresh();
             }
             MoveWindow(proc.MainWindowHandle, (screenWidth / 2), (screenHeight / 2), windowSizeWidth, windowSizeHeight, true);
+            proc.WaitForExit();
         }
         public static void StartDefrag()
         {

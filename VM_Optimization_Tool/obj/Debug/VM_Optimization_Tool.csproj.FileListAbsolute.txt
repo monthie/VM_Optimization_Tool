@@ -33,3 +33,4 @@ C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Debug\VM_
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Debug\VM_Optimization_Tool_Content.g.cs
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\bin\Debug\sdelete.exe
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\bin\Debug\sdelete64.exe
+C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Debug\VM_Optimization_Tool.csprojAssemblyReference.cache
