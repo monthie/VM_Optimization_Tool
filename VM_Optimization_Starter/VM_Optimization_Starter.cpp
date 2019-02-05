@@ -1,6 +1,3 @@
-// VM_Optimization_Starter.cpp : Diese Datei enthält die Funktion "main". Hier beginnt und endet die Ausführung des Programms.
-//
-
 #include "pch.h"
 #include <iostream>
 #include <fstream>
@@ -69,24 +66,17 @@ bool checkIfDirectory(std::string filePath)
 
 int main()
 {
-	const char* pathToTool = "C:\\Users\\Du\\source\\repos\\VM_Optimization_Tool\\VM_Optimization_Tool\\bin\\Debug";
+	//path of installation
+	const char* pathToTool = "C:\\Program Files\\VM Optimization Tool\\VM Optimization Tool";
 	bool result = checkIfDirectory(pathToTool);
 	if (result == true) {
-		LPCTSTR fullPath = L"C:\\Users\\Du\\source\\repos\\VM_Optimization_Tool\\VM_Optimization_Tool\\bin\\Debug\\VM_Optimization_Tool.exe";
+		LPCTSTR fullPath = L"C:\\Program Files\\VM Optimization Tool\\VM Optimization Tool\\VM_Optimization_Tool.exe";
+		startup((LPCTSTR)fullPath, NULL);
+	}
+	else {
+		//start tool setup
+		LPCTSTR fullPath = L"\\\\DESKTOP-AVCHJ03\\Temp\\setup.exe";
 		startup((LPCTSTR)fullPath, NULL);
 	}
 	return 0;
 }
-
-
-
-// Programm ausführen: STRG+F5 oder "Debuggen" > Menü "Ohne Debuggen starten"
-// Programm debuggen: F5 oder "Debuggen" > Menü "Debuggen starten"
-
-// Tipps für den Einstieg: 
-//   1. Verwenden Sie das Projektmappen-Explorer-Fenster zum Hinzufügen/Verwalten von Dateien.
-//   2. Verwenden Sie das Team Explorer-Fenster zum Herstellen einer Verbindung mit der Quellcodeverwaltung.
-//   3. Verwenden Sie das Ausgabefenster, um die Buildausgabe und andere Nachrichten anzuzeigen.
-//   4. Verwenden Sie das Fenster "Fehlerliste", um Fehler anzuzeigen.
-//   5. Wechseln Sie zu "Projekt" > "Neues Element hinzufügen", um neue Codedateien zu erstellen, bzw. zu "Projekt" > "Vorhandenes Element hinzufügen", um dem Projekt vorhandene Codedateien hinzuzufügen.
-//   6. Um dieses Projekt später erneut zu öffnen, wechseln Sie zu "Datei" > "Öffnen" > "Projekt", und wählen Sie die SLN-Datei aus.
