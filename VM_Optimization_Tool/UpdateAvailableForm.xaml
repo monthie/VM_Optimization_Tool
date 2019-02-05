@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:VM_Optimization_Tool"
         mc:Ignorable="d"
-        Title="UpdateAvailableForm" Height="300" Width="283" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+        Title="Tool Updater" Height="300" Width="283" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
     <Grid>
         <Label x:Name="label" Content="An update is available!" HorizontalAlignment="Left" Margin="19,31,0,0" VerticalAlignment="Top" Width="236" FontSize="22"/>
         <TextBox x:Name="textbox" HorizontalAlignment="Left" Height="89" Margin="10,115,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="245" IsReadOnly="True"/>

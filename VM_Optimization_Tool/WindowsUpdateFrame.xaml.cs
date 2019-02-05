@@ -98,7 +98,7 @@ namespace VM_Optimization_Tool
         public void Invoke(IDownloadJob downloadJob, IDownloadProgressChangedCallbackArgs e)
         {
             windowsUpdateFrame.progressWindow.Dispatcher.BeginInvoke(new Action(() => windowsUpdateFrame.progressWindow.progressBar1.Value = e.Progress.PercentComplete));
-            windowsUpdateFrame.progressWindow.Dispatcher.BeginInvoke(new Action(() => windowsUpdateFrame.progressWindow.textBlock1.Text = e.Progress.PercentComplete.ToString()));
+            windowsUpdateFrame.progressWindow.Dispatcher.BeginInvoke(new Action(() => windowsUpdateFrame.progressWindow.textBlock1.Text = e.Progress.PercentComplete.ToString()+"%"));
         }
     }
     public class DownloadCompletedFunc : IDownloadCompletedCallback
@@ -148,7 +148,7 @@ namespace VM_Optimization_Tool
         public void Invoke(IInstallationJob installationJob, IInstallationProgressChangedCallbackArgs e)
         {
             windowsUpdateFrame.progressWindow.Dispatcher.BeginInvoke(new Action(() => windowsUpdateFrame.progressWindow.progressBar1.Value = e.Progress.PercentComplete));
-            windowsUpdateFrame.progressWindow.Dispatcher.BeginInvoke(new Action(() => windowsUpdateFrame.progressWindow.textBlock1.Text = e.Progress.PercentComplete.ToString()));
+            windowsUpdateFrame.progressWindow.Dispatcher.BeginInvoke(new Action(() => windowsUpdateFrame.progressWindow.textBlock1.Text = e.Progress.PercentComplete.ToString()+"%"));
         }
     }
     public class InstallCompletedFunc : IInstallationCompletedCallback
@@ -162,6 +162,7 @@ namespace VM_Optimization_Tool
         {
             windowsUpdateFrame.installationResult = windowsUpdateFrame.installer.EndInstall(windowsUpdateFrame.installationJob);
             windowsUpdateFrame.progressWindow.Dispatcher.BeginInvoke(new Action(() => windowsUpdateFrame.textBox1.Clear()));
+            // vlt i = 1 statt count-1 TESTEN!
             for (int i = 0; i < windowsUpdateFrame.installCollection.Count-1; i++)
             {
                 if (windowsUpdateFrame.installationResult.GetUpdateResult(i).HResult == 0)

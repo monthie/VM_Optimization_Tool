@@ -1,16 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-//using System.Threading.Tasks;
+﻿using System.Reflection;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 
 namespace VM_Optimization_Tool
 {
@@ -19,10 +8,15 @@ namespace VM_Optimization_Tool
     /// </summary>
     public partial class VersionInfo : Window
     {
-        public VersionInfo(string versionNumber)
+        public VersionInfo()
         {
             InitializeComponent();
-            versionLabel.Content = versionNumber;
+            versionLabel.Content = "Version: " + ApplicationAssembly.GetName().Version;
+            applicationLabel.Content = ApplicationAssembly.GetName().Name;
+        }
+        public Assembly ApplicationAssembly
+        {
+            get { return Assembly.GetExecutingAssembly(); }
         }
     }
 }

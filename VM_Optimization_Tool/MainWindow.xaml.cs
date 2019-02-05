@@ -175,13 +175,14 @@ namespace VM_Optimization_Tool
 
         private void windowsUpdatesButton_Click(object sender, RoutedEventArgs e)
         {
+            SetWinServices.EnableWinService("wuauserv");
             WindowsUpdateFrame windowsUpdateFrame = new WindowsUpdateFrame();
             windowsUpdateFrame.Show();
         }
 
         private void Info_Click(object sender, RoutedEventArgs e)
         {
-            VersionInfo versionInfo = new VersionInfo(ApplicationAssembly.GetName().Version.ToString());
+            VersionInfo versionInfo = new VersionInfo();
             versionInfo.Show();
         }
 

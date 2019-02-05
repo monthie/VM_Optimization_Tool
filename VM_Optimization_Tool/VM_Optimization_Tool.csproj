@@ -91,6 +91,12 @@
   <PropertyGroup>
     <TargetZone>LocalIntranet</TargetZone>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>iconfinder_Microsoft_alt_556112.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>VM_Optimization_Tool.App</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -242,6 +248,9 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="iconfinder_windows_2333413.ico" />
+    <Resource Include="iconfinder_Microsoft_alt_556112.ico" />
+    <Resource Include="logo.png" />
     <Content Include="sdelete.exe">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

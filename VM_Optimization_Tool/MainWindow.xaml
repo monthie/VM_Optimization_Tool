@@ -24,7 +24,7 @@
             <Button x:Name="windowsUpdatesButton" Content="Install Windows Updates" HorizontalAlignment="Center"  VerticalAlignment="Center" Width="250" Click="windowsUpdatesButton_Click"/>
             <Button x:Name="optimizationButton" Content="Optimize Windows" HorizontalAlignment="Center" Margin="0,50,0,0" VerticalAlignment="Center" Width="250" Click="OptimizationButton_Click"/>
             <Button x:Name="exitButton" Content="Exit" HorizontalAlignment="Center" Margin="0,100,0,0" VerticalAlignment="Center" Width="250" Click="ExitButton_Click" />
-            <Image HorizontalAlignment="Left" Height="80" Margin="301,10,0,0" VerticalAlignment="Top" Width="80" Source="C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\logo.png"/>
+            <Image HorizontalAlignment="Left" Height="80" Margin="301,10,0,0" VerticalAlignment="Top" Width="80" Source="logo.png"/>
         </Grid>
     </DockPanel>
 </Window>

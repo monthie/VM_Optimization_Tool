@@ -106,6 +106,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
             }
         }
     }
@@ -113,6 +121,20 @@
     {
         "CustomAction"
         {
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_5757A1CE30B34883AB2DE2CBC31604C2"
+            {
+            "Name" = "8:Primäre Ausgabe from VM_Optimization_Tool (Active)"
+            "Condition" = "8:"
+            "Object" = "8:_20D572B9AE27457F9134B515F444FC10"
+            "FileType" = "3:2"
+            "InstallAction" = "3:2"
+            "Arguments" = "8:INSTALLER"
+            "EntryPoint" = "8:"
+            "Sequence" = "3:1"
+            "Identifier" = "8:_F5C7D2BD_2366_44AB_A56F_93544311D2F2"
+            "InstallerClass" = "11:FALSE"
+            "CustomActionData" = "8:"
+            }
         }
         "DefaultFeature"
         {
@@ -266,7 +288,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:VM Optimization Tool"
         "ProductCode" = "8:{E608CF3D-471C-4942-809C-D3D75802293A}"
-        "PackageCode" = "8:{FA7E7C79-43FA-482C-9B3A-5E27F6BB7F80}"
+        "PackageCode" = "8:{AEACEDF4-7F74-4270-A78B-AE4E0822D38F}"
         "UpgradeCode" = "8:{B05AC523-2A2F-4364-A5B8-E48E07C4708E}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
