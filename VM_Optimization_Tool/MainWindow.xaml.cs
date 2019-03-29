@@ -39,17 +39,16 @@ namespace VM_Optimization_Tool
         public MainWindow()
         {
             InitializeComponent();
-            string mainFrameTitle = getOSInfo();
+            string mainFrameTitle = GetOSInfo();
             Title = Title + " " + mainFrameTitle;
             try
             {
             ToolUpdateXml[] updateInfo = ToolUpdateXml.Parse(new Uri(updateServerUrl));
                 if (updateInfo[0].IsNewerThan(ApplicationAssembly.GetName().Version))
                 {
-                    UpdateAvailableForm updateAvailableForm = new UpdateAvailableForm();
+                    UpdateAvailableForm updateAvailableForm = new UpdateAvailableForm(updateInfo[0]);
                     updateAvailableForm.Topmost = true;
-                    updateAvailableForm.Version = updateInfo[0].Version;
-                    updateAvailableForm.Description = updateInfo[0].Description;
+                    updateAvailableForm.UpdateDescription();
                     updateAvailableForm.Show();
                 }
             }
@@ -64,14 +63,13 @@ namespace VM_Optimization_Tool
         }
         private void Update_Click(object sender, RoutedEventArgs e)
         {
-            //Create new Update Window
-            UpdateAvailableForm updateAvailableForm = new UpdateAvailableForm();
-
+            UpdateAvailableForm updateAvailableForm = new UpdateAvailableForm(null); ;
             //Check for Update XML on Server
             if (ToolUpdateXml.ExistsOnServer(new Uri(updateServerUrl))) {
                 ToolUpdateXml[] updateInfo = ToolUpdateXml.Parse(new Uri(updateServerUrl));
-                updateAvailableForm.Version = updateInfo[0].Version;
-                updateAvailableForm.Description = updateInfo[0].Description;
+
+                updateAvailableForm.updateInfo = updateInfo[0];
+                
 
                 if (!updateInfo[0].IsNewerThan(ApplicationAssembly.GetName().Version))
                 {
@@ -89,7 +87,7 @@ namespace VM_Optimization_Tool
             updateAvailableForm.Show();
         }
 
-        string getOSInfo()
+        private string GetOSInfo()
         {
             //Get Operating system information.
             OperatingSystem os = Environment.OSVersion;
@@ -176,7 +174,7 @@ namespace VM_Optimization_Tool
         private void windowsUpdatesButton_Click(object sender, RoutedEventArgs e)
         {
             SetWinServices.EnableWinService("wuauserv");
-            WindowsUpdateFrame windowsUpdateFrame = new WindowsUpdateFrame();
+            WindowsUpdateForm windowsUpdateFrame = new WindowsUpdateForm();
             windowsUpdateFrame.Show();
         }
 

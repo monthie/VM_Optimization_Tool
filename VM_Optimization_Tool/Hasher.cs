@@ -12,6 +12,12 @@ namespace VM_Optimization_Tool
     }
     public static class Hasher
     {
+        /// <summary>
+        /// Hash files
+        /// </summary>
+        /// <param name="filePath">specific file to hash</param>
+        /// <param name="algo">various hash algorithm</param>
+        /// <returns></returns>
         public static string HashFile(string filePath, HashType algo)
         {
             switch(algo)
@@ -26,6 +32,12 @@ namespace VM_Optimization_Tool
                     return "";
             }
         }
+
+        /// <summary>
+        /// Helper function
+        /// </summary>
+        /// <param name="hash"></param>
+        /// <returns></returns>
         private static string MakeHashString(byte[] hash)
         {
             StringBuilder s = new StringBuilder(hash.Length * 2);

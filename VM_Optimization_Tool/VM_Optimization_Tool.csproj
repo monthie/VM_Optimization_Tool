@@ -92,7 +92,7 @@
     <TargetZone>LocalIntranet</TargetZone>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>iconfinder_Microsoft_alt_556112.ico</ApplicationIcon>
+    <ApplicationIcon>Ressource\iconfinder_Microsoft_alt_556112.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <StartupObject>VM_Optimization_Tool.App</StartupObject>
@@ -130,31 +130,20 @@
     </Compile>
     <Compile Include="ToolUpdateXml.cs" />
     <Compile Include="TrueFalseToBooleanConverter.cs" />
-    <Compile Include="Node.cs" />
     <Compile Include="SelectOptimization.xaml.cs">
       <DependentUpon>SelectOptimization.xaml</DependentUpon>
     </Compile>
     <Compile Include="SetWinServices.cs" />
-    <Compile Include="DownloadForm.xaml.cs">
-      <DependentUpon>DownloadForm.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="ToolUpdateInfo.xaml.cs">
-      <DependentUpon>ToolUpdateInfo.xaml</DependentUpon>
-    </Compile>
     <Compile Include="UpdateAvailableForm.xaml.cs">
       <DependentUpon>UpdateAvailableForm.xaml</DependentUpon>
     </Compile>
     <Compile Include="VersionInfoForm.xaml.cs">
       <DependentUpon>VersionInfoForm.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WindowsUpdateFrame.xaml.cs">
-      <DependentUpon>WindowsUpdateFrame.xaml</DependentUpon>
+    <Compile Include="WindowsUpdateForm.xaml.cs">
+      <DependentUpon>WindowsUpdateForm.xaml</DependentUpon>
     </Compile>
     <Compile Include="XmlParser.cs" />
-    <Page Include="DownloadForm.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -175,10 +164,6 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="ToolUpdateInfo.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="UpdateAvailableForm.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -187,7 +172,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WindowsUpdateFrame.xaml">
+    <Page Include="WindowsUpdateForm.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -209,6 +194,7 @@
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <None Include="app.manifest" />
     <None Include="Properties\Settings.settings">
@@ -220,7 +206,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="bwlp_Windows_10.xml">
+    <Resource Include="Ressource\bwlp_Windows_10.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
   </ItemGroup>
@@ -248,13 +234,13 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="iconfinder_windows_2333413.ico" />
-    <Resource Include="iconfinder_Microsoft_alt_556112.ico" />
-    <Resource Include="logo.png" />
-    <Content Include="sdelete.exe">
+    <Resource Include="Ressource\iconfinder_windows_2333413.ico" />
+    <Resource Include="Ressource\iconfinder_Microsoft_alt_556112.ico" />
+    <Resource Include="Ressource\logo.png" />
+    <Content Include="Ressource\sdelete.exe">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="sdelete64.exe">
+    <Content Include="Ressource\sdelete64.exe">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

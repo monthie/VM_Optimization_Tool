@@ -59,26 +59,5 @@ namespace VM_Optimization_Tool.Properties {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   Sucht eine lokalisierte Zeichenfolge, die &lt;sequence name=&quot;bwlp_Windows 10&quot; description=&quot;Optimization template for bwLehrpool&amp;#xD;&amp;#xA;- Windows 10&quot; author=&quot;&quot; authorEmail=&quot;&quot; website=&quot;&quot; version=&quot;1.0&quot; runOnOs=&quot;16&quot; uid=&quot;376710&quot;&gt;
-        ///  &lt;globalVarList&gt;
-        ///    &lt;autoLogin&gt;
-        ///      &lt;alUserName&gt;Admin&lt;/alUserName&gt;
-        ///      &lt;alPassword&gt;
-        ///      &lt;/alPassword&gt;
-        ///    &lt;/autoLogin&gt;
-        ///    &lt;osCollection&gt;
-        ///      &lt;osEntry osId=&quot;1&quot; name=&quot;Windows 7&quot;&gt;
-        ///        &lt;Version&gt;6.1.*&lt;/Version&gt;
-        ///        &lt;ProductType&gt;1&lt;/ProductType&gt;
-        ///        &lt;osEntry osId=&quot;2&quot; name=&quot;Windows 7 32-bit&quot;&gt;
-        ///         [Rest der Zeichenfolge wurde abgeschnitten]&quot;; ähnelt.
-        /// </summary>
-        internal static string bwlp_Windows_10 {
-            get {
-                return ResourceManager.GetString("bwlp_Windows_10", resourceCulture);
-            }
-        }
     }
 }

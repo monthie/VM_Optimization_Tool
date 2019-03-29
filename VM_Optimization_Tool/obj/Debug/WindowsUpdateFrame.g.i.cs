@@ -36,9 +36,9 @@ namespace VM_Optimization_Tool {
     
     
     /// <summary>
-    /// WindowsUpdateFrame
+    /// WindowsUpdateForm
     /// </summary>
-    public partial class WindowsUpdateFrame : System.Windows.Window, System.Windows.Markup.IComponentConnector {
+    public partial class WindowsUpdateForm : System.Windows.Window, System.Windows.Markup.IComponentConnector {
         
         
         #line 12 "..\..\WindowsUpdateFrame.xaml"

@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Windows;
-using System.Xml;
 using System.Windows.Controls;
 using System.Windows.Data;
 using System.ComponentModel;
@@ -60,39 +59,14 @@ namespace VM_Optimization_Tool
                 return dlg.FileName;
             }
             else
-            {
+            { 
+                // if nothing selected disable all buttons
+                btnLoad.IsEnabled = false;
+                btnAbort.IsEnabled = false;
                 return null;
             }
         }
-
-        private void ParseXMLFile(string pathToXML)
-        {
-            XmlDocument doc = new XmlDocument();
-            doc.Load(pathToXML);
-
-            XmlNodeList nodes = doc.SelectNodes("sequence[@runOnOs='16']");
-            foreach (XmlNode node in nodes)
-            {
-                // If the node doesn't exist, there is no win 10 xml file
-                if (node == null)
-                {
-                    MessageBoxResult result = MessageBox.Show("Wrong file",
-                                          "Confirmation",
-                                          MessageBoxButton.OK,
-                                          MessageBoxImage.Question);
-                    if (result == MessageBoxResult.OK)
-                    {
-                        Close();
-                    }
-                }
-
-                // Parse data
-                string runOnOs = node.InnerText;
-                Console.WriteLine(runOnOs);
-
-
-            }
-        }
+       
         /// <summary>
         /// function to start optimization
         /// </summary>
@@ -114,8 +88,8 @@ namespace VM_Optimization_Tool
             {
                 // Cancel the asynchronous operation.
                 bgWorker.CancelAsync();
+                btnLoad.IsEnabled = true;
             }
-            btnLoad.IsEnabled = true;
             //Close();
         }
         /// <summary>
@@ -128,6 +102,11 @@ namespace VM_Optimization_Tool
             ((CheckBox)sender).GetBindingExpression(CheckBox.IsCheckedProperty).UpdateTarget();
             xmlData.Document.Save(xmlData.Source.AbsolutePath);
         }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void bgWorker_DoWork(object sender, DoWorkEventArgs e)
         {
             xmlData.Document.Save(xmlData.Source.AbsolutePath);
@@ -140,6 +119,11 @@ namespace VM_Optimization_Tool
             }
         }
 
+        /// <summary>
+        /// Check after completed job wheter successful or not
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void bgWorker_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
         {
             if (e.Error != null)
@@ -155,6 +139,12 @@ namespace VM_Optimization_Tool
                 MessageBox.Show("Succeded");
             }        
         }
+
+        /// <summary>
+        /// Update progressbar async
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void bgWorker_ProgressChanged(object sender, ProgressChangedEventArgs e)
         {
             progressBar.Value = e.ProgressPercentage;

@@ -1,15 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-//using System.Threading.Tasks;
 using System.Xml;
 
 
 namespace VM_Optimization_Tool
 {
 
-    
+    /// <summary>
+    /// Parse xml files like bwlp_Windows10.xml
+    /// </summary>
     public class XmlParser
     {
         public string Type { get; }

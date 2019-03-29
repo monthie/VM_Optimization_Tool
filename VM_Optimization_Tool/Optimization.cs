@@ -2,17 +2,24 @@
 using System;
 using System.Runtime.InteropServices;
 using System.Threading;
-using System.Collections.Generic;
 
 namespace VM_Optimization_Tool
 {
+    /// <summary>
+    /// Optimization class with various windows tasks
+    /// </summary>
     class Optimization
     {
+
+        // get info about screen to move commando line position
         private readonly static int screenWidth = (int)System.Windows.SystemParameters.PrimaryScreenWidth;
         private readonly static int screenHeight = (int)System.Windows.SystemParameters.PrimaryScreenHeight;
         private readonly static int windowSizeWidth = 800;
         private readonly static int windowSizeHeight = 500;
 
+        /// <summary>
+        /// Start cleanmgr.exe with parameter /lowdisk to auto select all options to clean
+        /// </summary>
         public static void StartCleanMgr() {
             string command = "/C cleanmgr.exe /lowdisk";
             var proc = new Process
@@ -30,6 +37,10 @@ namespace VM_Optimization_Tool
             LogWriter.LogWrite("started Cleanmgr.exe");
             proc.WaitForExit();
         }
+
+        /// <summary>
+        /// Start dism.exe if win 8 or higher. clean win updates etc.
+        /// </summary>
         public static void StartDism() {
             string command = "/C Dism.exe /Online /Cleanup-Image /AnalyzeComponentStore";
             var proc = new Process
@@ -72,6 +83,10 @@ namespace VM_Optimization_Tool
             MoveWindow(proc.MainWindowHandle, (screenWidth / 2), (screenHeight / 2), windowSizeWidth, windowSizeHeight, true);
             proc.WaitForExit();
         }
+
+        /// <summary>
+        /// Start defrag process
+        /// </summary>
         public static void StartDefrag()
         {
             string command = "/C sc config defragsvc start= demand";
@@ -123,9 +138,13 @@ namespace VM_Optimization_Tool
             proc.Start();
             proc.WaitForExit();
         }
+
+        /// <summary>
+        /// start sdelete to null empty storage
+        /// </summary>
         public static void StartSDelete()
         {
-            string command = "/C sdelete.exe -z C:";
+            string command = "/C \"C:\\Program Files\\VM Optimization Tool\\VM Optimization Tool\\sdelete.exe\" -z C:";
             var proc = new Process
             {
                 StartInfo = new ProcessStartInfo

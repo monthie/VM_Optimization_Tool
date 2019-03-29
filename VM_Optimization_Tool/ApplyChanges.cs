@@ -3,8 +3,16 @@ using System.Diagnostics;
 
 namespace VM_Optimization_Tool
 {
+    /// <summary>
+    /// Collection of commando line command
+    /// </summary>
     static class ApplyChanges
     {      
+        /// <summary>
+        /// Set registry/scheduleTask/powershell commands
+        /// </summary>
+        /// <param name="xmlParsers">xml Data to parse</param>
+        /// <param name="bgWorker"></param>
         public static void Changes(XmlParser[] xmlParsers, BackgroundWorker bgWorker)
         {
             int count = 0;

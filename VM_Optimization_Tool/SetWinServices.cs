@@ -3,6 +3,9 @@ using System.ServiceProcess;
 
 namespace VM_Optimization_Tool
 {
+    /// <summary>
+    /// static class to enable or disable win services
+    /// </summary>
     static class SetWinServices
     {
         public static bool DisableWinService(string service)

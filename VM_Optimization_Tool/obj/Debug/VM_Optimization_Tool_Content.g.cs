@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("sdelete.exe")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("sdelete64.exe")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("ressource/sdelete.exe")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("ressource/sdelete64.exe")]
 
 
