@@ -5,9 +5,69 @@
 #include <windows.h>
 namespace filesys = std::experimental::filesystem;
 
-bool fexists(const char *filename) {
-	std::ifstream ifile(filename);
-	return (bool)ifile;
+bool EnumInstalledSoftware()
+{
+	LPCTSTR szURL = L"";
+	HKEY hUninstKey = NULL;
+	HKEY hAppKey = NULL;
+	WCHAR sAppKeyName[1024];
+	WCHAR sSubKey[1024];
+	WCHAR sDisplayName[1024];
+	WCHAR sInstallLocation[1024];
+	const WCHAR *sRoot = L"SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall";
+	long lResult = ERROR_SUCCESS;
+	DWORD dwType = KEY_ALL_ACCESS;
+	DWORD dwBufferSize = 0;
+
+	//Open the "Uninstall" key.
+	if (RegOpenKeyEx(HKEY_LOCAL_MACHINE, sRoot, 0, KEY_READ, &hUninstKey) != ERROR_SUCCESS)
+	{
+		return false;
+	}
+
+	for (DWORD dwIndex = 0; lResult == ERROR_SUCCESS; dwIndex++)
+	{
+		//Enumerate all sub keys...
+		dwBufferSize = sizeof(sAppKeyName);
+		if ((lResult = RegEnumKeyEx(hUninstKey, dwIndex, sAppKeyName,
+			&dwBufferSize, NULL, NULL, NULL, NULL)) == ERROR_SUCCESS)
+		{
+			//Open the sub key.
+			wsprintf(sSubKey, L"%s\\%s", sRoot, sAppKeyName);
+			if (RegOpenKeyEx(HKEY_LOCAL_MACHINE, sSubKey, 0, KEY_READ, &hAppKey) != ERROR_SUCCESS)
+			{
+				RegCloseKey(hAppKey);
+				RegCloseKey(hUninstKey);
+				return false;
+			}
+
+			//Get the display name value from the application's sub key.
+			dwBufferSize = sizeof(sDisplayName);
+			if (RegQueryValueEx(hAppKey, L"DisplayName", NULL,
+				&dwType, (unsigned char*)sDisplayName, &dwBufferSize) == ERROR_SUCCESS)
+			{
+				if (wcscmp(sDisplayName, L"VM Optimization Tool") == 0) {
+					// Check install location
+					if (RegQueryValueEx(hAppKey, L"InstallLocation", NULL,
+						&dwType, (unsigned char*)sInstallLocation, &dwBufferSize) == ERROR_SUCCESS)
+					{
+						startup((LPCTSTR)sInstallLocation, NULL);
+					}
+				}
+			}
+			else {
+
+				//Display name value doe not exist, this application was probably uninstalled.
+				URLDownloadToFile(NULL, );
+			}
+
+			RegCloseKey(hAppKey);
+		}
+	}
+
+	RegCloseKey(hUninstKey);
+
+	return true;
 }
 
 void startup(LPCTSTR lpApplicationName, TCHAR *argv[] )
@@ -45,38 +105,8 @@ void startup(LPCTSTR lpApplicationName, TCHAR *argv[] )
 	CloseHandle(pi.hThread);
 }
 
-/*
-Check if given string path is of a Directory
-*/
-bool checkIfDirectory(std::string filePath)
-{
-	try {
-		// Create a Path object from given path string
-		filesys::path pathObj(filePath);
-		// Check if path exists and is of a directory file
-		if (filesys::exists(pathObj) && filesys::is_directory(pathObj))
-			return true;
-	}
-	catch (filesys::filesystem_error & e)
-	{
-		std::cerr << e.what() << std::endl;
-	}
-	return false;
-}
-
 int main()
 {
-	//path of installation
-	const char* pathToTool = "C:\\Program Files\\VM Optimization Tool\\VM Optimization Tool";
-	bool result = checkIfDirectory(pathToTool);
-	if (result == true) {
-		LPCTSTR fullPath = L"C:\\Program Files\\VM Optimization Tool\\VM Optimization Tool\\VM_Optimization_Tool.exe";
-		startup((LPCTSTR)fullPath, NULL);
-	}
-	else {
-		//start tool setup
-		LPCTSTR fullPath = L"\\\\DESKTOP-AVCHJ03\\Temp\\setup.exe";
-		startup((LPCTSTR)fullPath, NULL);
-	}
+	EnumInstalledSoftware();
 	return 0;
 }

@@ -10,11 +10,11 @@ none
 false
 TRACE
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\App.xaml
-81735884963
-2-2112034087
-25611783231
+6-977773763
+2-103430900
+18540061012
 17-2085319488
-DownloadForm.xaml;MainWindow.xaml;ProgressWindow.xaml;SelectOptimization.xaml;ToolUpdateInfo.xaml;UpdateAvailableForm.xaml;VersionInfoForm.xaml;WindowsUpdateFrame.xaml;
+MainWindow.xaml;ProgressWindow.xaml;SelectOptimization.xaml;UpdateAvailableForm.xaml;VersionInfoForm.xaml;WindowsUpdateForm.xaml;
 
-True
+False
 
