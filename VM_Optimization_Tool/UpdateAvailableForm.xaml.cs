@@ -194,7 +194,8 @@ namespace VM_Optimization_Tool
             string argument_update = "/C choice /C Y /N /D Y /T 1 & Del /F /Q \"{0}\" & choice /C Y /N /D Y /T 2 & copy /Y \"{1}\" \"{2}\"";
             string argument_update_start = argument_update + "& choice /C Y /N /D Y /T 1 & Start \"\" /D \"{3}\" \"{4}\" {5}";
             string argument_complete;
-            string currentPath = Path.GetFullPath(Process.GetCurrentProcess().MainModule.FileName);
+            //string currentPath = Path.GetFullPath(Process.GetCurrentProcess().MainModule.FileName);
+            string currentPath = Path.GetFullPath(System.Reflection.Assembly.GetExecutingAssembly().Location);
 
             string tempFile = TempFilePath;
 
