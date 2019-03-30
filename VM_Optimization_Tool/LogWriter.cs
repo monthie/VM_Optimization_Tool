@@ -26,7 +26,7 @@ namespace VM_Optimization_Tool
                     Log(logMessage, w);
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
             }
         }
@@ -46,7 +46,7 @@ namespace VM_Optimization_Tool
                     txtWriter.WriteLine("{0}", logMessage);
                 }   
             }
-            catch (Exception ex)
+            catch (Exception)
             {
             }
         }

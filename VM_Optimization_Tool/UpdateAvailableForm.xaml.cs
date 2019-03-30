@@ -48,7 +48,7 @@ namespace VM_Optimization_Tool
         /// <summary>
         /// The MD5 hash of the file to download
         /// </summary>
-        private string md5;
+        //private string md5;
 
         private volatile bool _completed;
 

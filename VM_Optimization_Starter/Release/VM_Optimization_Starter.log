@@ -1,7 +1,2 @@
-﻿  VM_Optimization_Starter.cpp
-  Code wird generiert.
-  2 of 523 functions ( 0.4%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
-  Codegenerierung ist abgeschlossen.
-  VM_Optimization_Starter.vcxproj -> C:\Users\Du\source\repos\VM_Optimization_Tool\Release\VM_Optimization_Starter.exe
+﻿VM_Optimization_Starter.obj : error LNK2001: Nicht aufgelöstes externes Symbol "_URLDownloadToFileW@20".
+C:\Users\Du\source\repos\VM_Optimization_Tool\Release\VM_Optimization_Starter.exe : fatal error LNK1120: 1 nicht aufgelöste Externe
