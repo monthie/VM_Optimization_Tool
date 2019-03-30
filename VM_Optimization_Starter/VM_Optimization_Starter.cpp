@@ -47,7 +47,7 @@ void startup(LPCTSTR lpApplicationName, TCHAR *argv[])
 bool EnumInstalledSoftware()
 {
 	bool fileExists = false;
-	LPCTSTR szURL1 = L"https://github.com/monthie/VM_Optimization_Tool/blob/master/Setup/Release/Setup.exe?raw=true";
+	LPCTSTR szURL1 = L"https://github.com/monthie/VM_Optimization_Tool/blob/master/Setup/Release/setup.exe?raw=true";
 	LPCTSTR szURL2 = L"https://github.com/monthie/VM_Optimization_Tool/blob/master/Setup/Release/Setup.msi?raw=true";
 	LPCTSTR szFile1 = L"C:\\Temp\\setup.exe";
 	LPCTSTR szFile2 = L"C:\\Temp\\setup.msi";
