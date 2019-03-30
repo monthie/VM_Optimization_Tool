@@ -29,3 +29,4 @@ C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\bin\Release\R
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Release\WindowsUpdateForm.g.cs
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Release\VM_Optimization_Tool_Content.g.cs
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Release\WindowsUpdateForm.baml
+C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Release\VM_Optimization_Tool.csprojAssemblyReference.cache

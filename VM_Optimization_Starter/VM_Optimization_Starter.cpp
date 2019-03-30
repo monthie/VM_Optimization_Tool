@@ -92,10 +92,11 @@ bool EnumInstalledSoftware()
 				if (wcscmp(sDisplayName, L"VM Optimization Tool") == 0) {
 
 					// Check install location
+					dwBufferSize = sizeof(sInstallLocation);
 					if (RegQueryValueEx(hAppKey, L"InstallLocation", NULL,
 						&dwType, (unsigned char*)sInstallLocation, &dwBufferSize) == ERROR_SUCCESS)
 					{
-						wcscpy_s(sInstallLocation, L"\\VM_Optimization_Tool.exe");
+						wcscat_s(sInstallLocation, L"VM_Optimization_Tool.exe");
 						startup((LPCTSTR)sInstallLocation, NULL);
 					}
 					fileExists = true;
