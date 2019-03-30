@@ -120,7 +120,7 @@ namespace VM_Optimization_Tool
         }
 
         /// <summary>
-        /// Check after completed job wheter successful or not
+        /// Check after completed job whether successful or not
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>

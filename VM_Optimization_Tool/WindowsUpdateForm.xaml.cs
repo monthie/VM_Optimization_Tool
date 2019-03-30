@@ -220,7 +220,7 @@ namespace VM_Optimization_Tool
             if(WindowsUpdateFrame.installationResult.RebootRequired) Process.Start("shutdown", "/r /f /t 30");
             WindowsUpdateFrame.installationJob = null;
             WindowsUpdateFrame.progressWindow.Dispatcher.BeginInvoke(new Action(() => WindowsUpdateFrame.progressWindow.Close()));
-            
+            SetWinServices.DisableWinService("wuauserv");
         }
     }
 }
