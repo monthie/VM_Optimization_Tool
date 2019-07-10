@@ -29,8 +29,5 @@ C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Debug\Win
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Debug\WindowsUpdateForm.baml
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\bin\Debug\Ressource\sdelete.exe
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\bin\Debug\Ressource\sdelete64.exe
-C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Debug\VM_Optimization_Tool.csprojAssemblyReference.cache
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Debug\Optimization.g.cs
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Debug\Optimization.baml
-C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Debug\VM_Optimization_Tool.TrustInfo.xml
-C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Debug\VM_Optimization_Tool.exe.manifest
