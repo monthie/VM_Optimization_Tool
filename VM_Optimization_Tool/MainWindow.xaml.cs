@@ -174,7 +174,7 @@ namespace VM_Optimization_Tool
 
         private void windowsUpdatesButton_Click(object sender, RoutedEventArgs e)
         {
-            SetWinServices.Enable("wuaserv");
+            SetWinServices.Enable("wuauserv");
             SetWinServices.EnableWinService("wuauserv");
             WindowsUpdateForm windowsUpdateFrame = new WindowsUpdateForm();
             windowsUpdateFrame.Show();
