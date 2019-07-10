@@ -59,3 +59,22 @@
 10.06.2019 17:18: started Cleanmgr.exe
 10.06.2019 17:22: started Cleanmgr.exe
 07.07.2019 12:06: started Cleanmgr.exe
+10.07.2019 11:26: /C reg LOAD "hku\temp" "%USERPROFILE%\..\Default User\NTUSER.DAT"
+10.07.2019 11:26: Der Vorgang wurde erfolgreich beendet.
+10.07.2019 11:26: /C reg ADD "hku\temp\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v "LaunchTo" /t "REG_DWORD" /d 1 /f
+10.07.2019 11:26: Der Vorgang wurde erfolgreich beendet.
+10.07.2019 11:26: /C reg ADD "hku\temp\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v "NoRecentDocsNetHood" /t "REG_DWORD" /d 1 /f
+10.07.2019 11:26: Der Vorgang wurde erfolgreich beendet.
+10.07.2019 11:26: /C reg ADD "hku\temp\Software\Policies\Microsoft\Windows\CloudContent" /v "DisableWindowsSpotlightFeatures" /t "REG_DWORD" /d 1 /f
+10.07.2019 11:26: Der Vorgang wurde erfolgreich beendet.
+10.07.2019 11:26: /C reg ADD "hku\temp\SOFTWARE\Microsoft\Osk" /v "KeystrokeDelay" /t "REG_DWORD" /d 0 /f
+10.07.2019 11:26: Der Vorgang wurde erfolgreich beendet.
+10.07.2019 11:26: /C reg ADD "hku\temp\SOFTWARE\Microsoft\Osk" /v "FirstRepeatDelay" /t "REG_DWORD" /d 0 /f
+10.07.2019 11:26: Der Vorgang wurde erfolgreich beendet.
+10.07.2019 11:26: /C reg ADD "hku\temp\SOFTWARE\Microsoft\Osk" /v "NextRepeatDelay" /t "REG_DWORD" /d 0 /f
+10.07.2019 11:26: Der Vorgang wurde erfolgreich beendet.
+10.07.2019 11:26: /C reg ADD "hku\temp\Control Panel\Desktop" /v "MenuShowDelay" /t "REG_SZ" /d 120 /f
+10.07.2019 11:26: Der Vorgang wurde erfolgreich beendet.
+10.07.2019 11:26: /C reg ADD "hku\temp\Software\Microsoft\Feeds" /v "SyncStatus" /t "REG_DWORD" /d 0 /f
+10.07.2019 11:26: Der Vorgang wurde erfolgreich beendet.
+10.07.2019 11:26: /C reg ADD "hku\temp\SOFTWARE\Microsoft\Windows\CurrentVersion\Search" /v "BingSearchEnabled" /t "REG_DWORD" /d 0 /f

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.ServiceProcess;
 
 namespace VM_Optimization_Tool
@@ -46,6 +47,41 @@ namespace VM_Optimization_Tool
             {
                 Console.WriteLine(ex.Message);
                 return false;
+            }
+        }
+
+
+        /// <summary>
+        /// Can be called to enable the Windows Service
+        /// </summary>
+        public static void Enable(string ServiceName)
+        {
+            try
+            {
+                var key = Registry.LocalMachine.OpenSubKey
+                (@"SYSTEM\CurrentControlSet\Services\" + ServiceName, true);
+                if (key != null) key.SetValue("Start", 2);
+            }
+            catch (Exception e)
+            {
+                throw new Exception("Could not enable the service, error: " + e.Message);
+            }
+        }
+
+        /// <summary>
+        /// Disables the Windows service
+        /// </summary>
+        public static void Disable(string ServiceName)
+        {
+            try
+            {
+                var key = Registry.LocalMachine.OpenSubKey
+                (@"SYSTEM\CurrentControlSet\Services\" + ServiceName, true);
+                if (key != null) key.SetValue("Start", 4);
+            }
+            catch (Exception e)
+            {
+                throw new Exception("Could not disable the service, error: " + e.Message);
             }
         }
     }

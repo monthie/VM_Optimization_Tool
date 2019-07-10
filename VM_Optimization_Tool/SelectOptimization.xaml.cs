@@ -90,7 +90,7 @@ namespace VM_Optimization_Tool
                 bgWorker.CancelAsync();
                 btnLoad.IsEnabled = true;
             }
-            //Close();
+            Close();
         }
         /// <summary>
         /// function to save checkbox changes in xml file
