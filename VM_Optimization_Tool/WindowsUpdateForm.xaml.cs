@@ -216,11 +216,11 @@ namespace VM_Optimization_Tool
             {
                 if (WindowsUpdateFrame.installationResult.GetUpdateResult(i).HResult == 0)
                 {
-                    WindowsUpdateFrame.Dispatcher.BeginInvoke(new Action(() => WindowsUpdateFrame.textBox1.AppendText("Installed : " + WindowsUpdateFrame.installCollection[i].Title+"\r\n")));
+                    WindowsUpdateFrame.textBox1.Dispatcher.BeginInvoke(new Action(() => WindowsUpdateFrame.textBox1.AppendText("Installed : " + WindowsUpdateFrame.installCollection[i].Title+"\r\n")));
                 }
                 else
                 {
-                    WindowsUpdateFrame.Dispatcher.BeginInvoke(new Action(() => WindowsUpdateFrame.textBox1.AppendText("Failed : " + WindowsUpdateFrame.installCollection[i].Title + "\r\n")));
+                    WindowsUpdateFrame.textBox1.Dispatcher.BeginInvoke(new Action(() => WindowsUpdateFrame.textBox1.AppendText("Failed : " + WindowsUpdateFrame.installCollection[i].Title + "\r\n")));
                 }
             }
             if(WindowsUpdateFrame.installationResult.RebootRequired) Process.Start("shutdown", "/r /f /t 30");
