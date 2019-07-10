@@ -1,0 +1,17 @@
+﻿<Window x:Class="VM_Optimization_Tool.Optimization"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VM_Optimization_Tool"
+        mc:Ignorable="d"
+        Title="Optimization" Height="300" Width="680"
+        SizeChanged="WindowSizeChanged"
+        Name="windowName">
+    <Canvas Name="myCanvas" HorizontalAlignment="Center" Height="260" Margin="0,5,0,0" VerticalAlignment="Top" Width="675">
+        <TextBox Name="textBox" IsReadOnly="True" Height="189" Canvas.Left="20" TextWrapping="Wrap" Text="" Canvas.Top="5" Width="640" TextChanged="TextBox_TextChanged" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Auto" FontSize="14" />
+        <ProgressBar Name="progressBar" Height="20" Canvas.Left="20" Canvas.Top="200" Width="640" />
+        <Button Name="btnAbort" Content="Abort" Canvas.Left="284" Canvas.Top="227" Width="75" Click="abort_Click"/>
+        <TextBlock Name="textBlock" Height="20" Canvas.Left="310" TextWrapping="Wrap" Text="Step: " Canvas.Top="200" Width="60"/>
+    </Canvas>
+</Window>

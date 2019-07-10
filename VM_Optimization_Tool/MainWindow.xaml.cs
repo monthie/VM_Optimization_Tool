@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Reflection;
+using System.Threading;
 using System.Windows;
 
 
@@ -197,10 +198,8 @@ namespace VM_Optimization_Tool
 
         private void OptimizationButton_Click(object sender, RoutedEventArgs e)
         {
-            Optimization.StartCleanMgr();
-            Optimization.StartDism();
-            Optimization.StartDefrag();
-            Optimization.StartSDelete();
+            Optimization optWindow = new Optimization();
+            optWindow.Show();
         }
     }
 }

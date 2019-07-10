@@ -5,6 +5,7 @@
 #include <wchar.h>
 #include <Strsafe.h>
 #include <urlmon.h> 
+#include <tlhelp32.h>
 #pragma comment(lib, "Urlmon.lib")
 
 using namespace std;
@@ -124,9 +125,25 @@ bool EnumInstalledSoftware()
 }
 
 
+bool isRunning(LPCWSTR pName)
+{
+	HWND hwnd;
+	hwnd = FindWindow(NULL, pName);
+	if (hwnd != 0) {
+		return true;
+	}
+	else {
+		return false;
+	}
+}
+
+
 
 int main()
 {
+	/*while (isRunning(L"VM Optimization Tool")) {
+		Sleep(500);
+	}*/
 	EnumInstalledSoftware();
 
 	return 0;

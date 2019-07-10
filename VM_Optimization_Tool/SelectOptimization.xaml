@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:local="clr-namespace:VM_Optimization_Tool"
         Title="Optimization Options"
-        Height="300" Width="300" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+        Height="526" Width="726" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
     <Window.Resources>
         <local:TrueFalseToBooleanConverter x:Key="TrueFalseToBooleanConverter" />
         <XmlDataProvider x:Key="xmlData" Source="" XPath="/sequence/group/group" />
@@ -15,13 +15,13 @@
                 <CheckBox x:Name="nodecheck" Checked="CheckBoxChanged"  Unchecked="CheckBoxChanged" IsChecked="{Binding XPath=@defaultSelected, Mode=TwoWay, Converter={StaticResource TrueFalseToBooleanConverter}}">
                     <TextBlock x:Name="nodetext" Margin="5,0"/>
                 </CheckBox>
-                
+
             </StackPanel>
             <HierarchicalDataTemplate.Triggers>
                 <DataTrigger Binding="{Binding Path=NodeType}" Value="Element">
                     <Setter TargetName="nodetext" Property="Text"
                             Value="{Binding Path=Attributes[1].Value}" />
-                    
+
                 </DataTrigger>
                 <!--   <DataTrigger Binding="{Binding }"-->
             </HierarchicalDataTemplate.Triggers>
@@ -47,9 +47,9 @@
                     </Setter>
                 </Style>
             </TreeView.ItemContainerStyle>
-            </TreeView>
+        </TreeView>
 
-            <StackPanel Orientation="Horizontal" Grid.Row="2"
+        <StackPanel Orientation="Horizontal" Grid.Row="2"
                     HorizontalAlignment="Center">
             <Button Name="btnLoad" Grid.Row="1" Margin="4"
                         Content="Start" Width="100"

@@ -7,7 +7,11 @@
         mc:Ignorable="d"
         Title="ProgressWindow" Height="100" Width="450" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
     <Grid>
-        <ProgressBar x:Name="progressBar1" HorizontalAlignment="Center" Height="30" Margin="0,0,0,0" VerticalAlignment="Center" Width="400" Minimum="0" Maximum="100"/>
-        <TextBlock x:Name="textBlock1" HorizontalAlignment="Center" Margin="0,0,0,0" TextWrapping="Wrap" Text="0%" VerticalAlignment="Center" Height="30" Width="74" FontSize="24" TextAlignment="Center"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="41*"/>
+            <ColumnDefinition Width="33*"/>
+        </Grid.ColumnDefinitions>
+        <ProgressBar x:Name="progressBar1" HorizontalAlignment="Center" Height="30" Margin="22,20,22,21" VerticalAlignment="Center" Width="400" Minimum="0" Maximum="100" Grid.ColumnSpan="2"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Center" Margin="72,20,63,21" TextWrapping="Wrap" Text="0%" VerticalAlignment="Center" Height="30" Width="309" FontSize="24" TextAlignment="Center" Grid.ColumnSpan="2"/>
     </Grid>
 </Window>

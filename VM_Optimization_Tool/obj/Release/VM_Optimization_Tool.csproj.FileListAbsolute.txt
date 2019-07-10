@@ -1,6 +1,3 @@
-C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\bin\Release\VM_Optimization_Tool.exe.config
-C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\bin\Release\VM_Optimization_Tool.exe
-C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\bin\Release\VM_Optimization_Tool.pdb
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Release\Interop.WUApiLib.dll
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Release\VM_Optimization_Tool.csproj.ResolveComReference.cache
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Release\MainWindow.g.cs
@@ -8,7 +5,10 @@ C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Release\P
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Release\SelectOptimization.g.cs
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Release\UpdateAvailableForm.g.cs
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Release\VersionInfoForm.g.cs
+C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Release\Optimization.g.cs
+C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Release\WindowsUpdateForm.g.cs
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Release\App.g.cs
+C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Release\VM_Optimization_Tool_Content.g.cs
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Release\GeneratedInternalTypeHelper.g.cs
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Release\VM_Optimization_Tool_MarkupCompile.cache
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Release\VM_Optimization_Tool_MarkupCompile.lref
@@ -18,6 +18,8 @@ C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Release\P
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Release\SelectOptimization.baml
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Release\UpdateAvailableForm.baml
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Release\VersionInfoForm.baml
+C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Release\Optimization.baml
+C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Release\WindowsUpdateForm.baml
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Release\VM_Optimization_Tool.g.resources
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Release\VM_Optimization_Tool.Properties.Resources.resources
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Release\VM_Optimization_Tool.csproj.GenerateResource.cache
@@ -26,7 +28,6 @@ C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Release\V
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Release\VM_Optimization_Tool.pdb
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\bin\Release\Ressource\sdelete.exe
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\bin\Release\Ressource\sdelete64.exe
-C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Release\WindowsUpdateForm.g.cs
-C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Release\VM_Optimization_Tool_Content.g.cs
-C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Release\WindowsUpdateForm.baml
-C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Release\VM_Optimization_Tool.csprojAssemblyReference.cache
+C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\bin\Release\VM_Optimization_Tool.exe.config
+C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\bin\Release\VM_Optimization_Tool.exe
+C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\bin\Release\VM_Optimization_Tool.pdb

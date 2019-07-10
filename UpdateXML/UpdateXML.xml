@@ -1,7 +1,7 @@
 <?xml version="1.0"?> 
 <VM_Optimization_Tool> 
     <update> 
-        <version>1.0.0.2</version> 
+        <version>1.0.0.3</version> 
         <url>https://github.com/monthie/VM_Optimization_Tool/blob/master/VM_Optimization_Tool/bin/Debug/VM_Optimization_Tool.exe?raw=true</url> 
         <filePath>./VM_Optimization_Tool.exe</filePath>
         <md5>468B6DD2352F576968AC97279D8AE976</md5>

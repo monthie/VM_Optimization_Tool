@@ -52,3 +52,10 @@
 29.01.2019 16:41: Der Vorgang wurde erfolgreich beendet.
 31.01.2019 12:21: started Cleanmgr.exe
 31.01.2019 12:22: started Cleanmgr.exe
+10.06.2019 17:06: started Cleanmgr.exe
+10.06.2019 17:12: started Cleanmgr.exe
+10.06.2019 17:13: started Cleanmgr.exe
+10.06.2019 17:16: started Cleanmgr.exe
+10.06.2019 17:18: started Cleanmgr.exe
+10.06.2019 17:22: started Cleanmgr.exe
+07.07.2019 12:06: started Cleanmgr.exe
