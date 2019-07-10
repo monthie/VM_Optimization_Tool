@@ -1,5 +1,6 @@
 ﻿using Microsoft.Win32;
 using System;
+using System.Diagnostics;
 using System.ServiceProcess;
 
 namespace VM_Optimization_Tool
@@ -58,9 +59,25 @@ namespace VM_Optimization_Tool
         {
             try
             {
-                var key = Registry.LocalMachine.OpenSubKey
-                (@"SYSTEM\CurrentControlSet\Services\" + ServiceName, true);
-                if (key != null) key.SetValue("Start", 2);
+                var proc = new Process
+                {
+                    StartInfo = new ProcessStartInfo
+                    {
+                        Arguments = "/C powershell.exe Set-Service '" + ServiceName + "' -startuptype \"AUTOMATIC\"",
+                        WindowStyle = ProcessWindowStyle.Hidden,
+                        RedirectStandardOutput = true,
+                        RedirectStandardError = true,
+                        UseShellExecute = false,
+                        CreateNoWindow = true,
+                        FileName = "cmd.exe"
+                    }
+                };
+                proc.OutputDataReceived += (s, e) => LogWriter.LogWrite(e.Data);
+                proc.ErrorDataReceived += (s, e) => LogWriter.LogWrite(e.Data);
+                proc.Start();
+                proc.BeginOutputReadLine();
+                proc.BeginErrorReadLine();
+                proc.WaitForExit();
             }
             catch (Exception e)
             {
@@ -75,9 +92,25 @@ namespace VM_Optimization_Tool
         {
             try
             {
-                var key = Registry.LocalMachine.OpenSubKey
-                (@"SYSTEM\CurrentControlSet\Services\" + ServiceName, true);
-                if (key != null) key.SetValue("Start", 4);
+                var proc = new Process
+                {
+                    StartInfo = new ProcessStartInfo
+                    {
+                        Arguments = "/C powershell.exe Set-Service '" + ServiceName + "' -startuptype \"DISABLED\"",
+                        WindowStyle = ProcessWindowStyle.Hidden,
+                        RedirectStandardOutput = true,
+                        RedirectStandardError = true,
+                        UseShellExecute = false,
+                        CreateNoWindow = true,
+                        FileName = "cmd.exe"
+                    }
+                };
+                proc.OutputDataReceived += (s, e) => LogWriter.LogWrite(e.Data);
+                proc.ErrorDataReceived += (s, e) => LogWriter.LogWrite(e.Data);
+                proc.Start();
+                proc.BeginOutputReadLine();
+                proc.BeginErrorReadLine();
+                proc.WaitForExit();
             }
             catch (Exception e)
             {

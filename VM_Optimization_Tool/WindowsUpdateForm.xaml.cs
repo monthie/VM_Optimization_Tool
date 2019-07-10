@@ -170,6 +170,11 @@ namespace VM_Optimization_Tool
             {
                 WindowsUpdateFrame.Dispatcher.BeginInvoke(new Action(() => WindowsUpdateFrame.InstallButton.IsEnabled = true));
             }
+            else
+            {
+                SetWinServices.DisableWinService("wuauserv");
+                SetWinServices.Disable("wuauserv");
+            }
         }
     }
 
@@ -205,7 +210,8 @@ namespace VM_Optimization_Tool
             WindowsUpdateFrame.installationResult = WindowsUpdateFrame.installer.EndInstall(WindowsUpdateFrame.installationJob);
             WindowsUpdateFrame.progressWindow.Dispatcher.BeginInvoke(new Action(() => WindowsUpdateFrame.textBox1.Clear()));
             // vlt i = 1 statt count-1 TESTEN!
-
+            SetWinServices.DisableWinService("wuauserv");
+            SetWinServices.Disable("wuauserv");
             for (int i = 0; i < WindowsUpdateFrame.installCollection.Count; i++)
             {
                 if (WindowsUpdateFrame.installationResult.GetUpdateResult(i).HResult == 0)
@@ -220,7 +226,6 @@ namespace VM_Optimization_Tool
             if(WindowsUpdateFrame.installationResult.RebootRequired) Process.Start("shutdown", "/r /f /t 30");
             WindowsUpdateFrame.installationJob = null;
             WindowsUpdateFrame.progressWindow.Dispatcher.BeginInvoke(new Action(() => WindowsUpdateFrame.progressWindow.Close()));
-            SetWinServices.DisableWinService("wuauserv");
         }
     }
 }
