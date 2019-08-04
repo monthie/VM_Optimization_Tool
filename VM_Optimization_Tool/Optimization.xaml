@@ -5,13 +5,32 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:VM_Optimization_Tool"
         mc:Ignorable="d"
-        Title="Optimization" Height="300" Width="680"
+        Title="Optimization" Height="300" Width="680" MinHeight="280" MinWidth="580"
         SizeChanged="WindowSizeChanged"
         Name="windowName">
-    <Canvas Name="myCanvas" HorizontalAlignment="Center" Height="260" Margin="0,5,0,0" VerticalAlignment="Top" Width="675">
+    <Border BorderThickness="10">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="80*" />
+                <RowDefinition Height="10*" MaxHeight="50" />
+                <RowDefinition Height="10*" MaxHeight="50"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100*" />
+            </Grid.ColumnDefinitions>
+            <Button Name="btnAbort" Content="Abort" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Stretch" Width="75" Click="abort_Click" FontSize="12" MaxHeight="30"/>
+            <Border Grid.Row="1" BorderThickness="2">
+                <ProgressBar Name="progressBar" Grid.Row="1" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" MaxHeight="30"/>
+            </Border>
+            <TextBox Name="textBox" Grid.Row="0" IsReadOnly="True" TextWrapping="Wrap" Text="" VerticalAlignment="Stretch" TextChanged="TextBox_TextChanged" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Auto" FontSize="14" HorizontalAlignment="Stretch"/>
+            <TextBlock Name="textBlock" Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Center" Width="70" />
+        </Grid>
+    </Border>
+
+    <!--<Canvas Name="myCanvas" HorizontalAlignment="Center" Height="260" Margin="0,5,0,0" VerticalAlignment="Top" Width="675">
         <TextBox Name="textBox" IsReadOnly="True" Height="189" Canvas.Left="20" TextWrapping="Wrap" Text="" Canvas.Top="5" Width="640" TextChanged="TextBox_TextChanged" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Auto" FontSize="14" />
         <ProgressBar Name="progressBar" Height="20" Canvas.Left="20" Canvas.Top="200" Width="640" />
         <Button Name="btnAbort" Content="Abort" Canvas.Left="284" Canvas.Top="227" Width="75" Click="abort_Click"/>
         <TextBlock Name="textBlock" Height="20" Canvas.Left="310" TextWrapping="Wrap" Text="Step: " Canvas.Top="200" Width="60"/>
-    </Canvas>
+    </Canvas>-->
 </Window>

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:VM_Optimization_Tool"
         mc:Ignorable="d"
-        Title="Windows Updates" Height="400" Width="500" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+        Title="Windows Updates" Height="400" Width="500" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Closing="Close_Window">
     <DockPanel Grid.ColumnSpan="3">
         <Menu DockPanel.Dock="Top">
             <MenuItem Header="_File">

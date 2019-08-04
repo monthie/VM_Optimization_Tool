@@ -124,6 +124,9 @@
     <Compile Include="ApplyChanges.cs" />
     <Compile Include="Hasher.cs" />
     <Compile Include="LogWriter.cs" />
+    <Compile Include="PreOptimizationWindow.xaml.cs">
+      <DependentUpon>PreOptimizationWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ProcessUtil.cs" />
     <Compile Include="ProgressWindow.xaml.cs">
       <DependentUpon>ProgressWindow.xaml</DependentUpon>
@@ -159,6 +162,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="PreOptimizationWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="ProgressWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

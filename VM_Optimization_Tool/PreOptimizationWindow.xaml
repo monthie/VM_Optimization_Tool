@@ -1,0 +1,24 @@
+﻿<Window x:Class="VM_Optimization_Tool.PreOptimizationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VM_Optimization_Tool"
+        mc:Ignorable="d"
+        Title="PreOptimizationWindow" Height="366.763" Width="339.595" ResizeMode="NoResize">
+    <Grid Name="gridName">
+        <CheckBox ToolTip="Clears unnecessary files" Name="checkCleanMgr" Content="Clean Manager" HorizontalAlignment="Left" Margin="99,82,0,0" VerticalAlignment="Top" Unchecked="CheckCleanMgr_Checked" Checked="CheckCleanMgr_Checked" IsChecked="True"/>
+        <CheckBox ToolTip="Clears old updated files" Name="checkDism" Content="DISM" HorizontalAlignment="Left" Margin="99,148,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <CheckBox ToolTip="Defragments files" Name="checkDefrag" Content="Defragmentation" HorizontalAlignment="Left" Margin="99,168,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <CheckBox ToolTip="Zero free space" Name="checkSDelete" Content="SDelete" HorizontalAlignment="Left" Margin="99,188,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <Button Name="start_Button" Content="Start" HorizontalAlignment="Left" Margin="200,276,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-1.043,-2.397" Click="StartButton_Click"/>
+        <Button Name="abort_Button" Content="Abort" HorizontalAlignment="Left" Margin="58,276,0,0" VerticalAlignment="Top" Width="75" Click="AbortButton_Click"/>
+        <Label Content="Select Optimization Tasks:" HorizontalAlignment="Left" Margin="26,51,0,0" VerticalAlignment="Top"/>
+        <StackPanel Name="stackPanel" Margin="112,99,21,183">
+            <RadioButton ToolTip="Clear most common unnecessary data" Name="radioButton1" GroupName="CleanMgr" Content="Clear automatic (standard)" IsChecked="True"/>
+            <RadioButton ToolTip="Clear all unnecessary data" Name="radioButton2" GroupName="CleanMgr" Content="Clear automatic (full)"/>
+            <RadioButton ToolTip="Select manual what to clear" Name="radioButton3" GroupName="CleanMgr" Content="Clear manual"/>
+        </StackPanel>
+
+    </Grid>
+</Window>

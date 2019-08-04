@@ -174,8 +174,6 @@ namespace VM_Optimization_Tool
 
         private void windowsUpdatesButton_Click(object sender, RoutedEventArgs e)
         {
-            SetWinServices.Enable("wuauserv");
-            SetWinServices.EnableWinService("wuauserv");
             WindowsUpdateForm windowsUpdateFrame = new WindowsUpdateForm();
             windowsUpdateFrame.Show();
         }
@@ -199,9 +197,9 @@ namespace VM_Optimization_Tool
 
         private void OptimizationButton_Click(object sender, RoutedEventArgs e)
         {
-            Optimization optWindow = new Optimization();
-            optWindow.Topmost = true;
-            optWindow.Show();
+            PreOptimizationWindow preOptimizationWindow = new PreOptimizationWindow();
+//            Optimization optWindow = new Optimization();
+            preOptimizationWindow.Show();
         }
     }
 }

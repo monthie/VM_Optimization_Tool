@@ -30,7 +30,13 @@ namespace VM_Optimization_Tool
 
             xmlData = new XmlDataProvider();
             xmlData = TryFindResource("xmlData") as XmlDataProvider;
-            pathToXML = SelectFile();
+            try
+            {
+                pathToXML = SelectFile();
+            } catch (Exception e)
+            {
+                
+            }
             if (pathToXML == null) {
                 
             } else {

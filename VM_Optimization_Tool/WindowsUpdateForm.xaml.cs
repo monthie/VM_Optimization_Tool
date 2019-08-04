@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Diagnostics;
+using System.Threading.Tasks;
 using System.Windows;
 using WUApiLib;
 
@@ -10,6 +11,7 @@ namespace VM_Optimization_Tool
     /// </summary>
     public partial class WindowsUpdateForm : Window
     {
+        
         private UpdateSession uSession;
         public IUpdateSearcher uSearcher;
         public ISearchResult sResult;
@@ -26,6 +28,8 @@ namespace VM_Optimization_Tool
         public WindowsUpdateForm()
         {
             InitializeComponent();
+            SetWinServices.Enable("wuauserv");
+            SetWinServices.EnableWinService("wuauserv");
             InstallButton.IsEnabled = false;
             CheckForUpdates();
         }
@@ -62,6 +66,12 @@ namespace VM_Optimization_Tool
             updateDownloader.Updates = uCollection;
             downloadJob = updateDownloader.BeginDownload(new DownloadProgressChangedFunc(this), new DownloadCompletedFunc(this), null);
             InstallButton.IsEnabled = false;
+        }
+
+        private void Close_Window(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            SetWinServices.DisableWinService("wuauserv");
+            SetWinServices.Disable("wuauserv");
         }
 
         /// <summary>
@@ -216,11 +226,13 @@ namespace VM_Optimization_Tool
             {
                 if (WindowsUpdateFrame.installationResult.GetUpdateResult(i).HResult == 0)
                 {
-                    WindowsUpdateFrame.textBox1.Dispatcher.BeginInvoke(new Action(() => WindowsUpdateFrame.textBox1.AppendText("Installed : " + WindowsUpdateFrame.installCollection[i].Title+"\r\n")));
+                    WindowsUpdateFrame.textBox1.AppendText("Installed : " + WindowsUpdateFrame.installCollection[i].Title + "\r\n");
+                    //WindowsUpdateFrame.textBox1.Dispatcher.BeginInvoke(new Action(() => WindowsUpdateFrame.textBox1.AppendText("Installed : " + WindowsUpdateFrame.installCollection[i].Title+"\r\n")));
                 }
                 else
                 {
-                    WindowsUpdateFrame.textBox1.Dispatcher.BeginInvoke(new Action(() => WindowsUpdateFrame.textBox1.AppendText("Failed : " + WindowsUpdateFrame.installCollection[i].Title + "\r\n")));
+                    WindowsUpdateFrame.textBox1.AppendText("Failed : " + WindowsUpdateFrame.installCollection[i].Title + "\r\n");
+                    //WindowsUpdateFrame.textBox1.Dispatcher.BeginInvoke(new Action(() => WindowsUpdateFrame.textBox1.AppendText("Failed : " + WindowsUpdateFrame.installCollection[i].Title + "\r\n")));
                 }
             }
             if(WindowsUpdateFrame.installationResult.RebootRequired) Process.Start("shutdown", "/r /f /t 30");
