@@ -226,11 +226,25 @@ namespace VM_Optimization_Tool
             {
                 if (WindowsUpdateFrame.installationResult.GetUpdateResult(i).HResult == 0)
                 {
-                    WindowsUpdateFrame.textBox1.Dispatcher.BeginInvoke(new Action(() => WindowsUpdateFrame.textBox1.AppendText("Installed : " + WindowsUpdateFrame.installCollection[i].Title+"\r\n")));
+                    try
+                    {
+                        WindowsUpdateFrame.textBox1.Dispatcher.BeginInvoke(new Action(() => WindowsUpdateFrame.textBox1.AppendText("Installed : " + WindowsUpdateFrame.installCollection[i].Title + "\r\n")));
+                    }
+                    catch(Exception e)
+                    {
+                        LogWriter.LogWrite(e.ToString());
+                    } 
                 }
                 else
                 {
-                    WindowsUpdateFrame.textBox1.Dispatcher.BeginInvoke(new Action(() => WindowsUpdateFrame.textBox1.AppendText("Failed : " + WindowsUpdateFrame.installCollection[i].Title + "\r\n")));
+                    try
+                    {
+                        WindowsUpdateFrame.textBox1.Dispatcher.BeginInvoke(new Action(() => WindowsUpdateFrame.textBox1.AppendText("Failed : " + WindowsUpdateFrame.installCollection[i].Title + "\r\n")));
+                    }
+                    catch (Exception e)
+                    {
+                        LogWriter.LogWrite(e.ToString());
+                    }  
                 }
             }
             if(WindowsUpdateFrame.installationResult.RebootRequired) Process.Start("shutdown", "/r /f /t 30");
