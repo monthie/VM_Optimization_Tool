@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:local="clr-namespace:VM_Optimization_Tool"
         Title="Optimization Options"
-        Height="526" Width="726" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+        Height="526" Width="726" MinHeight="500" MinWidth="680" WindowStartupLocation="CenterScreen" Closing="ClosingWindow">
     <Window.Resources>
         <local:TrueFalseToBooleanConverter x:Key="TrueFalseToBooleanConverter" />
         <XmlDataProvider x:Key="xmlData" Source="" XPath="/sequence/group/group" />
@@ -29,9 +29,9 @@
     </Window.Resources>
     <Grid DataContext="{StaticResource xmlData}" Margin="4">
         <Grid.RowDefinitions>
-            <RowDefinition />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="100*" />
+            <RowDefinition MaxHeight="50" Height="10*" />
+            <RowDefinition MaxHeight="50" Height="10*"/>
         </Grid.RowDefinitions>
 
         <TreeView Name="trvItems" Grid.Row="0"
@@ -49,7 +49,7 @@
             </TreeView.ItemContainerStyle>
         </TreeView>
 
-        <StackPanel Orientation="Horizontal" Grid.Row="2"
+        <StackPanel MaxHeight="50" Orientation="Horizontal" Grid.Row="2"
                     HorizontalAlignment="Center">
             <Button Name="btnLoad" Grid.Row="1" Margin="4"
                         Content="Start" Width="100"
@@ -59,7 +59,7 @@
                         Click="abort_Click" />
         </StackPanel>
 
-        <ProgressBar x:Name="progressBar" Grid.Row="1" HorizontalAlignment="Center" Height="20" Margin="0,4,0,0" VerticalAlignment="Bottom" Width="208" Minimum="0" Maximum="100"/>
+        <ProgressBar x:Name="progressBar" Grid.Row="1" HorizontalAlignment="Stretch" MaxHeight="30" Margin="0,4,0,0" VerticalAlignment="Stretch" Minimum="0" Maximum="100"/>
 
 
     </Grid>

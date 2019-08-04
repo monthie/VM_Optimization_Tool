@@ -6,7 +6,6 @@
         xmlns:local="clr-namespace:VM_Optimization_Tool"
         mc:Ignorable="d"
         Title="Optimization" Height="300" Width="680" MinHeight="280" MinWidth="580"
-        SizeChanged="WindowSizeChanged"
         Name="windowName">
     <Border BorderThickness="10">
         <Grid>

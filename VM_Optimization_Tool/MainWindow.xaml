@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:VM_Optimization_Tool"
         mc:Ignorable="d"
-        Title="VM Optimization Tool" Height="300" Width="400" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+        Title="VM Optimization Tool" Height="300" Width="400" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
     <!--<Label Content="Non-compliant functions are grayed out" HorizontalAlignment="Left" Margin="10,36,0,0" VerticalAlignment="Top" Height="43" Width="464" FontSize="24"/>-->
     <DockPanel Grid.ColumnSpan="3">
         <Menu DockPanel.Dock="Top">

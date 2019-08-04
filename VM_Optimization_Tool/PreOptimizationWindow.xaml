@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:VM_Optimization_Tool"
         mc:Ignorable="d"
-        Title="PreOptimizationWindow" Height="366.763" Width="339.595" ResizeMode="NoResize">
+        Title="Select Optimization Steps" Height="366.763" Width="339.595" ResizeMode="CanMinimize">
     <Grid Name="gridName">
         <CheckBox ToolTip="Clears unnecessary files" Name="checkCleanMgr" Content="Clean Manager" HorizontalAlignment="Left" Margin="99,82,0,0" VerticalAlignment="Top" Unchecked="CheckCleanMgr_Checked" Checked="CheckCleanMgr_Checked" IsChecked="True"/>
         <CheckBox ToolTip="Clears old updated files" Name="checkDism" Content="DISM" HorizontalAlignment="Left" Margin="99,148,0,0" VerticalAlignment="Top" IsChecked="True"/>

@@ -1,5 +1,4 @@
-﻿using Microsoft.Win32;
-using System;
+﻿using System;
 using System.Diagnostics;
 using System.ServiceProcess;
 
@@ -50,7 +49,6 @@ namespace VM_Optimization_Tool
                 return false;
             }
         }
-
 
         /// <summary>
         /// Can be called to enable the Windows Service

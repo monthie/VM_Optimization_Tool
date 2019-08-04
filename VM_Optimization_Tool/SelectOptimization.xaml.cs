@@ -3,6 +3,9 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
 using System.ComponentModel;
+using System.IO;
+using System.Xml;
+using System.Collections.Generic;
 
 namespace VM_Optimization_Tool
 {
@@ -15,6 +18,7 @@ namespace VM_Optimization_Tool
         private XmlDataProvider xmlData;
         private string pathToXML;
         private BackgroundWorker bgWorker;
+        private string pathToTemp;
 
         public SelectOptimization()
         {
@@ -33,9 +37,10 @@ namespace VM_Optimization_Tool
             try
             {
                 pathToXML = SelectFile();
+                pathToXML = CreateTempXMLFile(pathToXML);
             } catch (Exception e)
             {
-                
+                Console.WriteLine(e.ToString());
             }
             if (pathToXML == null) {
                 
@@ -72,6 +77,35 @@ namespace VM_Optimization_Tool
                 return null;
             }
         }
+
+        /// <summary>
+        /// Create a temp file of XML. Escape it and modify it for functional treeview
+        /// </summary>
+        /// <param name="pathToOriginal"></param>
+        private string CreateTempXMLFile(string pathToOriginal)
+        {
+            try
+            {
+                pathToTemp = Path.GetTempFileName();
+                File.WriteAllText(pathToTemp, (File.ReadAllText(pathToOriginal).Replace("&", "&amp;").Replace("&#34;", "&quot;").Replace("'", "&apos;")));
+                XmlDocument doc = new XmlDocument();
+                doc.Load(pathToTemp);
+
+                XmlNodeList firstLevel = doc.DocumentElement.SelectNodes("/sequence/group/group");
+                foreach (XmlNode secoundLevel in firstLevel)
+                {
+                    XmlAttribute newAttr = doc.CreateAttribute("defaultSelected");
+                    newAttr.Value = "false";
+                    secoundLevel.Attributes.Append(newAttr);
+                }
+                doc.Save(pathToTemp);
+                return pathToTemp;
+            } catch(Exception e)
+            {
+                return null;
+            }
+            
+        }
        
         /// <summary>
         /// function to start optimization
@@ -106,7 +140,7 @@ namespace VM_Optimization_Tool
         private void CheckBoxChanged(object sender, RoutedEventArgs e)
         {
             ((CheckBox)sender).GetBindingExpression(CheckBox.IsCheckedProperty).UpdateTarget();
-            xmlData.Document.Save(xmlData.Source.AbsolutePath);
+            xmlData.Document.Save(xmlData.Source.AbsolutePath.ToString().Replace("%20", " "));
         }
         /// <summary>
         /// 
@@ -115,7 +149,7 @@ namespace VM_Optimization_Tool
         /// <param name="e"></param>
         private void bgWorker_DoWork(object sender, DoWorkEventArgs e)
         {
-            xmlData.Document.Save(xmlData.Source.AbsolutePath);
+            xmlData.Document.Save(xmlData.Source.AbsolutePath.ToString().Replace("%20", " "));
             XmlParser[] xmlParsers = XmlParser.Parser(xmlData.Source);
             ApplyChanges.Changes(xmlParsers, bgWorker);
             if (bgWorker.CancellationPending == true)
@@ -154,6 +188,17 @@ namespace VM_Optimization_Tool
         private void bgWorker_ProgressChanged(object sender, ProgressChangedEventArgs e)
         {
             progressBar.Value = e.ProgressPercentage;
+        }
+
+        private void ClosingWindow(object sender, CancelEventArgs args)
+        {
+            try
+            {
+                File.Delete(pathToTemp);
+            }catch(Exception e)
+            {
+
+            }
         }
     }
 }
