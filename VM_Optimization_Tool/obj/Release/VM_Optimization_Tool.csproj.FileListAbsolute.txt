@@ -32,3 +32,5 @@ C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\bin\Release\V
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\bin\Release\VM_Optimization_Tool.exe
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\bin\Release\VM_Optimization_Tool.pdb
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Release\VM_Optimization_Tool.csprojAssemblyReference.cache
+C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Release\PreOptimizationWindow.g.cs
+C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\obj\Release\PreOptimizationWindow.baml

@@ -12,9 +12,9 @@ DEBUG;TRACE
 C:\Users\Du\source\repos\VM_Optimization_Tool\VM_Optimization_Tool\App.xaml
 8-614202975
 2-103430900
-201241776091
+24-198466790
 171806224107
 MainWindow.xaml;PreOptimizationWindow.xaml;ProgressWindow.xaml;SelectOptimization.xaml;UpdateAvailableForm.xaml;VersionInfoForm.xaml;Optimization.xaml;WindowsUpdateForm.xaml;
 
-False
+True
 
