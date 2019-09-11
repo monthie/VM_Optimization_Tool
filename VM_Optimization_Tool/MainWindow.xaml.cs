@@ -198,7 +198,6 @@ namespace VM_Optimization_Tool
         private void OptimizationButton_Click(object sender, RoutedEventArgs e)
         {
             PreOptimizationWindow preOptimizationWindow = new PreOptimizationWindow();
-//            Optimization optWindow = new Optimization();
             preOptimizationWindow.Show();
         }
     }

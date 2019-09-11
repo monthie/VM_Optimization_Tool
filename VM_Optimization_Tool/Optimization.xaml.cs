@@ -21,10 +21,10 @@ namespace VM_Optimization_Tool
         private List<string> list = new List<string>();
         private volatile bool isUserScroll = true;
         public bool IsAutoScrollEnabled { get; set; }
-        private string[] commands;// {"/lowdisk", "/Online /Cleanup-Image /AnalyzeComponentStore", "/Online /Cleanup-Image /StartComponentCleanup /ResetBase", "/C sc config defragsvc start= demand", "C:\\ /H /U /V", "/C sc config defragsvc start= disabled", "-z C:" }; // 
-        private string[] program;// {"cleanmgr.exe", "dism.exe", "dism.exe", "cmd.exe", "defrag.exe", "cmd.exe", "C:\\Program Files\\VM Optimization Tool\\Ressource\\sdelete.exe" }; //  
+        private string[] commands;
+        private string[] program;
         private Regex progressRegex = new Regex(@"\[[^\]]*\]");
-        private Regex defragRegex = new Regex(@"[a-zA-Z|\s|\\t]+:\s+[0-9]+\s%\s[a-zA-Z|\s]+\.{1,3}");//[a-zA-Z|\s|\\t]+:\s+[0-9]+\s%\s[a-zA-Z|\s]+\.\.\.
+        private Regex defragRegex = new Regex(@"[a-zA-Z|\s|\\t]+:\s+[0-9]+\s%\s[a-zA-Z|\s]+\.{1,3}");
         private Regex sdeleteRegex1 = new Regex(@"[a-zA-Z|\s]+(:\\:\s)?[0-9]*\%\s*[a-z]*");
         private Regex sdeleteRegex2 = new Regex(@"[a-zA-z|\s]+\.{3}[||/|\-|\\]");
         private string pathLOpt;
@@ -53,7 +53,11 @@ namespace VM_Optimization_Tool
         {
             progressBar.Value = e.ProgressPercentage;
         }
-
+        /// <summary>
+        /// writes overview to the output 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void bgWorker_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
         {
             if (e.Error != null)
@@ -83,7 +87,11 @@ namespace VM_Optimization_Tool
             }
             btnAbort.Dispatcher.BeginInvoke(new Action(() => btnAbort.Content = "Close"));
         }
-        
+        /// <summary>
+        /// catch the cmd ouput and forward it to outputhelper
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void bgWorker_DoWork(object sender, DoWorkEventArgs e)
         {
 
@@ -109,6 +117,11 @@ namespace VM_Optimization_Tool
             }
         }
 
+        /// <summary>
+        /// Helps to clean up the output with regex
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void OutputHandler(object sender, DataReceivedEventArgs e)
         {
             if (e.Data != null && (progressRegex.IsMatch(e.Data)||defragRegex.IsMatch(e.Data)
@@ -146,7 +159,6 @@ namespace VM_Optimization_Tool
             {
                 this.Close();
             }
-            //Close();
         }
         private void TextBox_TextChanged(object sender, EventArgs e)
         {

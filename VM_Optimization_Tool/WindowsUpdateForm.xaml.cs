@@ -219,7 +219,6 @@ namespace VM_Optimization_Tool
         {
             WindowsUpdateFrame.installationResult = WindowsUpdateFrame.installer.EndInstall(WindowsUpdateFrame.installationJob);
             WindowsUpdateFrame.progressWindow.Dispatcher.BeginInvoke(new Action(() => WindowsUpdateFrame.textBox1.Clear()));
-            // vlt i = 1 statt count-1 TESTEN!
             SetWinServices.DisableWinService("wuauserv");
             SetWinServices.Disable("wuauserv");
             for (int i = 0; i < WindowsUpdateFrame.installCollection.Count; i++)

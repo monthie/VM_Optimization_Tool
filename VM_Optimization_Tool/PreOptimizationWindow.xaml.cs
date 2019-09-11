@@ -22,10 +22,12 @@ namespace VM_Optimization_Tool
         public PreOptimizationWindow()
         {
             InitializeComponent();
-           // GetLastOptimization();
         }
 
-
+        /// <summary>
+        /// not in use
+        /// tryed to get last optimization for preselecting steps
+        /// </summary>
         private void GetLastOptimization()
         {
             if (File.Exists(path))
@@ -62,12 +64,10 @@ namespace VM_Optimization_Tool
                     if ((tmp[i].Month + 1 + tmp[i].Year) <= DateTime.Now.Month + DateTime.Now.Year)
                     {
                         checkBoxes[i].IsChecked = true;
-                        // checkBoxes[i].Content = checkBoxes[i].Content + " " + tmp[i].Date.ToString("dd.MM.yyyy"); 
                     }
                     else
                     {
                         checkBoxes[i].IsChecked = false;
-                       // checkBoxes[i].Content = checkBoxes[i].Content + " " + tmp[i].Date.ToString("dd.MM.yyyy");
                     }
                 }
             }
@@ -80,7 +80,13 @@ namespace VM_Optimization_Tool
                 }
             }
         }
-
+        /// <summary>
+        /// Various start options.
+        /// sagerun 64 and 32 are different options for cleanmgr
+        /// The registry key is set here during the installation of the tools.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void StartButton_Click(object sender, RoutedEventArgs e)
         {
             if ((bool)checkCleanMgr.IsChecked)

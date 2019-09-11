@@ -14,17 +14,6 @@ namespace VM_Optimization_Tool
     /// </summary>
     public partial class UpdateAvailableForm : Window
     {
-        /*
-        /// <summary>
-        /// The update version 
-        /// </summary>
-        public Version Version { get; set; }
-
-        /// <summary>
-        /// The update's description
-        /// </summary>
-        public string Description { get; set; }
-        */
         /// <summary>
         /// Array with update information
         /// </summary>

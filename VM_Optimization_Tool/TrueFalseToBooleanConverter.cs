@@ -3,6 +3,9 @@ using System.Windows.Data;
 
 namespace VM_Optimization_Tool
 {
+    /// <summary>
+    /// Helper Class to convert boolean values in xml
+    /// </summary>
     class TrueFalseToBooleanConverter : IValueConverter
     {
         public object Convert(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
